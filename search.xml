@@ -13,6 +13,8 @@
 <p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">encrypt: true</span><br><span class="line">enc_replace_url: true # this indicate wether the plugin should replace the img url in this post, this option has a higher priority than `replace_all_url` in _config.yml</span><br><span class="line">enc_pwd: 123456 # this is the way to set encrypt password for this post</span><br><span class="line">enc_img_type: qiniu # or base64</span><br><span class="line">enc_template: &#x27;user defined decrpyt ui template&#x27; # same as template in _config.yml but has a higher priority</span><br><span class="line">文章头可选</span><br></pre></td></tr></table></figure>
 
+<p>增加分享功能：参考如下链接</p>
+<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
 ]]></content>
       <categories>
         <category>前端</category>
