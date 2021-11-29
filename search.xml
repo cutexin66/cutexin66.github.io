@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My-first-blog</title>
+    <url>/2021/11/28/My-first-blog/</url>
+    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
+<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
+<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
+<p>可以增加点击爆炸效果</p>
+<p>升级博客右下角动漫人物</p>
+<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
+<p>增加分享功能：参考如下链接</p>
+<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>小徐</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>为博客代码块增加复制按钮！</title>
     <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
@@ -20,23 +40,21 @@
       </tags>
   </entry>
   <entry>
-    <title>My-first-blog</title>
-    <url>/2021/11/28/My-first-blog/</url>
-    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
-<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
-<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
-<p>可以增加点击爆炸效果</p>
-<p>升级博客右下角动漫人物</p>
-<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
-<p>增加分享功能：参考如下链接</p>
-<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
+    <title>文章加密</title>
+    <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
+    <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>之后，在你想要加密的文章的头文件里添加上<code>password: xxxxxx </code>即可。</p>
+<h3 id="二-也是我自己采用的加密方法：装插件"><a href="#二-也是我自己采用的加密方法：装插件" class="headerlink" title="二.也是我自己采用的加密方法：装插件"></a>二.也是我自己采用的加密方法：装插件</h3><h4 id="1-npm-install-–save-hexo-blog-encrypt"><a href="#1-npm-install-–save-hexo-blog-encrypt" class="headerlink" title="1.npm install –save hexo-blog-encrypt"></a>1.npm install –save hexo-blog-encrypt</h4><h4 id="2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可："><a href="#2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可：" class="headerlink" title="2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 password 字段即可："></a>2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 <code>password</code> 字段即可：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2021-04-13 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-在Hexo主配置文件-config-yml-中添加如下配置："><a href="#3-在Hexo主配置文件-config-yml-中添加如下配置：" class="headerlink" title="3.在Hexo主配置文件 _config.yml 中添加如下配置："></a>3.在Hexo主配置文件 <code>_config.yml</code> 中添加如下配置：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br><span class="line">  abstract: 这是一篇加密文章，需要密码才能继续阅读。</span><br><span class="line">  message: 当前文章暂不对外可见，请输入密码后查看！</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: private, password: hello&#125;</span><br><span class="line">  wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。</span><br><span class="line">  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。</span><br></pre></td></tr></table></figure>
+
+<p>就可以按照标签类加密</p>
+<p>进阶教程：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></p>
 ]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
       <tags>
-        <tag>小徐</tag>
-        <tag>前端</tag>
+        <tag>教程</tag>
+        <tag>加密</tag>
       </tags>
   </entry>
   <entry>
