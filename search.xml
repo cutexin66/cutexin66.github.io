@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>为博客代码块增加复制按钮！</title>
+    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
+<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
+<span id="more"></span>
+
+<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
+<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
+<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>My-first-blog</title>
     <url>/2021/11/28/My-first-blog/</url>
     <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
@@ -18,25 +37,6 @@
       <tags>
         <tag>小徐</tag>
         <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为博客代码块增加复制按钮！</title>
-    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
-<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
-<span id="more"></span>
-
-<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
-<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
-<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
