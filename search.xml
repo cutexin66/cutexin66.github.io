@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>文章加密</title>
-    <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
-    <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<p>之后，在你想要加密的文章的头文件里添加上<code>password: xxxxxx </code>即可。</p>
-<h3 id="二-也是我自己采用的加密方法：装插件"><a href="#二-也是我自己采用的加密方法：装插件" class="headerlink" title="二.也是我自己采用的加密方法：装插件"></a>二.也是我自己采用的加密方法：装插件</h3><h4 id="1-npm-install-–save-hexo-blog-encrypt"><a href="#1-npm-install-–save-hexo-blog-encrypt" class="headerlink" title="1.npm install –save hexo-blog-encrypt"></a>1.npm install –save hexo-blog-encrypt</h4><h4 id="2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可："><a href="#2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可：" class="headerlink" title="2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 password 字段即可："></a>2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 <code>password</code> 字段即可：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2021-04-13 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h4 id="3-在Hexo主配置文件-config-yml-中添加如下配置："><a href="#3-在Hexo主配置文件-config-yml-中添加如下配置：" class="headerlink" title="3.在Hexo主配置文件 _config.yml 中添加如下配置："></a>3.在Hexo主配置文件 <code>_config.yml</code> 中添加如下配置：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br><span class="line">  abstract: 这是一篇加密文章，需要密码才能继续阅读。</span><br><span class="line">  message: 当前文章暂不对外可见，请输入密码后查看！</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: private, password: hello&#125;</span><br><span class="line">  wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。</span><br><span class="line">  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。</span><br></pre></td></tr></table></figure>
-
-<p>就可以按照标签类加密</p>
-<p>进阶教程：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></p>
-]]></content>
-      <tags>
-        <tag>教程</tag>
-        <tag>加密</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My-first-blog</title>
     <url>/2021/11/28/My-first-blog/</url>
     <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
@@ -74,6 +56,24 @@
       <tags>
         <tag>教程</tag>
         <tag>烟花</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章加密</title>
+    <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
+    <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>之后，在你想要加密的文章的头文件里添加上<code>password: xxxxxx </code>即可。</p>
+<h3 id="二-也是我自己采用的加密方法：装插件"><a href="#二-也是我自己采用的加密方法：装插件" class="headerlink" title="二.也是我自己采用的加密方法：装插件"></a>二.也是我自己采用的加密方法：装插件</h3><h4 id="1-npm-install-–save-hexo-blog-encrypt"><a href="#1-npm-install-–save-hexo-blog-encrypt" class="headerlink" title="1.npm install –save hexo-blog-encrypt"></a>1.npm install –save hexo-blog-encrypt</h4><h4 id="2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可："><a href="#2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可：" class="headerlink" title="2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 password 字段即可："></a>2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 <code>password</code> 字段即可：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2021-04-13 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-在Hexo主配置文件-config-yml-中添加如下配置："><a href="#3-在Hexo主配置文件-config-yml-中添加如下配置：" class="headerlink" title="3.在Hexo主配置文件 _config.yml 中添加如下配置："></a>3.在Hexo主配置文件 <code>_config.yml</code> 中添加如下配置：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br><span class="line">  abstract: 这是一篇加密文章，需要密码才能继续阅读。</span><br><span class="line">  message: 当前文章暂不对外可见，请输入密码后查看！</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: private, password: hello&#125;</span><br><span class="line">  wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。</span><br><span class="line">  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。</span><br></pre></td></tr></table></figure>
+
+<p>就可以按照标签类加密</p>
+<p>进阶教程：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></p>
+]]></content>
+      <tags>
+        <tag>教程</tag>
+        <tag>加密</tag>
       </tags>
   </entry>
   <entry>
