@@ -205,6 +205,159 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
+      <meta itemprop="name" content="cutexin">
+      <meta itemprop="description" content="妄图用代码改变世界和挽回心爱之人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Don't be depressed">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/" class="post-title-link" itemprop="url">p5000环境安装</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-12-15 18:14:17" itemprop="dateCreated datePublished" datetime="2021-12-15T18:14:17+08:00">2021-12-15</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-16 13:22:49" itemprop="dateModified" datetime="2021-12-16T13:22:49+08:00">2021-12-16</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.6k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="配置深度学习p5000服务器"><a href="#配置深度学习p5000服务器" class="headerlink" title="配置深度学习p5000服务器"></a><center>配置深度学习p5000服务器</center></h1><h3 id="1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc"><a href="#1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc" class="headerlink" title="1、安装Ubuntu20.04桌面版：https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc"></a>1、安装Ubuntu20.04桌面版：<a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc</a></h3><h3 id="2、终端输入python3，发现系统自带了python3-8-10"><a href="#2、终端输入python3，发现系统自带了python3-8-10" class="headerlink" title="2、终端输入python3，发现系统自带了python3.8.10"></a>2、终端输入python3，发现系统自带了python3.8.10</h3><h3 id="3、配置清华园"><a href="#3、配置清华园" class="headerlink" title="3、配置清华园"></a>3、配置清华园</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#备份文件</span><br><span class="line">sudo cp /etc/apt/sources.list /home/sources.list.bk</span><br><span class="line">#删除</span><br><span class="line">sudo rm -rf /etc/apt/sources.list</span><br><span class="line">#写入</span><br><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
+
+<p>写入如下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span><br><span class="line"></span><br><span class="line"># 预发布软件源，不建议启用</span><br><span class="line"># deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>保存退出，最后别忘了：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+
+<h3 id="4、p5000是Nvidia-Quadro-系列，下载对象系统下run文件"><a href="#4、p5000是Nvidia-Quadro-系列，下载对象系统下run文件" class="headerlink" title="4、p5000是Nvidia Quadro 系列，下载对象系统下run文件"></a>4、p5000是Nvidia Quadro 系列，下载对象系统下run文件</h3><p>禁用nouveau，这是系统自带的驱动：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/modprobe.d/blacklist.conf</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>在文本最后添加以下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">blacklist nouveau</span><br><span class="line">option nouveau modeset=0</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>命令窗口会提示warn，无视之。</p>
+<p>保存退出，执行以下命令生效：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo update-initramfs -u</span><br></pre></td></tr></table></figure>
+
+<p>重启电脑后输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsmod | grep nouveau</span><br></pre></td></tr></table></figure>
+
+<p>没有任何输出说明禁用成功。</p>
+<p>在驱动文件所在的文件夹打开终端</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo bash NVIDIA-Linux-x86_64-450.66.run</span><br></pre></td></tr></table></figure>
+
+<p>安装出错</p>
+<p>将镜像改回默认</p>
+<p>update后upgrate必须要做！</p>
+<p>通过</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ubuntu-drivers devicces</span><br></pre></td></tr></table></figure>
+
+<p>Ubuntu自己检测nVidia的显卡可选驱动，并用recommend标出推荐，p5000是470</p>
+<p>与之前查询一致</p>
+<p>之间通过命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo ubuntu-drivers autoinstall</span><br></pre></td></tr></table></figure>
+
+<p>等待Ubuntu自己安装驱动，并把cuda 一并安装好</p>
+<h3 id="5、安装anaconda"><a href="#5、安装anaconda" class="headerlink" title="5、安装anaconda"></a>5、安装anaconda</h3><p><a target="_blank" rel="noopener" href="http://www.anaconda.com/products/individual%E4%B8%8B%E8%BD%BDlinux">www.anaconda.com/products/individual下载linux</a> python3.9版本</p>
+<p>下好后cd到文件下载目录，用bash安装</p>
+<p>安装好后修改环境变量</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>添加</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">home/administrator/anaconda3/bin:$PATH&quot;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>最后检查一下是否安装成功</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda -V</span><br></pre></td></tr></table></figure>
+
+<p>输入python3发现是anaconda里的python版本</p>
+<p>介绍一下conda里常用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">#创建虚拟环境</span><br><span class="line">conda create -n your_env_name python=X.X（3.6、3.7等）</span><br><span class="line"> </span><br><span class="line">#激活虚拟环境</span><br><span class="line">source activate your_env_name(虚拟环境名称)</span><br><span class="line"> </span><br><span class="line">#退出虚拟环境</span><br><span class="line">source deactivate your_env_name(虚拟环境名称)</span><br><span class="line"> </span><br><span class="line">#删除虚拟环境</span><br><span class="line">conda remove -n your_env_name(虚拟环境名称) --all</span><br><span class="line"> </span><br><span class="line">#查看安装了哪些包</span><br><span class="line">conda list</span><br><span class="line"> </span><br><span class="line">#安装包</span><br><span class="line">conda install package_name(包名)</span><br><span class="line">conda install scrapy==1.3 # 安装指定版本的包</span><br><span class="line">conda install -n 环境名 包名 # 在conda指定的某个环境中安装包</span><br><span class="line"> </span><br><span class="line">#查看当前存在哪些虚拟环境</span><br><span class="line">conda env list </span><br><span class="line">#或 </span><br><span class="line">conda info -e</span><br><span class="line">#或</span><br><span class="line">conda info --envs</span><br><span class="line"> </span><br><span class="line">#检查更新当前conda</span><br><span class="line">conda update conda</span><br><span class="line"> </span><br><span class="line">#更新anaconda</span><br><span class="line">conda update anaconda</span><br><span class="line"> </span><br><span class="line">#更新所有库</span><br><span class="line">conda update --all</span><br><span class="line"> </span><br><span class="line">#更新python</span><br><span class="line">conda update python</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="6、使用conda来安装深度学习框架pytorch-避免自己配置cudann等"><a href="#6、使用conda来安装深度学习框架pytorch-避免自己配置cudann等" class="headerlink" title="6、使用conda来安装深度学习框架pytorch,避免自己配置cudann等"></a>6、使用conda来安装深度学习框架pytorch,避免自己配置cudann等</h3><p>去pytorch官网去找下载命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -230,7 +383,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-12-15 15:07:48 / 修改时间：15:10:22" itemprop="dateCreated datePublished" datetime="2021-12-15T15:07:48+08:00">2021-12-15</time>
+              <time title="创建时间：2021-12-15 15:07:48 / 修改时间：18:14:27" itemprop="dateCreated datePublished" datetime="2021-12-15T15:07:48+08:00">2021-12-15</time>
             </span>
 
           
@@ -253,7 +406,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>19</span>
+              <span>186</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -273,6 +426,7 @@
 
       
           <p>查看linux版本命令: uname -a</p>
+<p>DHCP（Dynamic Host Configuration Protocal）:动态主机配置协议。是一个简化主机IP地址分配的TCP/IP协议。保证ip地址不重复分配，也能及时回收ip地址以提高IP地址的利用率。采用DHCP的方法配置计算机IP地址的方案称为动态IP地址。DHCP采用的是客户/服务器模式（Client/Server）。</p>
 
       
     </div>
@@ -1159,7 +1313,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1229,12 +1383,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">11k</span>
+    <span title="站点总字数">14k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">10 分钟</span>
+    <span title="站点阅读时长">12 分钟</span>
 </div>
   <div class="addthis_inline_share_toolbox">
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61a434230ffe63e1" async="async"></script>
