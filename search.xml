@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>My-first-blog</title>
-    <url>/2021/11/28/My-first-blog/</url>
-    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
-<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
-<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹"><a href="#在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹" class="headerlink" title="在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹"></a>在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹</h3><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxeiwgxr8aj30gn08241r.jpg" alt="image.png"></p>
-<h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
-<p>可以增加点击爆炸效果</p>
-<p>升级博客右下角动漫人物</p>
-<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
-<p>增加分享功能：参考如下链接</p>
-<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>小徐</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>c环境配置</title>
     <url>/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="vscode下编写c程序"><a href="#vscode下编写c程序" class="headerlink" title="vscode下编写c程序"></a><center>vscode下编写c程序</center></h1><h3 id="下载gcc编译器"><a href="#下载gcc编译器" class="headerlink" title="下载gcc编译器"></a>下载gcc编译器</h3><p>使用的是直接解压使用版本的，放在u盘里面了。添加bin目录到path环境变量下（用户变量下即可）</p>
@@ -44,6 +23,27 @@
       </tags>
   </entry>
   <entry>
+    <title>My-first-blog</title>
+    <url>/2021/11/28/My-first-blog/</url>
+    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
+<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
+<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹"><a href="#在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹" class="headerlink" title="在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹"></a>在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹</h3><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxeiwgxr8aj30gn08241r.jpg" alt="image.png"></p>
+<h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
+<p>可以增加点击爆炸效果</p>
+<p>升级博客右下角动漫人物</p>
+<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
+<p>增加分享功能：参考如下链接</p>
+<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>小徐</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>linux命令学习</title>
     <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>查看linux版本命令: uname -a</p>
@@ -56,7 +56,7 @@
   <entry>
     <title>p5000环境安装</title>
     <url>/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<h1 id="配置深度学习p5000服务器"><a href="#配置深度学习p5000服务器" class="headerlink" title="配置深度学习p5000服务器"></a><center>配置深度学习p5000服务器</center></h1><h3 id="1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc"><a href="#1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc" class="headerlink" title="1、安装Ubuntu20.04桌面版：https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc"></a>1、安装Ubuntu20.04桌面版：<a href="https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc</a></h3><h3 id="2、终端输入python3，发现系统自带了python3-8-10"><a href="#2、终端输入python3，发现系统自带了python3-8-10" class="headerlink" title="2、终端输入python3，发现系统自带了python3.8.10"></a>2、终端输入python3，发现系统自带了python3.8.10</h3><h3 id="3、配置清华园"><a href="#3、配置清华园" class="headerlink" title="3、配置清华园"></a>3、配置清华园</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#备份文件</span><br><span class="line">sudo cp /etc/apt/sources.list /home/sources.list.bk</span><br><span class="line">#删除</span><br><span class="line">sudo rm -rf /etc/apt/sources.list</span><br><span class="line">#写入</span><br><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h1 id="配置深度学习p5000服务器"><a href="#配置深度学习p5000服务器" class="headerlink" title="配置深度学习p5000服务器"></a><center>配置深度学习p5000服务器</center></h1><h3 id="1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc"><a href="#1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc" class="headerlink" title="1、安装Ubuntu20.04桌面版：https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc"></a>1、安装Ubuntu20.04桌面版：<a href="https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc</a></h3><h3 id="2、终端输入python3，发现系统自带了python3-8-10"><a href="#2、终端输入python3，发现系统自带了python3-8-10" class="headerlink" title="2、终端输入python3，发现系统自带了python3.8.10"></a>2、终端输入python3，发现系统自带了python3.8.10</h3><h3 id="3、配置清华园-测试无效，这里提供思路可以借鉴"><a href="#3、配置清华园-测试无效，这里提供思路可以借鉴" class="headerlink" title="3、配置清华园(测试无效，这里提供思路可以借鉴)"></a>3、配置清华园(测试无效，这里提供思路可以借鉴)</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#备份文件</span><br><span class="line">sudo cp /etc/apt/sources.list /home/sources.list.bk</span><br><span class="line">#删除</span><br><span class="line">sudo rm -rf /etc/apt/sources.list</span><br><span class="line">#写入</span><br><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
 
 <span id="more"></span>写入如下内容：
 
@@ -65,7 +65,7 @@
 <p>保存退出，最后别忘了：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
 
-<h3 id="4、p5000是Nvidia-Quadro-系列，下载对象系统下run文件"><a href="#4、p5000是Nvidia-Quadro-系列，下载对象系统下run文件" class="headerlink" title="4、p5000是Nvidia Quadro 系列，下载对象系统下run文件"></a>4、p5000是Nvidia Quadro 系列，下载对象系统下run文件</h3><p>禁用nouveau，这是系统自带的驱动：</p>
+<h3 id="4、p5000是Nvidia-Quadro-系列，下载对应系统下run文件（亲测没用）"><a href="#4、p5000是Nvidia-Quadro-系列，下载对应系统下run文件（亲测没用）" class="headerlink" title="4、p5000是Nvidia Quadro 系列，下载对应系统下run文件（亲测没用）"></a>4、p5000是Nvidia Quadro 系列，下载对应系统下run文件（亲测没用）</h3><p>禁用nouveau，这是系统自带的驱动：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo gedit /etc/modprobe.d/blacklist.conf</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>在文本最后添加以下内容：</p>
@@ -84,7 +84,7 @@
 
 <p>安装出错</p>
 <p>将镜像改回默认</p>
-<p>update后upgrate必须要做！</p>
+<p><strong>update后upgrate必须要做！</strong></p>
 <p>通过</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Ubuntu-drivers devicces</span><br></pre></td></tr></table></figure>
 
@@ -93,10 +93,10 @@
 <p>之间通过命令</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo ubuntu-drivers autoinstall</span><br></pre></td></tr></table></figure>
 
-<p>等待Ubuntu自己安装驱动，并把cuda 一并安装好</p>
+<p>等待Ubuntu自己安装驱动，并把最新版cuda 一并安装好</p>
 <h3 id="5、安装anaconda"><a href="#5、安装anaconda" class="headerlink" title="5、安装anaconda"></a>5、安装anaconda</h3><p><a href="http://www.anaconda.com/products/individual%E4%B8%8B%E8%BD%BDlinux">www.anaconda.com/products/individual下载linux</a> python3.9版本</p>
 <p>下好后cd到文件下载目录，用bash安装</p>
-<p>安装好后修改环境变量</p>
+<p>安装好后修改环境变量（没装vim?我用的sudo nano亲测没问题）</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vim ~/.bashrc</span><br></pre></td></tr></table></figure>
 
 <p>添加</p>
@@ -144,8 +144,28 @@
 
 <p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxfw1g9nelj30lz0aeacz.jpg" alt="image.png"></p>
 <p>装完基本完事</p>
-<h3 id="8、https-www-realvnc-com-en-connect-download-viewer"><a href="#8、https-www-realvnc-com-en-connect-download-viewer" class="headerlink" title="8、https://www.realvnc.com/en/connect/download/viewer/"></a>8、<a href="https://www.realvnc.com/en/connect/download/viewer/">https://www.realvnc.com/en/connect/download/viewer/</a></h3><p>安装vnc客户端即可</p>
+<h3 id="8、https-www-realvnc-com-en-connect-download-viewer-下载客户端"><a href="#8、https-www-realvnc-com-en-connect-download-viewer-下载客户端" class="headerlink" title="8、https://www.realvnc.com/en/connect/download/viewer/下载客户端"></a>8、<a href="https://www.realvnc.com/en/connect/download/viewer/%E4%B8%8B%E8%BD%BD%E5%AE%A2%E6%88%B7%E7%AB%AF">https://www.realvnc.com/en/connect/download/viewer/下载客户端</a></h3><p>服务器端打开设置-共享-屏幕共享</p>
+<p>客户端安装vnc客户端即可</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>为博客代码块增加复制按钮！</title>
+    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
+<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
+<span id="more"></span>
+
+<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
+<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
+<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
   </entry>
   <entry>
     <title>使用树莓派3B+搭建局域网文件服务器</title>
@@ -174,25 +194,6 @@
       <tags>
         <tag>树莓派</tag>
         <tag>samba局域网文件服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为博客代码块增加复制按钮！</title>
-    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
-<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
-<span id="more"></span>
-
-<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
-<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
-<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -233,6 +234,22 @@
       </tags>
   </entry>
   <entry>
+    <title>论文</title>
+    <url>/2021/12/06/%E8%AE%BA%E6%96%87/</url>
+    <content><![CDATA[<h3 id="a-fast-and-accurate-one-stage-approach-to-visual-grounding"><a href="#a-fast-and-accurate-one-stage-approach-to-visual-grounding" class="headerlink" title="a fast and accurate one-stage approach to visual grounding"></a><center>a fast and accurate one-stage approach to visual grounding</center></h3><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a7qtd3dj34kg220kjm.jpg"></p>
+<span id="more"></span>
+
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a8wxvrij34kg220hdu.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4aa0u0ysj34kg220kjm.jpg"></p>
+<h3 id="头脑风暴："><a href="#头脑风暴：" class="headerlink" title="头脑风暴："></a>头脑风暴：</h3><p>1、加入色彩模块，是否可以增加识别的准确度？</p>
+<p>2、含糊不清楚的识别，是否可以通过设置阈值将多目标一起框选？</p>
+<p><a href="grounding.pptx">点击下载</a> 汇报ppt</p>
+]]></content>
+      <tags>
+        <tag>论文学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>看板娘设置</title>
     <url>/2021/11/29/%E7%9C%8B%E6%9D%BF%E5%A8%98%E8%AE%BE%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="制作好玩好看的二次元人物到博客！"><a href="#制作好玩好看的二次元人物到博客！" class="headerlink" title="制作好玩好看的二次元人物到博客！"></a><center>制作好玩好看的二次元人物到博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwwc6wltwjj30b808qwhg.jpg"></p>
@@ -256,22 +273,6 @@
       <tags>
         <tag>教程</tag>
         <tag>看板娘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论文</title>
-    <url>/2021/12/06/%E8%AE%BA%E6%96%87/</url>
-    <content><![CDATA[<h3 id="a-fast-and-accurate-one-stage-approach-to-visual-grounding"><a href="#a-fast-and-accurate-one-stage-approach-to-visual-grounding" class="headerlink" title="a fast and accurate one-stage approach to visual grounding"></a><center>a fast and accurate one-stage approach to visual grounding</center></h3><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a7qtd3dj34kg220kjm.jpg"></p>
-<span id="more"></span>
-
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a8wxvrij34kg220hdu.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4aa0u0ysj34kg220kjm.jpg"></p>
-<h3 id="头脑风暴："><a href="#头脑风暴：" class="headerlink" title="头脑风暴："></a>头脑风暴：</h3><p>1、加入色彩模块，是否可以增加识别的准确度？</p>
-<p>2、含糊不清楚的识别，是否可以通过设置阈值将多目标一起框选？</p>
-<p><a href="grounding.pptx">点击下载</a> 汇报ppt</p>
-]]></content>
-      <tags>
-        <tag>论文学习</tag>
       </tags>
   </entry>
 </search>
