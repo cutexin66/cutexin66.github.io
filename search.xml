@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>linux命令学习</title>
-    <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>查看linux版本命令: uname -a</p>
-<p>DHCP（Dynamic Host Configuration Protocal）:动态主机配置协议。是一个简化主机IP地址分配的TCP/IP协议。保证ip地址不重复分配，也能及时回收ip地址以提高IP地址的利用率。采用DHCP的方法配置计算机IP地址的方案称为动态IP地址。DHCP采用的是客户/服务器模式（Client/Server）。</p>
+    <title>c环境配置</title>
+    <url>/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="vscode下编写c程序"><a href="#vscode下编写c程序" class="headerlink" title="vscode下编写c程序"></a><center>vscode下编写c程序</center></h1><h3 id="下载gcc编译器"><a href="#下载gcc编译器" class="headerlink" title="下载gcc编译器"></a>下载gcc编译器</h3><p>使用的是直接解压使用版本的，放在u盘里面了。添加bin目录到path环境变量下（用户变量下即可）</p>
+<p>在cmd里面输入gcc -v能看到版本号就表示安装成功了</p>
+<h3 id="安装扩展插件"><a href="#安装扩展插件" class="headerlink" title="安装扩展插件"></a>安装扩展插件</h3><p>在vscode里面装两个插件:c/c++和Code Runner</p>
+<h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>在文件-首选项-扩展里将“Run Code Configuration”中的“Run In Terminal”、”Save File Before Run”前面的复选框选中</p>
+<h3 id="运行调试的设置"><a href="#运行调试的设置" class="headerlink" title="运行调试的设置"></a>运行调试的设置</h3><p>首先，在”Terminal“菜单下点击”Configure Tasks…”子菜单。</p>
+<p>在随后出现的弹出框中选择“C/C++:gcc.exe生成活动文件”</p>
+<p><strong>提示</strong>：没有这个选项框关闭vscode后重启</p>
+<p>随后，在“CEXAMPLES”文件夹中会自动生成一个“.vscode”的子文件夹，在这个子文件夹下自动创建一个”tasks.json“的文件。不用做任何改动。</p>
+<p>最后，回到“hello.c”文件，单击鼠标右键选择“Run Code”即可运行代码。</p>
+<p>运行结果会在下面出现的“Terminal”中显示</p>
+<p>如果想要调试代码的话呢？点击“Run”菜单下的“Start Debugging”子菜单</p>
+<p>在随后出现的弹出框中选择“C++(GDB/LLDB)”，再选择”gcc.exe“。</p>
+<p><strong>提示</strong>：shift f5关闭调试功能</p>
+<p>至此，c环境的安装就结束了，终于摆脱上古c环境vc6.0这种了！</p>
 ]]></content>
       <tags>
-        <tag>linux</tag>
+        <tag>-环境配置</tag>
       </tags>
   </entry>
   <entry>
@@ -29,6 +41,144 @@
       <tags>
         <tag>小徐</tag>
         <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux命令学习</title>
+    <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>查看linux版本命令: uname -a</p>
+<p>DHCP（Dynamic Host Configuration Protocal）:动态主机配置协议。是一个简化主机IP地址分配的TCP/IP协议。保证ip地址不重复分配，也能及时回收ip地址以提高IP地址的利用率。采用DHCP的方法配置计算机IP地址的方案称为动态IP地址。DHCP采用的是客户/服务器模式（Client/Server）。</p>
+]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ubuntu快照</title>
+    <url>/2021/12/18/ubuntu%E5%BF%AB%E7%85%A7/</url>
+    <content><![CDATA[<h1 id="增加快照预防系统损坏能及时恢复"><a href="#增加快照预防系统损坏能及时恢复" class="headerlink" title="增加快照预防系统损坏能及时恢复"></a><center>增加快照预防系统损坏能及时恢复</center></h1><p>TimeShift是一个免费工具，类似于Windows中的”系统还原”功能，它允许你最初拍摄系统的快照，然后定期拍摄增量快照， 你可以使用</p>
+<p>首先，按ctrl+alt+t打开终端窗口，如果尚未安装Aptik，请在提示符下分别键入以下两个命令，在每个命令后按Enter，以添加PPA并进行更新，sudo apt-add-repository -y ppa:teejee2008/ppa</p>
+<p>sudo apt-get update</p>
+<p>如果已安装Aptik，则可以安装TimeShift，而无需输入以前的命令，在提示符下键入以下文本并按Enter键。</p>
+<p>sudo apt-get install timeshift</p>
+<p>出现提示时键入密码并按Enter 。</p>
+<p>安装完成后，通过在提示符下键入”exit”并按Enter或单击窗口左上角的” X”按钮来关闭”终端”窗口。</p>
+<p>要打开TimeShift，请单击Unity Launcher栏顶部的”搜索”按钮。</p>
+<p>在搜索框中输入” timeshift “，键入时显示搜索结果，当显示TimeShift图标时，单击它打开应用程序。</p>
+<p>出现询问密码的对话框。 在编辑框中输入密码，然后单击”确定”” ，</p>
+<p>此时将显示主TimeShift窗口，并估计系统大小，如果有多个驱动器或分区，则可以使用”Backup Device”下拉列表选择要备份的其他驱动器或分区。<span id="more"></span></p>
+<p>快照所需的空间量列在底部状态栏上，快照保存在所选设备上，因此请确保有足够的空间来存储快照，要备份所选的”Backup Device”，请在工具栏上单击”Backup”。</p>
+<p>创建快照时，底部状态栏中会显示”正在同步文件… “消息。</p>
+<p>快照完成后，会列出系统的日期和时间以及名称和版本，状态栏说明在拍摄快照后，系统有多少空间可用，并说明上次快照的时间。</p>
+<p>将鼠标移到”Backup Device”下拉列表上，将向你显示快照保存在所选设备上的路径。</p>
+<p>“ TimeShift “目录包含使用TimeShift拍摄的各种快照，包括计划的快照。</p>
+<p>“快照”文件夹包含手动拍摄的快照，建议你将快照的文件夹复制到U盘，网络驱动器上。</p>
+<p>通过单击”Browse”按钮查看快照中的内容。</p>
+<p>将在”文件管理器”窗口中打开快照目录，并列出系统中的目录和文件(无用户文件)。</p>
+<p>可以自定义各种设置，例如，设置自动备份和选择何时自动删除旧快照，要访问设置，请单击工具栏上的”设置”。</p>
+<p>通过”计划”选项卡，你可以指定执行快照的时间，单击或滑动”开/关”滑块按钮以打开”预定快照”，选中”启用”列中的复选框，以指定快照的时间间隔。</p>
+<p>通过”自动删除”标签，你可以自动删除较旧的快照，从而不会耗尽硬盘驱动器上的空间，每种快照都有一个”规则”，为每种类型输入一个”限制”，以告诉TimeShift删除早于指定限制的快照，包括对可用空间小于特定量的限制。</p>
+<p>“高级”选项卡允许你从快照中排除特定文件，目录和目录内容，并在快照中包括特定文件和目录。</p>
+<p>自定义完设置后，单击”保存””</p>
+<p>当你要恢复快照时，打开TimeShift，选择一个快照并单击”Restore “，</p>
+<p>注：根据系统状态，你可能必须再次安装TimeShift 。</p>
+<p>通过”Restore “对话框上的”Target”选项卡，你可以指定要将所选快照还原到的设备，将鼠标移到列表中的设备上可以显示有关用于恢复快照的设备的详细信息，选择”用于还原快照的设备”和”用于Bootloader安装的设备”。</p>
+<p>使用”排除”标签选择要保留其当前设置而不恢复其先前设置的应用程序。</p>
+<p>“高级”选项卡允许你从还原的系统中排除特定的文件，目录和目录内容，并在其中包含特定的文件和目录。</p>
+<p>要关闭TimeShift，请点击主窗口左上角的” X”按钮。</p>
+<p>就像Windows中的”系统还原”一样，你可以简单地将系统还原到以前的工作状态，而无需重新安装系统。</p>
+<h3 id="还原"><a href="#还原" class="headerlink" title="还原"></a>还原</h3><h4 id="如果能够进入系统"><a href="#如果能够进入系统" class="headerlink" title="如果能够进入系统"></a>如果能够进入系统</h4><ol>
+<li>如果此时还能够进入系统，直接打开 <strong>Timeshift</strong>软件进行还原</li>
+<li>在弹出的窗口内点击下一步开始进行还原到选中的节点</li>
+<li>还原完成后重启电脑即可。</li>
+</ol>
+<h4 id="如果只能进入登录界面"><a href="#如果只能进入登录界面" class="headerlink" title="如果只能进入登录界面"></a>如果只能进入登录界面</h4><p>一般系统崩溃后不能进入桌面，但是能够进入登录界面，现象就是在登录界面输入密码后不会进入桌面，那么就要通过命令行的方式进行还原。</p>
+<ol>
+<li><p>通过<code>Ctrl+Alt+F1</code>（一般是F1-F6都可）进入tty终端：</p>
+</li>
+<li><p>输入用户和密码登录</p>
+</li>
+<li><p>执行下面命令获取系统当前可以还原的节点：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --list</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
+
+<p>输出内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Device : /dev/sdb4</span><br><span class="line">UUID   : 197c4161-abc6-4069-8544-d86594211f04</span><br><span class="line">Path   : /home</span><br><span class="line">Mode   : RSYNC</span><br><span class="line">Device is OK</span><br><span class="line">12 snapshots, 92.5 GB free</span><br><span class="line"></span><br><span class="line">Num     Name                 Tags  Description  </span><br><span class="line">------------------------------------------------------------------------------</span><br><span class="line">0    &gt;  2018-08-08_11-49-26  O D                </span><br><span class="line">1    &gt;  2018-08-13_23-02-06  O                  </span><br><span class="line">2    &gt;  2018-08-15_22-53-24  O                  </span><br><span class="line">3    &gt;  2018-08-21_09-37-29  O                  </span><br><span class="line">4    &gt;  2018-11-19_17-43-59  O                  </span><br><span class="line">5    &gt;  2019-01-20_19-36-34  O                  </span><br><span class="line">6    &gt;  2019-03-01_11-18-09  O                  </span><br><span class="line">7    &gt;  2019-03-01_14-54-37  O                  </span><br><span class="line">8    &gt;  2019-03-04_14-48-57  O                  </span><br><span class="line">9    &gt;  2019-03-10_20-50-00  O                  </span><br><span class="line">10   &gt;  2019-03-14_11-51-54  O                  </span><br><span class="line">11   &gt;  2019-07-16_16-35-42  O</span><br><span class="line">123456789101112131415161718192021</span><br></pre></td></tr></table></figure></li>
+<li><p>选择一个节点进行还原</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>–skip-grub 选项为跳过grub安装，一般来说grub不需要重新安装，除非bios启动无法找到正确的grub启动项，才需要安装。</p>
+</blockquote>
+<p>在输出的内容中依次输入【Enter】键和【y】键。</p>
+<p>当然也可以直接输入下面的命令，忽略交互式的安装界面：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub --scripted</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h4 id="无法进入系统，通过U盘启动系统"><a href="#无法进入系统，通过U盘启动系统" class="headerlink" title="无法进入系统，通过U盘启动系统"></a>无法进入系统，通过U盘启动系统</h4><p>当登录界面和桌面环境都无法进入时，一般系统已经彻底崩溃，此时只能通过Linux live CD进行还原。</p>
+<ol>
+<li><p>制作Linux Mint 启动盘，制作过程略。</p>
+</li>
+<li><p>进入Live系统后打开 <strong>Timeshift</strong> 软件，点击设置按钮，设置快照的存储位置</p>
+<p>快照的存储位置是<strong>Timeshift</strong>在做备份的时候就已经设置好的。</p>
+</li>
+<li><p>后续步骤和[如果能够进入系统]内的还原方式一样。</p>
+</li>
+</ol>
+<p>其实此时还可以通过命令行的方式进行还原，但是首先需要设置快照存储的位置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --snapshot-device /dev/sdb4</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
+
+<p>后续步骤和[如果只能进入登录界面]内的还原方式一样。</p>
+<p>参考：<a href="https://blog.csdn.net/wf19930209/article/details/104236358">https://blog.csdn.net/wf19930209/article/details/104236358</a></p>
+]]></content>
+      <tags>
+        <tag>系统备份</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用树莓派3B+搭建局域网文件服务器</title>
+    <url>/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="使用树莓派3B-搭建局域网文件服务器！"><a href="#使用树莓派3B-搭建局域网文件服务器！" class="headerlink" title="使用树莓派3B+搭建局域网文件服务器！"></a><center>使用树莓派3B+搭建局域网文件服务器！</center></h1><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeiaikemhj30zn0pc7bw.jpg" alt="屏幕截图 2021-12-15 122129.png"></p>
+<span id="more"></span>
+
+<p>步骤：</p>
+<p>为树莓派3B+安装raspberry pi操作系统</p>
+<p>安装samba并配置文件</p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxej8jvvg2j32700zjgvs.jpg" alt="微信图片_20211215121933.jpg"></p>
+<p>添加samba组用户</p>
+<p>新建目录chmod赋予权限777并挂载移动硬盘到此目录下：第一次插移动硬盘自动挂载，挂载失败用umount命令解除挂载重新再挂</p>
+<p>映射硬盘到自己本地</p>
+<p>手机端部署：安装es文件浏览器，效果如下</p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeilurp8pj30sq1nxmza.jpg" alt="微信图片_20211214222834.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeimkegfhj30u01uowj1.jpg" alt="微信图片_20211214222953.jpg"></p>
+<p>部分电脑由于组策略无法访问</p>
+<p>pi文件夹记得隐藏</p>
+<p>ip地址动态分配导致的问题在etc/dhcpcd.conf下更改配置文件，41到44行取消注释更改静态路由，广播地址即可解决</p>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>树莓派负载小，配置完以后显示器也不需要连接，就可以实现各个操作系统以及平台的文件共享，效果还是不错的！</p>
+<p>文件的传输速度受到树莓派3B+没有usb3.0接口的影响，以后搭建家里用的nas可以考虑升级固态和新接口平台！</p>
+<p>至于改进的地方：风扇并不是温控的，有噪声，可以考虑改成温控的。3代树莓派通电就开机，可以尝试接入开关电源，或者加入按键按钮改写代码，网上有人已经实现了，用按钮开关连接两个引脚。</p>
+<h2 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h2><h2 id="https-blog-csdn-net-zlllg-article-details-88547648"><a href="#https-blog-csdn-net-zlllg-article-details-88547648" class="headerlink" title="https://blog.csdn.net/zlllg/article/details/88547648"></a><a href="https://blog.csdn.net/zlllg/article/details/88547648">https://blog.csdn.net/zlllg/article/details/88547648</a></h2><p>​           </p>
+]]></content>
+      <tags>
+        <tag>树莓派</tag>
+        <tag>samba局域网文件服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为博客代码块增加复制按钮！</title>
+    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
+<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
+<span id="more"></span>
+
+<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
+<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
+<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -59,25 +209,22 @@
       </tags>
   </entry>
   <entry>
-    <title>c环境配置</title>
-    <url>/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="vscode下编写c程序"><a href="#vscode下编写c程序" class="headerlink" title="vscode下编写c程序"></a><center>vscode下编写c程序</center></h1><h3 id="下载gcc编译器"><a href="#下载gcc编译器" class="headerlink" title="下载gcc编译器"></a>下载gcc编译器</h3><p>使用的是直接解压使用版本的，放在u盘里面了。添加bin目录到path环境变量下（用户变量下即可）</p>
-<p>在cmd里面输入gcc -v能看到版本号就表示安装成功了</p>
-<h3 id="安装扩展插件"><a href="#安装扩展插件" class="headerlink" title="安装扩展插件"></a>安装扩展插件</h3><p>在vscode里面装两个插件:c/c++和Code Runner</p>
-<h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>在文件-首选项-扩展里将“Run Code Configuration”中的“Run In Terminal”、”Save File Before Run”前面的复选框选中</p>
-<h3 id="运行调试的设置"><a href="#运行调试的设置" class="headerlink" title="运行调试的设置"></a>运行调试的设置</h3><p>首先，在”Terminal“菜单下点击”Configure Tasks…”子菜单。</p>
-<p>在随后出现的弹出框中选择“C/C++:gcc.exe生成活动文件”</p>
-<p><strong>提示</strong>：没有这个选项框关闭vscode后重启</p>
-<p>随后，在“CEXAMPLES”文件夹中会自动生成一个“.vscode”的子文件夹，在这个子文件夹下自动创建一个”tasks.json“的文件。不用做任何改动。</p>
-<p>最后，回到“hello.c”文件，单击鼠标右键选择“Run Code”即可运行代码。</p>
-<p>运行结果会在下面出现的“Terminal”中显示</p>
-<p>如果想要调试代码的话呢？点击“Run”菜单下的“Start Debugging”子菜单</p>
-<p>在随后出现的弹出框中选择“C++(GDB/LLDB)”，再选择”gcc.exe“。</p>
-<p><strong>提示</strong>：shift f5关闭调试功能</p>
-<p>至此，c环境的安装就结束了，终于摆脱上古c环境vc6.0这种了！</p>
+    <title>点击烟花爆炸效果</title>
+    <url>/2021/11/29/%E7%82%B9%E5%87%BB%E7%83%9F%E8%8A%B1%E7%88%86%E7%82%B8%E6%95%88%E6%9E%9C/</url>
+    <content><![CDATA[<h2 id="动手做烟花特效！"><a href="#动手做烟花特效！" class="headerlink" title="动手做烟花特效！"></a><center>动手做烟花特效！</center></h2><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww78e8cl5j30hv0fjgrj.jpg"></p>
+<span id="more"></span>
+
+<h4 id="1-themes-你选择的主题-source-js-下新建文件-firework-js-，添加代码："><a href="#1-themes-你选择的主题-source-js-下新建文件-firework-js-，添加代码：" class="headerlink" title="1. themes/你选择的主题/source/js 下新建文件 firework.js ，添加代码："></a>1. themes/你选择的主题/source/js 下新建文件 firework.js ，添加代码：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;use strict&quot;;</span><br><span class="line">function updateCoords(e) &#123;</span><br><span class="line">  (pointerX =</span><br><span class="line">    (e.clientX || e.touches[0].clientX) -</span><br><span class="line">    canvasEl.getBoundingClientRect().left),</span><br><span class="line">    (pointerY =</span><br><span class="line">      e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top);</span><br><span class="line">&#125;</span><br><span class="line">function setParticuleDirection(e) &#123;</span><br><span class="line">  var t = (anime.random(0, 360) * Math.PI) / 180,</span><br><span class="line">    a = anime.random(50, 180),</span><br><span class="line">    n = [-1, 1][anime.random(0, 1)] * a;</span><br><span class="line">  return &#123; x: e.x + n * Math.cos(t), y: e.y + n * Math.sin(t) &#125;;</span><br><span class="line">&#125;</span><br><span class="line">function createParticule(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = colors[anime.random(0, colors.length - 1)]),</span><br><span class="line">    (a.radius = anime.random(16, 32)),</span><br><span class="line">    (a.endPos = setParticuleDirection(a)),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.fillStyle = a.color),</span><br><span class="line">        ctx.fill();</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function createCircle(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = &quot;#F00&quot;),</span><br><span class="line">    (a.radius = 0.1),</span><br><span class="line">    (a.alpha = 0.5),</span><br><span class="line">    (a.lineWidth = 6),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      (ctx.globalAlpha = a.alpha),</span><br><span class="line">        ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.lineWidth = a.lineWidth),</span><br><span class="line">        (ctx.strokeStyle = a.color),</span><br><span class="line">        ctx.stroke(),</span><br><span class="line">        (ctx.globalAlpha = 1);</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function renderParticule(e) &#123;</span><br><span class="line">  for (var t = 0; t &lt; e.animatables.length; t++) &#123;</span><br><span class="line">    e.animatables[t].target.draw();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">function animateParticules(e, t) &#123;</span><br><span class="line">  for (var a = createCircle(e, t), n = [], i = 0; i &lt; numberOfParticules; i++) &#123;</span><br><span class="line">    n.push(createParticule(e, t));</span><br><span class="line">  &#125;</span><br><span class="line">  anime</span><br><span class="line">    .timeline()</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: n,</span><br><span class="line">      x: function (e) &#123;</span><br><span class="line">        return e.endPos.x;</span><br><span class="line">      &#125;,</span><br><span class="line">      y: function (e) &#123;</span><br><span class="line">        return e.endPos.y;</span><br><span class="line">      &#125;,</span><br><span class="line">      radius: 0.1,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">    &#125;)</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: a,</span><br><span class="line">      radius: anime.random(80, 160),</span><br><span class="line">      lineWidth: 0,</span><br><span class="line">      alpha: &#123; value: 0, easing: &quot;linear&quot;, duration: anime.random(600, 800) &#125;,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">      offset: 0,</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line">function debounce(e, t) &#123;</span><br><span class="line">  var a;</span><br><span class="line">  return function () &#123;</span><br><span class="line">    var n = this,</span><br><span class="line">      i = arguments;</span><br><span class="line">    clearTimeout(a),</span><br><span class="line">      (a = setTimeout(function () &#123;</span><br><span class="line">        e.apply(n, i);</span><br><span class="line">      &#125;, t));</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line">var canvasEl = document.querySelector(&quot;.fireworks&quot;);</span><br><span class="line">if (canvasEl) &#123;</span><br><span class="line">  var ctx = canvasEl.getContext(&quot;2d&quot;),</span><br><span class="line">    numberOfParticules = 30,</span><br><span class="line">    pointerX = 0,</span><br><span class="line">    pointerY = 0,</span><br><span class="line">    tap = &quot;mousedown&quot;,</span><br><span class="line">    colors = [&quot;#FF1461&quot;, &quot;#18FF92&quot;, &quot;#5A87FF&quot;, &quot;#FBF38C&quot;],</span><br><span class="line">    setCanvasSize = debounce(function () &#123;</span><br><span class="line">      (canvasEl.width = 2 * window.innerWidth),</span><br><span class="line">        (canvasEl.height = 2 * window.innerHeight),</span><br><span class="line">        (canvasEl.style.width = window.innerWidth + &quot;px&quot;),</span><br><span class="line">        (canvasEl.style.height = window.innerHeight + &quot;px&quot;),</span><br><span class="line">        canvasEl.getContext(&quot;2d&quot;).scale(2, 2);</span><br><span class="line">    &#125;, 500),</span><br><span class="line">    render = anime(&#123;</span><br><span class="line">      duration: 1 / 0,</span><br><span class="line">      update: function () &#123;</span><br><span class="line">        ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">  document.addEventListener(</span><br><span class="line">    tap,</span><br><span class="line">    function (e) &#123;</span><br><span class="line">      &quot;sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;toggle-sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;A&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        &quot;IMG&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        (render.play(), updateCoords(e), animateParticules(pointerX, pointerY));</span><br><span class="line">    &#125;,</span><br><span class="line">    !1</span><br><span class="line">  ),</span><br><span class="line">    setCanvasSize(),</span><br><span class="line">    window.addEventListener(&quot;resize&quot;, setCanvasSize, !1);</span><br><span class="line">&#125;</span><br><span class="line">(&quot;use strict&quot;);</span><br><span class="line">function updateCoords(e) &#123;</span><br><span class="line">  (pointerX =</span><br><span class="line">    (e.clientX || e.touches[0].clientX) -</span><br><span class="line">    canvasEl.getBoundingClientRect().left),</span><br><span class="line">    (pointerY =</span><br><span class="line">      e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top);</span><br><span class="line">&#125;</span><br><span class="line">function setParticuleDirection(e) &#123;</span><br><span class="line">  var t = (anime.random(0, 360) * Math.PI) / 180,</span><br><span class="line">    a = anime.random(50, 180),</span><br><span class="line">    n = [-1, 1][anime.random(0, 1)] * a;</span><br><span class="line">  return &#123; x: e.x + n * Math.cos(t), y: e.y + n * Math.sin(t) &#125;;</span><br><span class="line">&#125;</span><br><span class="line">function createParticule(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = colors[anime.random(0, colors.length - 1)]),</span><br><span class="line">    (a.radius = anime.random(16, 32)),</span><br><span class="line">    (a.endPos = setParticuleDirection(a)),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.fillStyle = a.color),</span><br><span class="line">        ctx.fill();</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function createCircle(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = &quot;#F00&quot;),</span><br><span class="line">    (a.radius = 0.1),</span><br><span class="line">    (a.alpha = 0.5),</span><br><span class="line">    (a.lineWidth = 6),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      (ctx.globalAlpha = a.alpha),</span><br><span class="line">        ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.lineWidth = a.lineWidth),</span><br><span class="line">        (ctx.strokeStyle = a.color),</span><br><span class="line">        ctx.stroke(),</span><br><span class="line">        (ctx.globalAlpha = 1);</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function renderParticule(e) &#123;</span><br><span class="line">  for (var t = 0; t &lt; e.animatables.length; t++) &#123;</span><br><span class="line">    e.animatables[t].target.draw();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">function animateParticules(e, t) &#123;</span><br><span class="line">  for (var a = createCircle(e, t), n = [], i = 0; i &lt; numberOfParticules; i++) &#123;</span><br><span class="line">    n.push(createParticule(e, t));</span><br><span class="line">  &#125;</span><br><span class="line">  anime</span><br><span class="line">    .timeline()</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: n,</span><br><span class="line">      x: function (e) &#123;</span><br><span class="line">        return e.endPos.x;</span><br><span class="line">      &#125;,</span><br><span class="line">      y: function (e) &#123;</span><br><span class="line">        return e.endPos.y;</span><br><span class="line">      &#125;,</span><br><span class="line">      radius: 0.1,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">    &#125;)</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: a,</span><br><span class="line">      radius: anime.random(80, 160),</span><br><span class="line">      lineWidth: 0,</span><br><span class="line">      alpha: &#123; value: 0, easing: &quot;linear&quot;, duration: anime.random(600, 800) &#125;,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">      offset: 0,</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line">function debounce(e, t) &#123;</span><br><span class="line">  var a;</span><br><span class="line">  return function () &#123;</span><br><span class="line">    var n = this,</span><br><span class="line">      i = arguments;</span><br><span class="line">    clearTimeout(a),</span><br><span class="line">      (a = setTimeout(function () &#123;</span><br><span class="line">        e.apply(n, i);</span><br><span class="line">      &#125;, t));</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line">var canvasEl = document.querySelector(&quot;.fireworks&quot;);</span><br><span class="line">if (canvasEl) &#123;</span><br><span class="line">  var ctx = canvasEl.getContext(&quot;2d&quot;),</span><br><span class="line">    numberOfParticules = 30,</span><br><span class="line">    pointerX = 0,</span><br><span class="line">    pointerY = 0,</span><br><span class="line">    tap = &quot;mousedown&quot;,</span><br><span class="line">    colors = [&quot;#FF1461&quot;, &quot;#18FF92&quot;, &quot;#5A87FF&quot;, &quot;#FBF38C&quot;],</span><br><span class="line">    setCanvasSize = debounce(function () &#123;</span><br><span class="line">      (canvasEl.width = 2 * window.innerWidth),</span><br><span class="line">        (canvasEl.height = 2 * window.innerHeight),</span><br><span class="line">        (canvasEl.style.width = window.innerWidth + &quot;px&quot;),</span><br><span class="line">        (canvasEl.style.height = window.innerHeight + &quot;px&quot;),</span><br><span class="line">        canvasEl.getContext(&quot;2d&quot;).scale(2, 2);</span><br><span class="line">    &#125;, 500),</span><br><span class="line">    render = anime(&#123;</span><br><span class="line">      duration: 1 / 0,</span><br><span class="line">      update: function () &#123;</span><br><span class="line">        ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">  document.addEventListener(</span><br><span class="line">    tap,</span><br><span class="line">    function (e) &#123;</span><br><span class="line">      &quot;sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;toggle-sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;A&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        &quot;IMG&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        (render.play(), updateCoords(e), animateParticules(pointerX, pointerY));</span><br><span class="line">    &#125;,</span><br><span class="line">    !1</span><br><span class="line">  ),</span><br><span class="line">    setCanvasSize(),</span><br><span class="line">    window.addEventListener(&quot;resize&quot;, setCanvasSize, !1);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-在-themes-你选择的主题-layout-layout-swig-下添加："><a href="#2-在-themes-你选择的主题-layout-layout-swig-下添加：" class="headerlink" title="2.在 themes/你选择的主题/layout/layout.swig 下添加："></a>2.在 themes/你选择的主题/layout/layout.swig 下添加：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;canvas class=&quot;fireworks&quot; style=&quot;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;&quot; &gt;&lt;/canvas&gt; </span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/animejs/2.2.0/anime.min.js&quot;&gt;&lt;/script&gt; </span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/js/firework.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 ]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
       <tags>
-        <tag>-环境配置</tag>
+        <tag>教程</tag>
+        <tag>烟花</tag>
       </tags>
   </entry>
   <entry>
@@ -179,115 +326,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>使用树莓派3B+搭建局域网文件服务器</title>
-    <url>/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="使用树莓派3B-搭建局域网文件服务器！"><a href="#使用树莓派3B-搭建局域网文件服务器！" class="headerlink" title="使用树莓派3B+搭建局域网文件服务器！"></a><center>使用树莓派3B+搭建局域网文件服务器！</center></h1><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeiaikemhj30zn0pc7bw.jpg" alt="屏幕截图 2021-12-15 122129.png"></p>
-<span id="more"></span>
-
-<p>步骤：</p>
-<p>为树莓派3B+安装raspberry pi操作系统</p>
-<p>安装samba并配置文件</p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxej8jvvg2j32700zjgvs.jpg" alt="微信图片_20211215121933.jpg"></p>
-<p>添加samba组用户</p>
-<p>新建目录chmod赋予权限777并挂载移动硬盘到此目录下：第一次插移动硬盘自动挂载，挂载失败用umount命令解除挂载重新再挂</p>
-<p>映射硬盘到自己本地</p>
-<p>手机端部署：安装es文件浏览器，效果如下</p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeilurp8pj30sq1nxmza.jpg" alt="微信图片_20211214222834.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeimkegfhj30u01uowj1.jpg" alt="微信图片_20211214222953.jpg"></p>
-<p>部分电脑由于组策略无法访问</p>
-<p>pi文件夹记得隐藏</p>
-<p>ip地址动态分配导致的问题在etc/dhcpcd.conf下更改配置文件，41到44行取消注释更改静态路由，广播地址即可解决</p>
-<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>树莓派负载小，配置完以后显示器也不需要连接，就可以实现各个操作系统以及平台的文件共享，效果还是不错的！</p>
-<p>文件的传输速度受到树莓派3B+没有usb3.0接口的影响，以后搭建家里用的nas可以考虑升级固态和新接口平台！</p>
-<p>至于改进的地方：风扇并不是温控的，有噪声，可以考虑改成温控的。3代树莓派通电就开机，可以尝试接入开关电源，或者加入按键按钮改写代码，网上有人已经实现了，用按钮开关连接两个引脚。</p>
-<h2 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h2><h2 id="https-blog-csdn-net-zlllg-article-details-88547648"><a href="#https-blog-csdn-net-zlllg-article-details-88547648" class="headerlink" title="https://blog.csdn.net/zlllg/article/details/88547648"></a><a href="https://blog.csdn.net/zlllg/article/details/88547648">https://blog.csdn.net/zlllg/article/details/88547648</a></h2><p>​           </p>
-]]></content>
-      <tags>
-        <tag>树莓派</tag>
-        <tag>samba局域网文件服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ubuntu快照</title>
-    <url>/2021/12/18/ubuntu%E5%BF%AB%E7%85%A7/</url>
-    <content><![CDATA[<h1 id="增加快照预防系统损坏能及时恢复"><a href="#增加快照预防系统损坏能及时恢复" class="headerlink" title="增加快照预防系统损坏能及时恢复"></a><center>增加快照预防系统损坏能及时恢复</center></h1><p>TimeShift是一个免费工具，类似于Windows中的”系统还原”功能，它允许你最初拍摄系统的快照，然后定期拍摄增量快照， 你可以使用</p>
-<p>首先，按ctrl+alt+t打开终端窗口，如果尚未安装Aptik，请在提示符下分别键入以下两个命令，在每个命令后按Enter，以添加PPA并进行更新，sudo apt-add-repository -y ppa:teejee2008/ppa</p>
-<p>sudo apt-get update</p>
-<p>如果已安装Aptik，则可以安装TimeShift，而无需输入以前的命令，在提示符下键入以下文本并按Enter键。</p>
-<p>sudo apt-get install timeshift</p>
-<p>出现提示时键入密码并按Enter 。</p>
-<p>安装完成后，通过在提示符下键入”exit”并按Enter或单击窗口左上角的” X”按钮来关闭”终端”窗口。</p>
-<p>要打开TimeShift，请单击Unity Launcher栏顶部的”搜索”按钮。</p>
-<p>在搜索框中输入” timeshift “，键入时显示搜索结果，当显示TimeShift图标时，单击它打开应用程序。</p>
-<p>出现询问密码的对话框。 在编辑框中输入密码，然后单击”确定”” ，</p>
-<p>此时将显示主TimeShift窗口，并估计系统大小，如果有多个驱动器或分区，则可以使用”Backup Device”下拉列表选择要备份的其他驱动器或分区。<span id="more"></span></p>
-<p>快照所需的空间量列在底部状态栏上，快照保存在所选设备上，因此请确保有足够的空间来存储快照，要备份所选的”Backup Device”，请在工具栏上单击”Backup”。</p>
-<p>创建快照时，底部状态栏中会显示”正在同步文件… “消息。</p>
-<p>快照完成后，会列出系统的日期和时间以及名称和版本，状态栏说明在拍摄快照后，系统有多少空间可用，并说明上次快照的时间。</p>
-<p>将鼠标移到”Backup Device”下拉列表上，将向你显示快照保存在所选设备上的路径。</p>
-<p>“ TimeShift “目录包含使用TimeShift拍摄的各种快照，包括计划的快照。</p>
-<p>“快照”文件夹包含手动拍摄的快照，建议你将快照的文件夹复制到U盘，网络驱动器上。</p>
-<p>通过单击”Browse”按钮查看快照中的内容。</p>
-<p>将在”文件管理器”窗口中打开快照目录，并列出系统中的目录和文件(无用户文件)。</p>
-<p>可以自定义各种设置，例如，设置自动备份和选择何时自动删除旧快照，要访问设置，请单击工具栏上的”设置”。</p>
-<p>通过”计划”选项卡，你可以指定执行快照的时间，单击或滑动”开/关”滑块按钮以打开”预定快照”，选中”启用”列中的复选框，以指定快照的时间间隔。</p>
-<p>通过”自动删除”标签，你可以自动删除较旧的快照，从而不会耗尽硬盘驱动器上的空间，每种快照都有一个”规则”，为每种类型输入一个”限制”，以告诉TimeShift删除早于指定限制的快照，包括对可用空间小于特定量的限制。</p>
-<p>“高级”选项卡允许你从快照中排除特定文件，目录和目录内容，并在快照中包括特定文件和目录。</p>
-<p>自定义完设置后，单击”保存””</p>
-<p>当你要恢复快照时，打开TimeShift，选择一个快照并单击”Restore “，</p>
-<p>注：根据系统状态，你可能必须再次安装TimeShift 。</p>
-<p>通过”Restore “对话框上的”Target”选项卡，你可以指定要将所选快照还原到的设备，将鼠标移到列表中的设备上可以显示有关用于恢复快照的设备的详细信息，选择”用于还原快照的设备”和”用于Bootloader安装的设备”。</p>
-<p>使用”排除”标签选择要保留其当前设置而不恢复其先前设置的应用程序。</p>
-<p>“高级”选项卡允许你从还原的系统中排除特定的文件，目录和目录内容，并在其中包含特定的文件和目录。</p>
-<p>要关闭TimeShift，请点击主窗口左上角的” X”按钮。</p>
-<p>就像Windows中的”系统还原”一样，你可以简单地将系统还原到以前的工作状态，而无需重新安装系统。</p>
-<h3 id="还原"><a href="#还原" class="headerlink" title="还原"></a>还原</h3><h4 id="如果能够进入系统"><a href="#如果能够进入系统" class="headerlink" title="如果能够进入系统"></a>如果能够进入系统</h4><ol>
-<li>如果此时还能够进入系统，直接打开 <strong>Timeshift</strong>软件进行还原</li>
-<li>在弹出的窗口内点击下一步开始进行还原到选中的节点</li>
-<li>还原完成后重启电脑即可。</li>
-</ol>
-<h4 id="如果只能进入登录界面"><a href="#如果只能进入登录界面" class="headerlink" title="如果只能进入登录界面"></a>如果只能进入登录界面</h4><p>一般系统崩溃后不能进入桌面，但是能够进入登录界面，现象就是在登录界面输入密码后不会进入桌面，那么就要通过命令行的方式进行还原。</p>
-<ol>
-<li><p>通过<code>Ctrl+Alt+F1</code>（一般是F1-F6都可）进入tty终端：</p>
-</li>
-<li><p>输入用户和密码登录</p>
-</li>
-<li><p>执行下面命令获取系统当前可以还原的节点：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --list</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<p>输出内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Device : /dev/sdb4</span><br><span class="line">UUID   : 197c4161-abc6-4069-8544-d86594211f04</span><br><span class="line">Path   : /home</span><br><span class="line">Mode   : RSYNC</span><br><span class="line">Device is OK</span><br><span class="line">12 snapshots, 92.5 GB free</span><br><span class="line"></span><br><span class="line">Num     Name                 Tags  Description  </span><br><span class="line">------------------------------------------------------------------------------</span><br><span class="line">0    &gt;  2018-08-08_11-49-26  O D                </span><br><span class="line">1    &gt;  2018-08-13_23-02-06  O                  </span><br><span class="line">2    &gt;  2018-08-15_22-53-24  O                  </span><br><span class="line">3    &gt;  2018-08-21_09-37-29  O                  </span><br><span class="line">4    &gt;  2018-11-19_17-43-59  O                  </span><br><span class="line">5    &gt;  2019-01-20_19-36-34  O                  </span><br><span class="line">6    &gt;  2019-03-01_11-18-09  O                  </span><br><span class="line">7    &gt;  2019-03-01_14-54-37  O                  </span><br><span class="line">8    &gt;  2019-03-04_14-48-57  O                  </span><br><span class="line">9    &gt;  2019-03-10_20-50-00  O                  </span><br><span class="line">10   &gt;  2019-03-14_11-51-54  O                  </span><br><span class="line">11   &gt;  2019-07-16_16-35-42  O</span><br><span class="line">123456789101112131415161718192021</span><br></pre></td></tr></table></figure></li>
-<li><p>选择一个节点进行还原</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>–skip-grub 选项为跳过grub安装，一般来说grub不需要重新安装，除非bios启动无法找到正确的grub启动项，才需要安装。</p>
-</blockquote>
-<p>在输出的内容中依次输入【Enter】键和【y】键。</p>
-<p>当然也可以直接输入下面的命令，忽略交互式的安装界面：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub --scripted</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h4 id="无法进入系统，通过U盘启动系统"><a href="#无法进入系统，通过U盘启动系统" class="headerlink" title="无法进入系统，通过U盘启动系统"></a>无法进入系统，通过U盘启动系统</h4><p>当登录界面和桌面环境都无法进入时，一般系统已经彻底崩溃，此时只能通过Linux live CD进行还原。</p>
-<ol>
-<li><p>制作Linux Mint 启动盘，制作过程略。</p>
-</li>
-<li><p>进入Live系统后打开 <strong>Timeshift</strong> 软件，点击设置按钮，设置快照的存储位置</p>
-<p>快照的存储位置是<strong>Timeshift</strong>在做备份的时候就已经设置好的。</p>
-</li>
-<li><p>后续步骤和[如果能够进入系统]内的还原方式一样。</p>
-</li>
-</ol>
-<p>其实此时还可以通过命令行的方式进行还原，但是首先需要设置快照存储的位置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --snapshot-device /dev/sdb4</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<p>后续步骤和[如果只能进入登录界面]内的还原方式一样。</p>
-<p>参考：<a href="https://blog.csdn.net/wf19930209/article/details/104236358">https://blog.csdn.net/wf19930209/article/details/104236358</a></p>
-]]></content>
-      <tags>
-        <tag>系统备份</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>文章加密</title>
     <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
     <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
@@ -303,25 +341,6 @@
       <tags>
         <tag>教程</tag>
         <tag>加密</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为博客代码块增加复制按钮！</title>
-    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
-<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
-<span id="more"></span>
-
-<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
-<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
-<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -364,25 +383,6 @@
 ]]></content>
       <tags>
         <tag>论文学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>点击烟花爆炸效果</title>
-    <url>/2021/11/29/%E7%82%B9%E5%87%BB%E7%83%9F%E8%8A%B1%E7%88%86%E7%82%B8%E6%95%88%E6%9E%9C/</url>
-    <content><![CDATA[<h2 id="动手做烟花特效！"><a href="#动手做烟花特效！" class="headerlink" title="动手做烟花特效！"></a><center>动手做烟花特效！</center></h2><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww78e8cl5j30hv0fjgrj.jpg"></p>
-<span id="more"></span>
-
-<h4 id="1-themes-你选择的主题-source-js-下新建文件-firework-js-，添加代码："><a href="#1-themes-你选择的主题-source-js-下新建文件-firework-js-，添加代码：" class="headerlink" title="1. themes/你选择的主题/source/js 下新建文件 firework.js ，添加代码："></a>1. themes/你选择的主题/source/js 下新建文件 firework.js ，添加代码：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;use strict&quot;;</span><br><span class="line">function updateCoords(e) &#123;</span><br><span class="line">  (pointerX =</span><br><span class="line">    (e.clientX || e.touches[0].clientX) -</span><br><span class="line">    canvasEl.getBoundingClientRect().left),</span><br><span class="line">    (pointerY =</span><br><span class="line">      e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top);</span><br><span class="line">&#125;</span><br><span class="line">function setParticuleDirection(e) &#123;</span><br><span class="line">  var t = (anime.random(0, 360) * Math.PI) / 180,</span><br><span class="line">    a = anime.random(50, 180),</span><br><span class="line">    n = [-1, 1][anime.random(0, 1)] * a;</span><br><span class="line">  return &#123; x: e.x + n * Math.cos(t), y: e.y + n * Math.sin(t) &#125;;</span><br><span class="line">&#125;</span><br><span class="line">function createParticule(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = colors[anime.random(0, colors.length - 1)]),</span><br><span class="line">    (a.radius = anime.random(16, 32)),</span><br><span class="line">    (a.endPos = setParticuleDirection(a)),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.fillStyle = a.color),</span><br><span class="line">        ctx.fill();</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function createCircle(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = &quot;#F00&quot;),</span><br><span class="line">    (a.radius = 0.1),</span><br><span class="line">    (a.alpha = 0.5),</span><br><span class="line">    (a.lineWidth = 6),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      (ctx.globalAlpha = a.alpha),</span><br><span class="line">        ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.lineWidth = a.lineWidth),</span><br><span class="line">        (ctx.strokeStyle = a.color),</span><br><span class="line">        ctx.stroke(),</span><br><span class="line">        (ctx.globalAlpha = 1);</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function renderParticule(e) &#123;</span><br><span class="line">  for (var t = 0; t &lt; e.animatables.length; t++) &#123;</span><br><span class="line">    e.animatables[t].target.draw();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">function animateParticules(e, t) &#123;</span><br><span class="line">  for (var a = createCircle(e, t), n = [], i = 0; i &lt; numberOfParticules; i++) &#123;</span><br><span class="line">    n.push(createParticule(e, t));</span><br><span class="line">  &#125;</span><br><span class="line">  anime</span><br><span class="line">    .timeline()</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: n,</span><br><span class="line">      x: function (e) &#123;</span><br><span class="line">        return e.endPos.x;</span><br><span class="line">      &#125;,</span><br><span class="line">      y: function (e) &#123;</span><br><span class="line">        return e.endPos.y;</span><br><span class="line">      &#125;,</span><br><span class="line">      radius: 0.1,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">    &#125;)</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: a,</span><br><span class="line">      radius: anime.random(80, 160),</span><br><span class="line">      lineWidth: 0,</span><br><span class="line">      alpha: &#123; value: 0, easing: &quot;linear&quot;, duration: anime.random(600, 800) &#125;,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">      offset: 0,</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line">function debounce(e, t) &#123;</span><br><span class="line">  var a;</span><br><span class="line">  return function () &#123;</span><br><span class="line">    var n = this,</span><br><span class="line">      i = arguments;</span><br><span class="line">    clearTimeout(a),</span><br><span class="line">      (a = setTimeout(function () &#123;</span><br><span class="line">        e.apply(n, i);</span><br><span class="line">      &#125;, t));</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line">var canvasEl = document.querySelector(&quot;.fireworks&quot;);</span><br><span class="line">if (canvasEl) &#123;</span><br><span class="line">  var ctx = canvasEl.getContext(&quot;2d&quot;),</span><br><span class="line">    numberOfParticules = 30,</span><br><span class="line">    pointerX = 0,</span><br><span class="line">    pointerY = 0,</span><br><span class="line">    tap = &quot;mousedown&quot;,</span><br><span class="line">    colors = [&quot;#FF1461&quot;, &quot;#18FF92&quot;, &quot;#5A87FF&quot;, &quot;#FBF38C&quot;],</span><br><span class="line">    setCanvasSize = debounce(function () &#123;</span><br><span class="line">      (canvasEl.width = 2 * window.innerWidth),</span><br><span class="line">        (canvasEl.height = 2 * window.innerHeight),</span><br><span class="line">        (canvasEl.style.width = window.innerWidth + &quot;px&quot;),</span><br><span class="line">        (canvasEl.style.height = window.innerHeight + &quot;px&quot;),</span><br><span class="line">        canvasEl.getContext(&quot;2d&quot;).scale(2, 2);</span><br><span class="line">    &#125;, 500),</span><br><span class="line">    render = anime(&#123;</span><br><span class="line">      duration: 1 / 0,</span><br><span class="line">      update: function () &#123;</span><br><span class="line">        ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">  document.addEventListener(</span><br><span class="line">    tap,</span><br><span class="line">    function (e) &#123;</span><br><span class="line">      &quot;sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;toggle-sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;A&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        &quot;IMG&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        (render.play(), updateCoords(e), animateParticules(pointerX, pointerY));</span><br><span class="line">    &#125;,</span><br><span class="line">    !1</span><br><span class="line">  ),</span><br><span class="line">    setCanvasSize(),</span><br><span class="line">    window.addEventListener(&quot;resize&quot;, setCanvasSize, !1);</span><br><span class="line">&#125;</span><br><span class="line">(&quot;use strict&quot;);</span><br><span class="line">function updateCoords(e) &#123;</span><br><span class="line">  (pointerX =</span><br><span class="line">    (e.clientX || e.touches[0].clientX) -</span><br><span class="line">    canvasEl.getBoundingClientRect().left),</span><br><span class="line">    (pointerY =</span><br><span class="line">      e.clientY || e.touches[0].clientY - canvasEl.getBoundingClientRect().top);</span><br><span class="line">&#125;</span><br><span class="line">function setParticuleDirection(e) &#123;</span><br><span class="line">  var t = (anime.random(0, 360) * Math.PI) / 180,</span><br><span class="line">    a = anime.random(50, 180),</span><br><span class="line">    n = [-1, 1][anime.random(0, 1)] * a;</span><br><span class="line">  return &#123; x: e.x + n * Math.cos(t), y: e.y + n * Math.sin(t) &#125;;</span><br><span class="line">&#125;</span><br><span class="line">function createParticule(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = colors[anime.random(0, colors.length - 1)]),</span><br><span class="line">    (a.radius = anime.random(16, 32)),</span><br><span class="line">    (a.endPos = setParticuleDirection(a)),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.fillStyle = a.color),</span><br><span class="line">        ctx.fill();</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function createCircle(e, t) &#123;</span><br><span class="line">  var a = &#123;&#125;;</span><br><span class="line">  return (</span><br><span class="line">    (a.x = e),</span><br><span class="line">    (a.y = t),</span><br><span class="line">    (a.color = &quot;#F00&quot;),</span><br><span class="line">    (a.radius = 0.1),</span><br><span class="line">    (a.alpha = 0.5),</span><br><span class="line">    (a.lineWidth = 6),</span><br><span class="line">    (a.draw = function () &#123;</span><br><span class="line">      (ctx.globalAlpha = a.alpha),</span><br><span class="line">        ctx.beginPath(),</span><br><span class="line">        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),</span><br><span class="line">        (ctx.lineWidth = a.lineWidth),</span><br><span class="line">        (ctx.strokeStyle = a.color),</span><br><span class="line">        ctx.stroke(),</span><br><span class="line">        (ctx.globalAlpha = 1);</span><br><span class="line">    &#125;),</span><br><span class="line">    a</span><br><span class="line">  );</span><br><span class="line">&#125;</span><br><span class="line">function renderParticule(e) &#123;</span><br><span class="line">  for (var t = 0; t &lt; e.animatables.length; t++) &#123;</span><br><span class="line">    e.animatables[t].target.draw();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">function animateParticules(e, t) &#123;</span><br><span class="line">  for (var a = createCircle(e, t), n = [], i = 0; i &lt; numberOfParticules; i++) &#123;</span><br><span class="line">    n.push(createParticule(e, t));</span><br><span class="line">  &#125;</span><br><span class="line">  anime</span><br><span class="line">    .timeline()</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: n,</span><br><span class="line">      x: function (e) &#123;</span><br><span class="line">        return e.endPos.x;</span><br><span class="line">      &#125;,</span><br><span class="line">      y: function (e) &#123;</span><br><span class="line">        return e.endPos.y;</span><br><span class="line">      &#125;,</span><br><span class="line">      radius: 0.1,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">    &#125;)</span><br><span class="line">    .add(&#123;</span><br><span class="line">      targets: a,</span><br><span class="line">      radius: anime.random(80, 160),</span><br><span class="line">      lineWidth: 0,</span><br><span class="line">      alpha: &#123; value: 0, easing: &quot;linear&quot;, duration: anime.random(600, 800) &#125;,</span><br><span class="line">      duration: anime.random(1200, 1800),</span><br><span class="line">      easing: &quot;easeOutExpo&quot;,</span><br><span class="line">      update: renderParticule,</span><br><span class="line">      offset: 0,</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line">function debounce(e, t) &#123;</span><br><span class="line">  var a;</span><br><span class="line">  return function () &#123;</span><br><span class="line">    var n = this,</span><br><span class="line">      i = arguments;</span><br><span class="line">    clearTimeout(a),</span><br><span class="line">      (a = setTimeout(function () &#123;</span><br><span class="line">        e.apply(n, i);</span><br><span class="line">      &#125;, t));</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line">var canvasEl = document.querySelector(&quot;.fireworks&quot;);</span><br><span class="line">if (canvasEl) &#123;</span><br><span class="line">  var ctx = canvasEl.getContext(&quot;2d&quot;),</span><br><span class="line">    numberOfParticules = 30,</span><br><span class="line">    pointerX = 0,</span><br><span class="line">    pointerY = 0,</span><br><span class="line">    tap = &quot;mousedown&quot;,</span><br><span class="line">    colors = [&quot;#FF1461&quot;, &quot;#18FF92&quot;, &quot;#5A87FF&quot;, &quot;#FBF38C&quot;],</span><br><span class="line">    setCanvasSize = debounce(function () &#123;</span><br><span class="line">      (canvasEl.width = 2 * window.innerWidth),</span><br><span class="line">        (canvasEl.height = 2 * window.innerHeight),</span><br><span class="line">        (canvasEl.style.width = window.innerWidth + &quot;px&quot;),</span><br><span class="line">        (canvasEl.style.height = window.innerHeight + &quot;px&quot;),</span><br><span class="line">        canvasEl.getContext(&quot;2d&quot;).scale(2, 2);</span><br><span class="line">    &#125;, 500),</span><br><span class="line">    render = anime(&#123;</span><br><span class="line">      duration: 1 / 0,</span><br><span class="line">      update: function () &#123;</span><br><span class="line">        ctx.clearRect(0, 0, canvasEl.width, canvasEl.height);</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">  document.addEventListener(</span><br><span class="line">    tap,</span><br><span class="line">    function (e) &#123;</span><br><span class="line">      &quot;sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;toggle-sidebar&quot; !== e.target.id &amp;&amp;</span><br><span class="line">        &quot;A&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        &quot;IMG&quot; !== e.target.nodeName &amp;&amp;</span><br><span class="line">        (render.play(), updateCoords(e), animateParticules(pointerX, pointerY));</span><br><span class="line">    &#125;,</span><br><span class="line">    !1</span><br><span class="line">  ),</span><br><span class="line">    setCanvasSize(),</span><br><span class="line">    window.addEventListener(&quot;resize&quot;, setCanvasSize, !1);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="2-在-themes-你选择的主题-layout-layout-swig-下添加："><a href="#2-在-themes-你选择的主题-layout-layout-swig-下添加：" class="headerlink" title="2.在 themes/你选择的主题/layout/layout.swig 下添加："></a>2.在 themes/你选择的主题/layout/layout.swig 下添加：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;canvas class=&quot;fireworks&quot; style=&quot;position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;&quot; &gt;&lt;/canvas&gt; </span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/animejs/2.2.0/anime.min.js&quot;&gt;&lt;/script&gt; </span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/js/firework.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>烟花</tag>
       </tags>
   </entry>
 </search>
