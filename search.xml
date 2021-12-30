@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>My-first-blog</title>
-    <url>/2021/11/28/My-first-blog/</url>
-    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
-<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
-<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹"><a href="#在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹" class="headerlink" title="在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹"></a>在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹</h3><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxeiwgxr8aj30gn08241r.jpg" alt="image.png"></p>
-<h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
-<p>可以增加点击爆炸效果</p>
-<p>升级博客右下角动漫人物</p>
-<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
-<p>增加分享功能：参考如下链接</p>
-<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>小徐</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>c环境配置</title>
     <url>/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="vscode下编写c程序"><a href="#vscode下编写c程序" class="headerlink" title="vscode下编写c程序"></a><center>vscode下编写c程序</center></h1><h3 id="下载gcc编译器"><a href="#下载gcc编译器" class="headerlink" title="下载gcc编译器"></a>下载gcc编译器</h3><p>使用的是直接解压使用版本的，放在u盘里面了。添加bin目录到path环境变量下（用户变量下即可）</p>
@@ -44,6 +23,27 @@
       </tags>
   </entry>
   <entry>
+    <title>My-first-blog</title>
+    <url>/2021/11/28/My-first-blog/</url>
+    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
+<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
+<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹"><a href="#在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹" class="headerlink" title="在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹"></a>在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹</h3><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxeiwgxr8aj30gn08241r.jpg" alt="image.png"></p>
+<h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
+<p>可以增加点击爆炸效果</p>
+<p>升级博客右下角动漫人物</p>
+<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
+<p>增加分享功能：参考如下链接</p>
+<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>小徐</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>linux命令学习</title>
     <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>查看linux版本命令: uname -a</p>
@@ -51,33 +51,6 @@
 ]]></content>
       <tags>
         <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ubuntu修改conda镜像源</title>
-    <url>/2021/12/18/ubuntu%E4%BF%AE%E6%94%B9conda%E9%95%9C%E5%83%8F%E6%BA%90/</url>
-    <content><![CDATA[<h1 id="ubuntu20-04桌面版安装pytorch总因为网络出错"><a href="#ubuntu20-04桌面版安装pytorch总因为网络出错" class="headerlink" title="ubuntu20.04桌面版安装pytorch总因为网络出错"></a>ubuntu20.04桌面版安装pytorch总因为网络出错</h1><p>修改/etc/apt/sources.list更换镜像源无效</p>
-<p>后来发现conda单独修改镜像源才可以：</p>
-<h2 id="1-打开-condarc文件"><a href="#1-打开-condarc文件" class="headerlink" title="1.打开.condarc文件"></a>1.打开.condarc文件</h2><p>Ubuntu主界面打开终端，执行命令，打开.condarc文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo gedit ~/.condarc</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="2-修改-condarc文件内容"><a href="#2-修改-condarc文件内容" class="headerlink" title="2.修改.condarc文件内容"></a>2.修改.condarc文件内容</h2><p>将以下代码复制到.condarc文件中，然后点击保存</p>
-<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="symbol">channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - defaults</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">show_channel_urls:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">channel_alias:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">default_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/main</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/free</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/r</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/pro</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/msys</span>2</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">custom_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  conda-<span class="symbol">forge:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  msys2: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  bioconda: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  menpo: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  pytorch: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  simpleitk: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="3-删除索引缓存"><a href="#3-删除索引缓存" class="headerlink" title="3.删除索引缓存"></a>3.删除索引缓存</h2><p>终端执行命令</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">conda clean -<span class="selector-tag">i</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="4-重启"><a href="#4-重启" class="headerlink" title="4.重启"></a>4.重启</h2><p>以上步骤完成后，一定要重启！！</p>
-<p>亲测可用！</p>
-]]></content>
-      <tags>
-        <tag>conda</tag>
       </tags>
   </entry>
   <entry>
@@ -259,6 +232,52 @@
       </tags>
   </entry>
   <entry>
+    <title>为博客代码块增加复制按钮！</title>
+    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
+<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
+<span id="more"></span>
+
+<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
+<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
+<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
+<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ubuntu修改conda镜像源</title>
+    <url>/2021/12/18/ubuntu%E4%BF%AE%E6%94%B9conda%E9%95%9C%E5%83%8F%E6%BA%90/</url>
+    <content><![CDATA[<h1 id="ubuntu20-04桌面版安装pytorch总因为网络出错"><a href="#ubuntu20-04桌面版安装pytorch总因为网络出错" class="headerlink" title="ubuntu20.04桌面版安装pytorch总因为网络出错"></a>ubuntu20.04桌面版安装pytorch总因为网络出错</h1><p>修改/etc/apt/sources.list更换镜像源无效</p>
+<p>后来发现conda单独修改镜像源才可以：</p>
+<h2 id="1-打开-condarc文件"><a href="#1-打开-condarc文件" class="headerlink" title="1.打开.condarc文件"></a>1.打开.condarc文件</h2><p>Ubuntu主界面打开终端，执行命令，打开.condarc文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo gedit ~/.condarc</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-修改-condarc文件内容"><a href="#2-修改-condarc文件内容" class="headerlink" title="2.修改.condarc文件内容"></a>2.修改.condarc文件内容</h2><p>将以下代码复制到.condarc文件中，然后点击保存</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="symbol">channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - defaults</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">show_channel_urls:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">channel_alias:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">default_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/main</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/free</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/r</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/pro</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/msys</span>2</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">custom_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  conda-<span class="symbol">forge:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  msys2: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  bioconda: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  menpo: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  pytorch: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  simpleitk: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="3-删除索引缓存"><a href="#3-删除索引缓存" class="headerlink" title="3.删除索引缓存"></a>3.删除索引缓存</h2><p>终端执行命令</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">conda clean -<span class="selector-tag">i</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="4-重启"><a href="#4-重启" class="headerlink" title="4.重启"></a>4.重启</h2><p>以上步骤完成后，一定要重启！！</p>
+<p>亲测可用！</p>
+]]></content>
+      <tags>
+        <tag>conda</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用树莓派3B+搭建局域网文件服务器</title>
     <url>/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     <content><![CDATA[<h1 id="使用树莓派3B-搭建局域网文件服务器！"><a href="#使用树莓派3B-搭建局域网文件服务器！" class="headerlink" title="使用树莓派3B+搭建局域网文件服务器！"></a><center>使用树莓派3B+搭建局域网文件服务器！</center></h1><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeiaikemhj30zn0pc7bw.jpg" alt="屏幕截图 2021-12-15 122129.png"></p>
@@ -280,30 +299,28 @@
 <h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>树莓派负载小，配置完以后显示器也不需要连接，就可以实现各个操作系统以及平台的文件共享，效果还是不错的！</p>
 <p>文件的传输速度受到树莓派3B+没有usb3.0接口的影响，以后搭建家里用的nas可以考虑升级固态和新接口平台！</p>
 <p>至于改进的地方：风扇并不是温控的，有噪声，可以考虑改成温控的。3代树莓派通电就开机，可以尝试接入开关电源，或者加入按键按钮改写代码，网上有人已经实现了，用按钮开关连接两个引脚。</p>
-<h2 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h2><h2 id="https-blog-csdn-net-zlllg-article-details-88547648"><a href="#https-blog-csdn-net-zlllg-article-details-88547648" class="headerlink" title="https://blog.csdn.net/zlllg/article/details/88547648"></a><a href="https://blog.csdn.net/zlllg/article/details/88547648">https://blog.csdn.net/zlllg/article/details/88547648</a></h2><p>​           </p>
-]]></content>
+<h2 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h2><h2 id="https-blog-csdn-net-zlllg-article-details-88547648"><a href="#https-blog-csdn-net-zlllg-article-details-88547648" class="headerlink" title="https://blog.csdn.net/zlllg/article/details/88547648"></a><a href="https://blog.csdn.net/zlllg/article/details/88547648">https://blog.csdn.net/zlllg/article/details/88547648</a></h2>]]></content>
       <tags>
         <tag>树莓派</tag>
         <tag>samba局域网文件服务器</tag>
       </tags>
   </entry>
   <entry>
-    <title>为博客代码块增加复制按钮！</title>
-    <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
-    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
-<p>之前博客文章出现代码块内容不可复制，于是就给它进行完善一下</p>
-<span id="more"></span>
+    <title>文章加密</title>
+    <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
+    <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>搜寻资料意外发现next主题自带了复制按钮的功能，搜索关键字copy找到对应的位置如下</p>
-<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8lvivgbj30c7040t9q.jpg"></p>
-<p>enable是复制按钮的开关，第二个字段不开会不知道复制成功不成功的效果。（开启以后的点击按钮会显示一个对号）</p>
-<p>style这三种风格，随便选取一种就好了，我选择了mac,效果就是封面图，至此已经完成！</p>
+<p>之后，在你想要加密的文章的头文件里添加上<code>password: xxxxxx </code>即可。</p>
+<h3 id="二-也是我自己采用的加密方法：装插件"><a href="#二-也是我自己采用的加密方法：装插件" class="headerlink" title="二.也是我自己采用的加密方法：装插件"></a>二.也是我自己采用的加密方法：装插件</h3><h4 id="1-npm-install-–save-hexo-blog-encrypt"><a href="#1-npm-install-–save-hexo-blog-encrypt" class="headerlink" title="1.npm install –save hexo-blog-encrypt"></a>1.npm install –save hexo-blog-encrypt</h4><h4 id="2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可："><a href="#2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可：" class="headerlink" title="2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 password 字段即可："></a>2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 <code>password</code> 字段即可：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2021-04-13 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-在Hexo主配置文件-config-yml-中添加如下配置："><a href="#3-在Hexo主配置文件-config-yml-中添加如下配置：" class="headerlink" title="3.在Hexo主配置文件 _config.yml 中添加如下配置："></a>3.在Hexo主配置文件 <code>_config.yml</code> 中添加如下配置：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br><span class="line">  abstract: 这是一篇加密文章，需要密码才能继续阅读。</span><br><span class="line">  message: 当前文章暂不对外可见，请输入密码后查看！</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: private, password: hello&#125;</span><br><span class="line">  wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。</span><br><span class="line">  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。</span><br></pre></td></tr></table></figure>
+
+<p>就可以按照标签类加密</p>
+<p>进阶教程：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></p>
 ]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
       <tags>
         <tag>教程</tag>
+        <tag>加密</tag>
       </tags>
   </entry>
   <entry>
@@ -352,21 +369,39 @@
       </tags>
   </entry>
   <entry>
-    <title>文章加密</title>
-    <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
-    <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+    <title>自建图床</title>
+    <url>/2021/12/30/%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A/</url>
+    <content><![CDATA[<h2 id="使用chevereto-PicGo-云服务器搭建自己的图床！"><a href="#使用chevereto-PicGo-云服务器搭建自己的图床！" class="headerlink" title="使用chevereto+PicGo+云服务器搭建自己的图床！"></a>使用chevereto+PicGo+云服务器搭建自己的图床！</h2><p><img src="http://pic.cutexin.cn/images/2021/12/30/202112301106952.png" alt="image-20211230110612031"></p>
+<span id="more"></span>
 
-<p>之后，在你想要加密的文章的头文件里添加上<code>password: xxxxxx </code>即可。</p>
-<h3 id="二-也是我自己采用的加密方法：装插件"><a href="#二-也是我自己采用的加密方法：装插件" class="headerlink" title="二.也是我自己采用的加密方法：装插件"></a>二.也是我自己采用的加密方法：装插件</h3><h4 id="1-npm-install-–save-hexo-blog-encrypt"><a href="#1-npm-install-–save-hexo-blog-encrypt" class="headerlink" title="1.npm install –save hexo-blog-encrypt"></a>1.npm install –save hexo-blog-encrypt</h4><h4 id="2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可："><a href="#2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可：" class="headerlink" title="2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 password 字段即可："></a>2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 <code>password</code> 字段即可：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2021-04-13 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>之前一直使用的都是微博图床来放置自己博客里的图片，总觉得不太安全，于是就自己动手在云服务器上搭建自己的图床</p>
+<p>服务器基础环境是Ubuntu+lnmp，安装宝塔。添加站点，使用二级域名。去chevereto<a href="https://github.com/rodber/chevereto-free">官网</a>下载压缩包，Release选择截至目前最新版本的1.6.1出现问题（打不开域名），最终选择之前版本1.4.1，测试没问题</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112301121435.png" alt="image-20211230112107385"></p>
+<p>选择tar.gz下载，然后上传到服务器网站根目录下面，删除原有文件，解压后剪切子文件到根目录</p>
+<p>安装ssl证书，修改伪静态添加如下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line"></span><br><span class="line">try_files $uri $uri/ /index.php?$query_string;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h4 id="3-在Hexo主配置文件-config-yml-中添加如下配置："><a href="#3-在Hexo主配置文件-config-yml-中添加如下配置：" class="headerlink" title="3.在Hexo主配置文件 _config.yml 中添加如下配置："></a>3.在Hexo主配置文件 <code>_config.yml</code> 中添加如下配置：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br><span class="line">  abstract: 这是一篇加密文章，需要密码才能继续阅读。</span><br><span class="line">  message: 当前文章暂不对外可见，请输入密码后查看！</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: private, password: hello&#125;</span><br><span class="line">  wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。</span><br><span class="line">  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。</span><br></pre></td></tr></table></figure>
+<p>保存，重启nginx。</p>
+<p>此时就可以打开域名进行安装了，设置好数据库用户名即可。</p>
+<p>下载PicGo工具：</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112301128226.png" alt="image-20211230112844145"></p>
+<p>直接从typora偏好设置里点击下载就会自动打开官网选择对应版本下载安装即可。然后配置改成上图</p>
+<p>打开Picgo,下载chevereto插件，配置端口号36677，设置开机自启，开启时间戳重命名，避免图片名相同造成上传失败</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112301132543.png" alt="image-20211230113224504"></p>
+<p>设置其为默认图床，填写url和key</p>
+<p>url为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://你的域名/api/1/upload</span><br></pre></td></tr></table></figure>
 
-<p>就可以按照标签类加密</p>
-<p>进阶教程：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></p>
+<p>key在chevereto里仪表盘-设置-api里能查看到</p>
+<p>设置chevereto为默认图床</p>
+<p>最后设置chevereto上传大小（设置-图片上传）：</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112301136836.png" alt="image-20211230113658781"></p>
+<p>最后可以安装一个压缩图片的工具utools方便使用</p>
+<p>搞定！</p>
 ]]></content>
       <tags>
         <tag>教程</tag>
-        <tag>加密</tag>
+        <tag>图床</tag>
       </tags>
   </entry>
   <entry>
