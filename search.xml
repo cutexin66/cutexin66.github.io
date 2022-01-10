@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My-first-blog</title>
+    <url>/2021/11/28/My-first-blog/</url>
+    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
+<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
+<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹"><a href="#在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹" class="headerlink" title="在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹"></a>在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹</h3><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxeiwgxr8aj30gn08241r.jpg" alt="image.png"></p>
+<h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
+<p>可以增加点击爆炸效果</p>
+<p>升级博客右下角动漫人物</p>
+<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
+<p>增加分享功能：参考如下链接</p>
+<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>小徐</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>c环境配置</title>
     <url>/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="vscode下编写c程序"><a href="#vscode下编写c程序" class="headerlink" title="vscode下编写c程序"></a><center>vscode下编写c程序</center></h1><h3 id="下载gcc编译器"><a href="#下载gcc编译器" class="headerlink" title="下载gcc编译器"></a>下载gcc编译器</h3><p>使用的是直接解压使用版本的，放在u盘里面了。添加bin目录到path环境变量下（用户变量下即可）</p>
@@ -23,24 +44,35 @@
       </tags>
   </entry>
   <entry>
-    <title>My-first-blog</title>
-    <url>/2021/11/28/My-first-blog/</url>
-    <content><![CDATA[<h1 id="小徐的第一篇博客！"><a href="#小徐的第一篇博客！" class="headerlink" title="小徐的第一篇博客！"></a><center>小徐的第一篇博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwvxiq7p9nj31ww2pg431.jpg" alt="机器猫"></p>
-<h3 id="links-链接-视频链接"><a href="#links-链接-视频链接" class="headerlink" title="links:链接 视频链接"></a><span id="more"></span>links:链接 <a href="https://www.bilibili.com/video/BV16W411t7mq?p=16">视频链接</a></h3><p>&nbsp;    动态背景canvas</p>
-<h3 id="avatar-头像设置圆形可旋转"><a href="#avatar-头像设置圆形可旋转" class="headerlink" title="avatar:头像设置圆形可旋转"></a>avatar:头像设置圆形可旋转</h3><h3 id="social-启用侧边栏社交"><a href="#social-启用侧边栏社交" class="headerlink" title="social:启用侧边栏社交"></a>social:启用侧边栏社交</h3><h3 id="reward：开启打赏功能"><a href="#reward：开启打赏功能" class="headerlink" title="reward：开启打赏功能"></a>reward：开启打赏功能</h3><h3 id="wechat-subscriber-开启微信公众号订阅"><a href="#wechat-subscriber-开启微信公众号订阅" class="headerlink" title="wechat_subscriber: 开启微信公众号订阅"></a>wechat_subscriber: 开启微信公众号订阅</h3><h3 id="使用-lt-–-–-gt-不展示全文"><a href="#使用-lt-–-–-gt-不展示全文" class="headerlink" title="使用&lt;!– –&gt;:不展示全文"></a>使用&lt;!– –&gt;:不展示全文</h3><h3 id="valine开启评论功能：-leancloud认证d20153185-163-com-leancloud"><a href="#valine开启评论功能：-leancloud认证d20153185-163-com-leancloud" class="headerlink" title="valine开启评论功能： leancloud认证d20153185@163.com leancloud"></a>valine开启评论功能： leancloud认证d20153185@163.com <a href="https://console.leancloud.cn/apps/ITJC4UqpXPsM1zFhTo31z0I6-gzGzoHsz/settings/keys">leancloud</a></h3><h3 id="local-search-本地搜索"><a href="#local-search-本地搜索" class="headerlink" title="local_search:本地搜索"></a>local_search:本地搜索</h3><h3 id="pace加载效果"><a href="#pace加载效果" class="headerlink" title="pace加载效果"></a>pace加载效果</h3><h3 id="powered-强力驱动隐藏"><a href="#powered-强力驱动隐藏" class="headerlink" title="powered:强力驱动隐藏"></a>powered:强力驱动隐藏</h3><h3 id="主题配置文件里busuanzi开启阅读数统计"><a href="#主题配置文件里busuanzi开启阅读数统计" class="headerlink" title="主题配置文件里busuanzi开启阅读数统计"></a>主题配置文件里busuanzi开启阅读数统计</h3><h3 id="在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹"><a href="#在hexo配置文件中34行后有一个post-asset-folder-false-true就是hexo-n-一个md文件时也建立一个相应的文件夹" class="headerlink" title="在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹"></a>在hexo配置文件中34行后有一个post_asset_folder: false#true就是hexo n 一个md文件时也建立一个相应的文件夹</h3><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxeiwgxr8aj30gn08241r.jpg" alt="image.png"></p>
-<h3 id="需要改进的地方："><a href="#需要改进的地方：" class="headerlink" title="需要改进的地方："></a>需要改进的地方：</h3><p>addthis的分享功能：<a href="https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings%E4%BB%A5%E5%8F%8A">https://www.addthis.com/dashboard#profile-options/ra-61a434230ffe63e1/general-settings以及</a> jiathis的分享功能不起作用</p>
-<p>可以增加点击爆炸效果</p>
-<p>升级博客右下角动漫人物</p>
-<p>字数统计阅读时长<a href="https://blog.csdn.net/qq_44082148/article/details/105701427">参考</a><br>&amp;nbsp; 不断行空格 &amp;ensp; 英文空格 &amp;emsp;中文空格<br>进阶博客：<a href="http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid">http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d/#hexo-uuid</a></p>
-<p>增加分享功能：参考如下链接</p>
-<p><a href="https://github.com/theme-next/hexo-next-share">https://github.com/theme-next/hexo-next-share</a></p>
+    <title>ios翻墙</title>
+    <url>/2021/12/31/ios%E7%BF%BB%E5%A2%99/</url>
+    <content><![CDATA[<p><strong>一、无需国外ID，利用TestFlight安装Fair Plus 2（免费）</strong></p>
+<p>先在苹果机上点击并安装<a href="https://apps.apple.com/us/app/testflight/id899247664">TestFlight</a>软件，TestFlight下载地址：<a href="https://apps.apple.com/us/app/testflight/id899247664">https</a> ://apps.apple.com/us/app/testflight/id899247664</p>
+<p>然后安装<a href="https://testflight.apple.com/join/sdBZzV82">Fair Plus 2</a>，Fair Plus 2 下载地址：<a href="https://testflight.apple.com/join/sdBZzV82%EF%BC%88%E5%BC%80%E5%8F%91%E8%80%85%E6%9A%82%E5%81%9C%E4%BA%86%E6%96%B0%E7%94%A8%E6%88%B7%E5%8A%A0%E5%85%A5%EF%BC%8C%E8%BF%87%E6%AE%B5%E6%97%B6%E9%97%B4%E7%9C%8B%E7%9C%8B%E6%83%85%E5%86%B5%E5%86%8D%E6%89%93%E5%BC%80%EF%BC%89">https://testflight.apple.com/join/sdBZzV82（开发者暂停了新用户加入，过段时间看看情况再打开）</a></p>
+<p>安装 TestFlight 之后，用 saf 浏览器打开开启 VPN 下载地址，在弹出的页面中点击加入此 Beta 版本的“开始测试”。</p>
+<p>注：Fair Plus 2 的前身为 Fair VPN。TestFlight 孔雀三个月，我们会发布新版，请及时更新。下载过 VPN 软件的用户，到时候可以在 TestFlight 软件里面进行 VPN 更新。</p>
+<p>软件分两部分，部分是浏览器（可看新闻网站，手指长按屏幕往下可切换网站），另一部分是VPN设置。VPN设置。从上往下点击是VPN按钮、4种添加VPN节点方法。我们以最后一个获取免费VPN为例。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310933420.png" alt="image-20211231093328299"></p>
+<p>点击之后，会出现3个免费获取节点地址，以第1个为演示。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934891.png" alt="image-20211231093401808"></p>
+<p>导入节点启动后，某个节点，第一次使用会弹出是否允许VPN提醒，点击。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934253.png" alt="image-20211231093449158"></p>
+<p>如果免费账号不能正常使用，还有半年是账号失效了，可以删除后重新获取。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310935047.png" alt="image-20211231093532976"></p>
 ]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
       <tags>
-        <tag>小徐</tag>
-        <tag>前端</tag>
+        <tag>教程</tag>
+        <tag>ios翻墙</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux命令学习</title>
+    <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>查看linux版本命令: uname -a</p>
+<p>DHCP（Dynamic Host Configuration Protocal）:动态主机配置协议。是一个简化主机IP地址分配的TCP/IP协议。保证ip地址不重复分配，也能及时回收ip地址以提高IP地址的利用率。采用DHCP的方法配置计算机IP地址的方案称为动态IP地址。DHCP采用的是客户/服务器模式（Client/Server）。</p>
+]]></content>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -130,136 +162,6 @@
       <tags>
         <tag>mongodb</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>linux命令学习</title>
-    <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>查看linux版本命令: uname -a</p>
-<p>DHCP（Dynamic Host Configuration Protocal）:动态主机配置协议。是一个简化主机IP地址分配的TCP/IP协议。保证ip地址不重复分配，也能及时回收ip地址以提高IP地址的利用率。采用DHCP的方法配置计算机IP地址的方案称为动态IP地址。DHCP采用的是客户/服务器模式（Client/Server）。</p>
-]]></content>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ios翻墙</title>
-    <url>/2021/12/31/ios%E7%BF%BB%E5%A2%99/</url>
-    <content><![CDATA[<p><strong>一、无需国外ID，利用TestFlight安装Fair Plus 2（免费）</strong></p>
-<p>先在苹果机上点击并安装<a href="https://apps.apple.com/us/app/testflight/id899247664">TestFlight</a>软件，TestFlight下载地址：<a href="https://apps.apple.com/us/app/testflight/id899247664">https</a> ://apps.apple.com/us/app/testflight/id899247664</p>
-<p>然后安装<a href="https://testflight.apple.com/join/sdBZzV82">Fair Plus 2</a>，Fair Plus 2 下载地址：<a href="https://testflight.apple.com/join/sdBZzV82%EF%BC%88%E5%BC%80%E5%8F%91%E8%80%85%E6%9A%82%E5%81%9C%E4%BA%86%E6%96%B0%E7%94%A8%E6%88%B7%E5%8A%A0%E5%85%A5%EF%BC%8C%E8%BF%87%E6%AE%B5%E6%97%B6%E9%97%B4%E7%9C%8B%E7%9C%8B%E6%83%85%E5%86%B5%E5%86%8D%E6%89%93%E5%BC%80%EF%BC%89">https://testflight.apple.com/join/sdBZzV82（开发者暂停了新用户加入，过段时间看看情况再打开）</a></p>
-<p>安装 TestFlight 之后，用 saf 浏览器打开开启 VPN 下载地址，在弹出的页面中点击加入此 Beta 版本的“开始测试”。</p>
-<p>注：Fair Plus 2 的前身为 Fair VPN。TestFlight 孔雀三个月，我们会发布新版，请及时更新。下载过 VPN 软件的用户，到时候可以在 TestFlight 软件里面进行 VPN 更新。</p>
-<p>软件分两部分，部分是浏览器（可看新闻网站，手指长按屏幕往下可切换网站），另一部分是VPN设置。VPN设置。从上往下点击是VPN按钮、4种添加VPN节点方法。我们以最后一个获取免费VPN为例。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310933420.png" alt="image-20211231093328299"></p>
-<p>点击之后，会出现3个免费获取节点地址，以第1个为演示。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934891.png" alt="image-20211231093401808"></p>
-<p>导入节点启动后，某个节点，第一次使用会弹出是否允许VPN提醒，点击。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934253.png" alt="image-20211231093449158"></p>
-<p>如果免费账号不能正常使用，还有半年是账号失效了，可以删除后重新获取。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310935047.png" alt="image-20211231093532976"></p>
-]]></content>
-      <tags>
-        <tag>教程</tag>
-        <tag>ios翻墙</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>p5000环境安装</title>
-    <url>/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/</url>
-    <content><![CDATA[<h1 id="配置深度学习p5000服务器"><a href="#配置深度学习p5000服务器" class="headerlink" title="配置深度学习p5000服务器"></a><center>配置深度学习p5000服务器</center></h1><h3 id="1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc"><a href="#1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc" class="headerlink" title="1、安装Ubuntu20.04桌面版：https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc"></a>1、安装Ubuntu20.04桌面版：<a href="https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc</a></h3><h3 id="2、终端输入python3，发现系统自带了python3-8-10"><a href="#2、终端输入python3，发现系统自带了python3-8-10" class="headerlink" title="2、终端输入python3，发现系统自带了python3.8.10"></a>2、终端输入python3，发现系统自带了python3.8.10</h3><h3 id="3、配置清华园-测试无效，这里提供思路可以借鉴"><a href="#3、配置清华园-测试无效，这里提供思路可以借鉴" class="headerlink" title="3、配置清华园(测试无效，这里提供思路可以借鉴)"></a>3、配置清华园(测试无效，这里提供思路可以借鉴)</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#备份文件</span><br><span class="line">sudo cp /etc/apt/sources.list /home/sources.list.bk</span><br><span class="line">#删除</span><br><span class="line">sudo rm -rf /etc/apt/sources.list</span><br><span class="line">#写入</span><br><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>写入如下内容：
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span><br><span class="line"></span><br><span class="line"># 预发布软件源，不建议启用</span><br><span class="line"># deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>保存退出，最后别忘了：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
-
-<h3 id="4、p5000是Nvidia-Quadro-系列，下载对应系统下run文件（亲测没用）"><a href="#4、p5000是Nvidia-Quadro-系列，下载对应系统下run文件（亲测没用）" class="headerlink" title="4、p5000是Nvidia Quadro 系列，下载对应系统下run文件（亲测没用）"></a>4、p5000是Nvidia Quadro 系列，下载对应系统下run文件（亲测没用）</h3><p>禁用nouveau，这是系统自带的驱动：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo gedit /etc/modprobe.d/blacklist.conf</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>在文本最后添加以下内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">blacklist nouveau</span><br><span class="line">option nouveau modeset=0</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>命令窗口会提示warn，无视之。</p>
-<p>保存退出，执行以下命令生效：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo update-initramfs -u</span><br></pre></td></tr></table></figure>
-
-<p>重启电脑后输入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lsmod | grep nouveau</span><br></pre></td></tr></table></figure>
-
-<p>没有任何输出说明禁用成功。</p>
-<p>在驱动文件所在的文件夹打开终端</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo bash NVIDIA-Linux-x86_64-450.66.run</span><br></pre></td></tr></table></figure>
-
-<p>安装出错</p>
-<p>将镜像改回默认</p>
-<p><strong>update后upgrate必须要做！</strong></p>
-<p>通过</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Ubuntu-drivers devicces</span><br></pre></td></tr></table></figure>
-
-<p>Ubuntu自己检测nVidia的显卡可选驱动，并用recommend标出推荐，p5000是470</p>
-<p>与之前查询一致</p>
-<p>之间通过命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo ubuntu-drivers autoinstall</span><br></pre></td></tr></table></figure>
-
-<p>等待Ubuntu自己安装驱动，并把最新版cuda 一并安装好</p>
-<h3 id="5、安装anaconda"><a href="#5、安装anaconda" class="headerlink" title="5、安装anaconda"></a>5、安装anaconda</h3><p><a href="http://www.anaconda.com/products/individual%E4%B8%8B%E8%BD%BDlinux">www.anaconda.com/products/individual下载linux</a> python3.9版本</p>
-<p>下好后cd到文件下载目录，用bash安装</p>
-<p>安装好后修改环境变量（没装vim?我用的sudo nano亲测没问题）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vim ~/.bashrc</span><br></pre></td></tr></table></figure>
-
-<p>添加</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/home/administrator/anaconda3/bin:$PATH&quot;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
-
-<p>最后检查一下是否安装成功</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">conda -V</span><br></pre></td></tr></table></figure>
-
-<p>结果conda4.10.3,完成</p>
-<p>输入python3发现是anaconda里的python版本</p>
-<p>介绍一下conda里常用命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#创建虚拟环境</span><br><span class="line">conda create -n your_env_name python=X.X（3.6、3.7等）</span><br><span class="line"> </span><br><span class="line">#激活虚拟环境</span><br><span class="line">source activate your_env_name(虚拟环境名称)</span><br><span class="line"> </span><br><span class="line">#退出虚拟环境</span><br><span class="line">source deactivate your_env_name(虚拟环境名称)</span><br><span class="line"> </span><br><span class="line">#删除虚拟环境</span><br><span class="line">conda remove -n your_env_name(虚拟环境名称) --all</span><br><span class="line"> </span><br><span class="line">#查看安装了哪些包</span><br><span class="line">conda list</span><br><span class="line"> </span><br><span class="line">#安装包</span><br><span class="line">conda install package_name(包名)</span><br><span class="line">conda install scrapy==1.3 # 安装指定版本的包</span><br><span class="line">conda install -n 环境名 包名 # 在conda指定的某个环境中安装包</span><br><span class="line"> </span><br><span class="line">#查看当前存在哪些虚拟环境</span><br><span class="line">conda env list </span><br><span class="line">#或 </span><br><span class="line">conda info -e</span><br><span class="line">#或</span><br><span class="line">conda info --envs</span><br><span class="line"> </span><br><span class="line">#检查更新当前conda</span><br><span class="line">conda update conda</span><br><span class="line"> </span><br><span class="line">#更新anaconda</span><br><span class="line">conda update anaconda</span><br><span class="line"> </span><br><span class="line">#更新所有库</span><br><span class="line">conda update --all</span><br><span class="line"> </span><br><span class="line">#更新python</span><br><span class="line">conda update python</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="6、ifconfig无显示"><a href="#6、ifconfig无显示" class="headerlink" title="6、ifconfig无显示"></a>6、ifconfig无显示</h3><p>执行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt net-tools</span><br><span class="line">#装好后在执行ifconfig得到ip为172.21.32.106</span><br></pre></td></tr></table></figure>
-
-<p>使用putty连接服务器报错connection refused</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service ssh status</span><br></pre></td></tr></table></figure>
-
-<p>提示ssh.service could not found</p>
-<p>安装ssh服务参考：<a href="https://www.cnblogs.com/livelab/p/13033175.html">https://www.cnblogs.com/livelab/p/13033175.html</a></p>
-<p>默认情况下，首次安装Ubuntu时，不允许通过SSH进行远程访问。在Ubuntu上启用SSH非常简单。</p>
-<p>以root 用户或具有sudo特权的用户执行以下步骤，以在Ubuntu系统上安装并启用SSH：</p>
-<p>使用打开终端<code>Ctrl+Alt+T</code>并安装<code>openssh-server</code>软件包：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install openssh-server</span><br></pre></td></tr></table></figure>
-
-<p>出现提示时，输入密码，然后按Enter继续安装。</p>
-<p>安装完成后，SSH服务将自动启动。您可以通过键入以下命令来验证SSH是否正在运行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status ssh</span><br></pre></td></tr></table></figure>
-
-<p>输出应告诉您该服务正在运行，并已启用以在系统引导时启动：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">● ssh.service - OpenBSD Secure Shell server</span><br><span class="line"> Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)</span><br><span class="line"> Active: active (running) since Mon 2020-06-01 12:34:00 CEST; 9h ago</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<p>按<code>q</code>返回到命令行提示符。</p>
-<p>Ubuntu随附了一个名为UFW的防火墙配置工具。如果在系统上启用了防火墙，请确保打开SSH端口：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo ufw allow ssh</span><br></pre></td></tr></table></figure>
-
-<p>现在，可以从任何远程计算机通过SSH连接到Ubuntu系统。Linux和macOS系统默认安装了SSH客户端。要从Windows计算机连接，使用SSH客户端（例如PuTTY）。亲测成功！</p>
-<h3 id="7、使用conda来安装深度学习框架pytorch-避免自己配置cudann等"><a href="#7、使用conda来安装深度学习框架pytorch-避免自己配置cudann等" class="headerlink" title="7、使用conda来安装深度学习框架pytorch,避免自己配置cudann等"></a>7、使用conda来安装深度学习框架pytorch,避免自己配置cudann等</h3><p>去pytorch官网去找下载命令（在自己环境下）</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxfw1g9nelj30lz0aeacz.jpg" alt="image.png"></p>
-<p>装完基本完事</p>
-<h3 id="8、https-www-realvnc-com-en-connect-download-viewer-下载客户端"><a href="#8、https-www-realvnc-com-en-connect-download-viewer-下载客户端" class="headerlink" title="8、https://www.realvnc.com/en/connect/download/viewer/下载客户端"></a>8、<a href="https://www.realvnc.com/en/connect/download/viewer/%E4%B8%8B%E8%BD%BD%E5%AE%A2%E6%88%B7%E7%AB%AF">https://www.realvnc.com/en/connect/download/viewer/下载客户端</a></h3><p>服务器端打开设置-共享-屏幕共享，然后终端运行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gsettings set org.gnome.Vino require-encryption false</span><br></pre></td></tr></table></figure>
-
-<p>这句话是降低安全等级的</p>
-<p>客户端安装vnc Viewer客户端即可</p>
-]]></content>
   </entry>
   <entry>
     <title>ubuntu修改conda镜像源</title>
@@ -419,10 +321,246 @@
       </tags>
   </entry>
   <entry>
+    <title>p5000环境安装</title>
+    <url>/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/</url>
+    <content><![CDATA[<h1 id="配置深度学习p5000服务器"><a href="#配置深度学习p5000服务器" class="headerlink" title="配置深度学习p5000服务器"></a><center>配置深度学习p5000服务器</center></h1><h3 id="1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc"><a href="#1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc" class="headerlink" title="1、安装Ubuntu20.04桌面版：https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc"></a>1、安装Ubuntu20.04桌面版：<a href="https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc</a></h3><h3 id="2、终端输入python3，发现系统自带了python3-8-10"><a href="#2、终端输入python3，发现系统自带了python3-8-10" class="headerlink" title="2、终端输入python3，发现系统自带了python3.8.10"></a>2、终端输入python3，发现系统自带了python3.8.10</h3><h3 id="3、配置清华园-测试无效，这里提供思路可以借鉴"><a href="#3、配置清华园-测试无效，这里提供思路可以借鉴" class="headerlink" title="3、配置清华园(测试无效，这里提供思路可以借鉴)"></a>3、配置清华园(测试无效，这里提供思路可以借鉴)</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#备份文件</span><br><span class="line">sudo cp /etc/apt/sources.list /home/sources.list.bk</span><br><span class="line">#删除</span><br><span class="line">sudo rm -rf /etc/apt/sources.list</span><br><span class="line">#写入</span><br><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>写入如下内容：
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span><br><span class="line">deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span><br><span class="line"></span><br><span class="line"># 预发布软件源，不建议启用</span><br><span class="line"># deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span><br><span class="line"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>保存退出，最后别忘了：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+
+<h3 id="4、p5000是Nvidia-Quadro-系列，下载对应系统下run文件（亲测没用）"><a href="#4、p5000是Nvidia-Quadro-系列，下载对应系统下run文件（亲测没用）" class="headerlink" title="4、p5000是Nvidia Quadro 系列，下载对应系统下run文件（亲测没用）"></a>4、p5000是Nvidia Quadro 系列，下载对应系统下run文件（亲测没用）</h3><p>禁用nouveau，这是系统自带的驱动：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo gedit /etc/modprobe.d/blacklist.conf</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>在文本最后添加以下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">blacklist nouveau</span><br><span class="line">option nouveau modeset=0</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>命令窗口会提示warn，无视之。</p>
+<p>保存退出，执行以下命令生效：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo update-initramfs -u</span><br></pre></td></tr></table></figure>
+
+<p>重启电脑后输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">lsmod | grep nouveau</span><br></pre></td></tr></table></figure>
+
+<p>没有任何输出说明禁用成功。</p>
+<p>在驱动文件所在的文件夹打开终端</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo bash NVIDIA-Linux-x86_64-450.66.run</span><br></pre></td></tr></table></figure>
+
+<p>安装出错</p>
+<p>将镜像改回默认</p>
+<p><strong>update后upgrate必须要做！</strong></p>
+<p>通过</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Ubuntu-drivers devicces</span><br></pre></td></tr></table></figure>
+
+<p>Ubuntu自己检测nVidia的显卡可选驱动，并用recommend标出推荐，p5000是470</p>
+<p>与之前查询一致</p>
+<p>之间通过命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo ubuntu-drivers autoinstall</span><br></pre></td></tr></table></figure>
+
+<p>等待Ubuntu自己安装驱动，并把最新版cuda 一并安装好</p>
+<h3 id="5、安装anaconda"><a href="#5、安装anaconda" class="headerlink" title="5、安装anaconda"></a>5、安装anaconda</h3><p><a href="http://www.anaconda.com/products/individual%E4%B8%8B%E8%BD%BDlinux">www.anaconda.com/products/individual下载linux</a> python3.9版本</p>
+<p>下好后cd到文件下载目录，用bash安装</p>
+<p>安装好后修改环境变量（没装vim?我用的sudo nano亲测没问题）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">vim ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>添加</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/home/administrator/anaconda3/bin:$PATH&quot;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>最后检查一下是否安装成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">conda -V</span><br></pre></td></tr></table></figure>
+
+<p>结果conda4.10.3,完成</p>
+<p>输入python3发现是anaconda里的python版本</p>
+<p>介绍一下conda里常用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#创建虚拟环境</span><br><span class="line">conda create -n your_env_name python=X.X（3.6、3.7等）</span><br><span class="line"> </span><br><span class="line">#激活虚拟环境</span><br><span class="line">source activate your_env_name(虚拟环境名称)</span><br><span class="line"> </span><br><span class="line">#退出虚拟环境</span><br><span class="line">source deactivate your_env_name(虚拟环境名称)</span><br><span class="line"> </span><br><span class="line">#删除虚拟环境</span><br><span class="line">conda remove -n your_env_name(虚拟环境名称) --all</span><br><span class="line"> </span><br><span class="line">#查看安装了哪些包</span><br><span class="line">conda list</span><br><span class="line"> </span><br><span class="line">#安装包</span><br><span class="line">conda install package_name(包名)</span><br><span class="line">conda install scrapy==1.3 # 安装指定版本的包</span><br><span class="line">conda install -n 环境名 包名 # 在conda指定的某个环境中安装包</span><br><span class="line"> </span><br><span class="line">#查看当前存在哪些虚拟环境</span><br><span class="line">conda env list </span><br><span class="line">#或 </span><br><span class="line">conda info -e</span><br><span class="line">#或</span><br><span class="line">conda info --envs</span><br><span class="line"> </span><br><span class="line">#检查更新当前conda</span><br><span class="line">conda update conda</span><br><span class="line"> </span><br><span class="line">#更新anaconda</span><br><span class="line">conda update anaconda</span><br><span class="line"> </span><br><span class="line">#更新所有库</span><br><span class="line">conda update --all</span><br><span class="line"> </span><br><span class="line">#更新python</span><br><span class="line">conda update python</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="6、ifconfig无显示"><a href="#6、ifconfig无显示" class="headerlink" title="6、ifconfig无显示"></a>6、ifconfig无显示</h3><p>执行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt net-tools</span><br><span class="line">#装好后在执行ifconfig得到ip为172.21.32.106</span><br></pre></td></tr></table></figure>
+
+<p>使用putty连接服务器报错connection refused</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">service ssh status</span><br></pre></td></tr></table></figure>
+
+<p>提示ssh.service could not found</p>
+<p>安装ssh服务参考：<a href="https://www.cnblogs.com/livelab/p/13033175.html">https://www.cnblogs.com/livelab/p/13033175.html</a></p>
+<p>默认情况下，首次安装Ubuntu时，不允许通过SSH进行远程访问。在Ubuntu上启用SSH非常简单。</p>
+<p>以root 用户或具有sudo特权的用户执行以下步骤，以在Ubuntu系统上安装并启用SSH：</p>
+<p>使用打开终端<code>Ctrl+Alt+T</code>并安装<code>openssh-server</code>软件包：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install openssh-server</span><br></pre></td></tr></table></figure>
+
+<p>出现提示时，输入密码，然后按Enter继续安装。</p>
+<p>安装完成后，SSH服务将自动启动。您可以通过键入以下命令来验证SSH是否正在运行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo systemctl status ssh</span><br></pre></td></tr></table></figure>
+
+<p>输出应告诉您该服务正在运行，并已启用以在系统引导时启动：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">● ssh.service - OpenBSD Secure Shell server</span><br><span class="line"> Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)</span><br><span class="line"> Active: active (running) since Mon 2020-06-01 12:34:00 CEST; 9h ago</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>按<code>q</code>返回到命令行提示符。</p>
+<p>Ubuntu随附了一个名为UFW的防火墙配置工具。如果在系统上启用了防火墙，请确保打开SSH端口：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo ufw allow ssh</span><br></pre></td></tr></table></figure>
+
+<p>现在，可以从任何远程计算机通过SSH连接到Ubuntu系统。Linux和macOS系统默认安装了SSH客户端。要从Windows计算机连接，使用SSH客户端（例如PuTTY）。亲测成功！</p>
+<h3 id="7、使用conda来安装深度学习框架pytorch-避免自己配置cudann等"><a href="#7、使用conda来安装深度学习框架pytorch-避免自己配置cudann等" class="headerlink" title="7、使用conda来安装深度学习框架pytorch,避免自己配置cudann等"></a>7、使用conda来安装深度学习框架pytorch,避免自己配置cudann等</h3><p>去pytorch官网去找下载命令（在自己环境下）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gxfw1g9nelj30lz0aeacz.jpg" alt="image.png"></p>
+<p>装完基本完事</p>
+<h3 id="8、https-www-realvnc-com-en-connect-download-viewer-下载客户端"><a href="#8、https-www-realvnc-com-en-connect-download-viewer-下载客户端" class="headerlink" title="8、https://www.realvnc.com/en/connect/download/viewer/下载客户端"></a>8、<a href="https://www.realvnc.com/en/connect/download/viewer/%E4%B8%8B%E8%BD%BD%E5%AE%A2%E6%88%B7%E7%AB%AF">https://www.realvnc.com/en/connect/download/viewer/下载客户端</a></h3><p>服务器端打开设置-共享-屏幕共享，然后终端运行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gsettings set org.gnome.Vino require-encryption false</span><br></pre></td></tr></table></figure>
+
+<p>这句话是降低安全等级的</p>
+<p>客户端安装vnc Viewer客户端即可</p>
+]]></content>
+  </entry>
+  <entry>
     <title>云笔记leanote搭建</title>
     <url>/2022/01/10/%E4%BA%91%E7%AC%94%E8%AE%B0leanote%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<h1 id="leanote个人云笔记搭建"><a href="#leanote个人云笔记搭建" class="headerlink" title="leanote个人云笔记搭建"></a>leanote个人云笔记搭建</h1><p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102054651.png" alt="image-20220110205445493"><span id="more"></span></p>
+    <content><![CDATA[<h1 id="ubuntu下leanote个人云笔记搭建"><a href="#ubuntu下leanote个人云笔记搭建" class="headerlink" title="ubuntu下leanote个人云笔记搭建"></a>ubuntu下leanote个人云笔记搭建</h1><p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102054651.png" alt="image-20220110205445493"><span id="more"></span></p>
 <p>工具在pan.cutexin.cn中</p>
+<p>安装mangodb数据库版本过高会出错</p>
+<p>卸载参考博客linux卸载mongodb</p>
+<p>安装步骤:</p>
+<p>下载leanote二进制版。</p>
+<p>安装mongodb。</p>
+<p>导入初始数据。</p>
+<p>配置leanote。</p>
+<p>运行leanote。</p>
+<p>\1. 下载 leanote 二进制版</p>
+<p>由此处下载 leanote 最新二进制版。</p>
+<p>假设将文件下载到/home/user1目录下, 解压文件从而在/home/user1目录下生成leanote目录：</p>
+<p>$&gt; cd /home/user1</p>
+<p>$&gt; tar -xzvf leanote-darwin-amd64.v2.0.bin.tar.gz</p>
+<p>\2. 安装 mongodb</p>
+<p>2.1 安装mongodb</p>
+<p>到 mongodb 官网 下载相应系统的最新版安装包，或者从以下链接下载旧版本：</p>
+<p>64位 linux mongodb 3.0.1 下载链接: <a href="https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.1.tgz">https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.1.tgz</a></p>
+<p>下载到/home/user1下, 直接解压即可:</p>
+<p>$&gt; cd /home/user1</p>
+<p>$&gt; tar -xzvf mongodb-linux-x86_64-3.0.1.tgz/</p>
+<p>为了快速使用mongodb命令, 可以配置环境变量。编辑~/.profile或/etc/profile文件， 将mongodb/bin路径加入即可:</p>
+<p>$&gt; sudo vim /etc/profile</p>
+<p>此处实例使用了vim文本编辑器，你可以使用自己熟悉的编辑器。</p>
+<p>在/etc/profile中添加以下行，注意把用户名（user1）和相应的文件目录名（mongodb-linux-x86_64-3.0.1）替换成自己系统中的名称：</p>
+<p>export PATH=$PATH:/home/user1/mongodb-linux-x86_64-3.0.1/bin</p>
+<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102149754.png" alt="image-20220110214947649"></p>
+<p>保存修改后，在终端运行以下命令使环境变量生效:</p>
+<p>$&gt; source /etc/profile</p>
+<p>2.2 测试mongodb安装</p>
+<p>先在/home/user1下新建一个目录data存放mongodb数据:</p>
+<p>mkdir /home/user1/data</p>
+<p>用以下命令启动mongod:</p>
+<p>mongod –dbpath /home/user1/data</p>
+<p>这时mongod已经启动，重新打开一个终端, 键入mongo进入交互程序：</p>
+<p>$&gt; mongo</p>
+<p>&gt; show dbs</p>
+<p>…数据库列表</p>
+<p>mongodb安装到此为止, 下面为mongodb导入leanote初始数据。</p>
+<p>\3. 导入初始数据</p>
+<p>leanote初始数据存放在/home/user1/leanote/mongodb_backup/leanote_install_data中。</p>
+<p>打开终端， 输入以下命令导入数据。</p>
+<p>$&gt; mongorestore -h localhost -d leanote –dir /home/user1/leanote/mongodb_backup/leanote_install_data/</p>
+<p>现在在mongodb中已经新建了leanote数据库, 可用命令查看下leanote有多少张”表”:</p>
+<p>$&gt; mongo</p>
+<p>&gt; show dbs #　查看数据库</p>
+<p>leanote0.203125GB</p>
+<p>local0.078125GB</p>
+<p>&gt; use leanote # 切换到leanote</p>
+<p>switched to db leanote</p>
+<p>&gt; show collections # 查看表</p>
+<p>files</p>
+<p>has_share_notes</p>
+<p>note_content_histories</p>
+<p>note_contents</p>
+<p>….</p>
+<p>初始数据的users表中已有2个用户:</p>
+<p>user1 username: admin, password: abc123 (管理员, 只有该用户才有权管理后台, 请及时修改密码)</p>
+<p>user2 username: <a href="mailto:&#x64;&#101;&#109;&#x6f;&#x40;&#108;&#101;&#97;&#x6e;&#111;&#116;&#101;&#x2e;&#99;&#x6f;&#109;">&#x64;&#101;&#109;&#x6f;&#x40;&#108;&#101;&#97;&#x6e;&#111;&#116;&#101;&#x2e;&#99;&#x6f;&#109;</a>, password: <a href="mailto:&#100;&#x65;&#109;&#x6f;&#x40;&#108;&#101;&#x61;&#110;&#111;&#116;&#x65;&#46;&#99;&#x6f;&#109;">&#100;&#x65;&#109;&#x6f;&#x40;&#108;&#101;&#x61;&#110;&#111;&#116;&#x65;&#46;&#99;&#x6f;&#109;</a> (仅供体验使用)账号修改</p>
+<p>服务自启动</p>
+<p>一个简单的 leanote 服务脚本sudo vi /etc/systemd/system/leanote.service：</p>
+<p>[Unit]</p>
+<p>Description=Leanote, Not Just A Notepad!</p>
+<p>After=syslog.target network.target mongod.service</p>
+<p>[Service]</p>
+<p>User=root</p>
+<p>ExecStart=/home/ubuntu/leanote/bin/run.sh</p>
+<p>[Install]</p>
+<p>WantedBy=multi-user.target</p>
+<p>之后</p>
+<p>sudo systemctl enable leanote</p>
+<p>sudo systemctl start leanote</p>
+<p>如果启动失败，先确认leanote/bin/run.sh是否可执行：</p>
+<p>sudo chmod +x leanote/bin/run.sh4. 配置leanote</p>
+<p>leanote的配置存储在文件conf/app.conf中。</p>
+<p>请务必修改app.secret一项, 在若干个随机位置处，将字符修改成一个其他的值, 否则会有安全隐患!</p>
+<p>其它的配置可暂时保持不变, 若需要配置数据库信息, 请参照 leanote问题汇总。</p>
+<p>\5. 运行leanote</p>
+<p>注意: 在此之前请确保mongodb已在运行!</p>
+<p>新开一个窗口, 运行:</p>
+<p>$&gt; cd /home/user1/leanote/bin</p>
+<p>$&gt; bash run.sh</p>
+<p>最后出现以下信息证明运行成功:</p>
+<p>…</p>
+<p>TRACE 2013/06/06 15:01:27 watcher.go:72: Watching: /home/life/leanote/bin/src/github.com/leanote/leanote/conf/routes</p>
+<p>Go to /@tests to run the tests.</p>
+<p>Listening on :9000…</p>
+<p>恭喜你, 打开浏览器输入:<a href="http://localhost:9000体验leanote吧">http://localhost:9000体验leanote吧</a>!</p>
+<p>记得开放9000端口</p>
+<p>注意!!!!!!!!!!!!!!</p>
+<p>按照本教程启动Mongodb是没有权限控制的, 如果你的Leanote服务器暴露在外网, 任何人都可以访问你的Mongodb并修改, 所以这是极其危险的!!!!!!!!!!! 请务必为Mongodb添加用户名和密码并以auth启动, 方法请见: 为mongodb数据库添加用户</p>
+<p>leanote安装/配置问题汇总</p>
+<p>如果运行有问题或想要进一步配置leanote, 请参照 leanote问题汇总。</p>
+<p>\6. 为mongodb数据库添加用户</p>
+<p>像mysql一样有root用户, mongodb初始是没有用户的, 这样很不安全, 所以要为leanote数据库新建一个用户来连接leanote数据库(注意, 并不是为leanote的表users里新建用户, 而是新建一个连接leanote数据库的用户, 类似mysql的root用户).</p>
+<p>mognodb v2与v3创建用户命令有所不同</p>
+<p>mongodb v2 创建用户如下:</p>
+<p># 首先切换到leanote数据库下</p>
+<p>&gt; use leanote;</p>
+<p># 添加一个用户root, 密码是abc123</p>
+<p>&gt; db.addUser(“root”, “abc123”);</p>
+<p>{</p>
+<p>“_id” : ObjectId(“53688d1950cc1813efb9564c”),</p>
+<p>“user” : “root”,</p>
+<p>“readOnly” : false,</p>
+<p>“pwd” : “e014bfea4a9c3c27ab34e50bd1ef0955”</p>
+<p>}</p>
+<p># 测试下是否正确</p>
+<p>&gt; db.auth(“root”, “abc123”);</p>
+<p>1 # 返回1表示正确</p>
+<p>mongodb v3 创建用户如下:</p>
+<p># 首先切换到leanote数据库下</p>
+<p>&gt; use leanote;</p>
+<p># 添加一个用户root, 密码是abc123</p>
+<p>&gt; db.createUser({</p>
+<p>user: ‘root’,</p>
+<p>pwd: ‘abc123’,</p>
+<p>roles: [{role: ‘dbOwner’, db: ‘leanote’}]</p>
+<p>});</p>
+<p># 测试下是否正确</p>
+<p>&gt; db.auth(“root”, “abc123”);</p>
+<p>1 # 返回1表示正确</p>
+<p>用户添加好后重新运行下mongodb, 并开启权限验证. 在mongod的终端按ctrl+c即可退出mongodb.</p>
+<p>启动mongodb:</p>
+<p>$&gt; mongod –dbpath /home/user1/data –auth</p>
+<p>还要修改配置文件 : 修改 leanote/conf/app.conf:</p>
+<p>db.host=localhost</p>
+<p>db.port=27017</p>
+<p>db.dbname=leanote # required</p>
+<p>db.username=root # if not exists, please leave blank</p>
+<p>db.password=abc123 # if not exists, please leave blank为Leanote指定超级管理员帐户(admin用户)</p>
+<p>Leanote默认超级管理员为admin, 且一旦不小心修改了username则不能改回. 此时可修改配置文件app.conf, 比如指定用户life为超级管理员, 修改或/添加一行:</p>
+<p>adminUsername=life</p>
+<p>全部完成后，运行：</p>
+<p>nohup mongod –dbpath /home/sxf/mongodb/data –auth &amp;</p>
+<p>nohup bash /home/sxf/leanote/bin/run.sh &amp;</p>
+<p>注意：最后一步不好使，使用宝塔面板下守护进程开启</p>
+<p>mongod要用绝对路径！！！</p>
+<p>手机端还会有问题，到时候再看看吧！</p>
 ]]></content>
       <tags>
         <tag>leanote</tag>
@@ -527,6 +665,48 @@
       </tags>
   </entry>
   <entry>
+    <title>论文</title>
+    <url>/2021/12/06/%E8%AE%BA%E6%96%87/</url>
+    <content><![CDATA[<h3 id="a-fast-and-accurate-one-stage-approach-to-visual-grounding"><a href="#a-fast-and-accurate-one-stage-approach-to-visual-grounding" class="headerlink" title="a fast and accurate one-stage approach to visual grounding"></a><center>a fast and accurate one-stage approach to visual grounding</center></h3><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a7qtd3dj34kg220kjm.jpg"></p>
+<span id="more"></span>
+
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a8wxvrij34kg220hdu.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4aa0u0ysj34kg220kjm.jpg"></p>
+<h3 id="头脑风暴："><a href="#头脑风暴：" class="headerlink" title="头脑风暴："></a>头脑风暴：</h3><p>1、加入色彩模块，是否可以增加识别的准确度？</p>
+<p>2、含糊不清楚的识别，是否可以通过设置阈值将多目标一起框选？</p>
+<p><a href="grounding.pptx">点击下载</a> 汇报ppt</p>
+]]></content>
+      <tags>
+        <tag>论文学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>看板娘设置</title>
+    <url>/2021/11/29/%E7%9C%8B%E6%9D%BF%E5%A8%98%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="制作好玩好看的二次元人物到博客！"><a href="#制作好玩好看的二次元人物到博客！" class="headerlink" title="制作好玩好看的二次元人物到博客！"></a><center>制作好玩好看的二次元人物到博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwwc6wltwjj30b808qwhg.jpg"></p>
+<span id="more"></span>
+
+<h3 id="1-下载代码。解压到next-source-下"><a href="#1-下载代码。解压到next-source-下" class="headerlink" title="1.下载代码。解压到next\source\下"></a>1.下载<a href="https://github.com/stevenjoezhang/live2d-widget">代码</a>。解压到next\source\下</h3><h3 id="2-修改配置文件：更改live2d-widget下的autoload-js文件"><a href="#2-修改配置文件：更改live2d-widget下的autoload-js文件" class="headerlink" title="2.修改配置文件：更改live2d-widget下的autoload.js文件"></a>2.修改配置文件：更改live2d-widget下的autoload.js文件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 注意：live2d_path 参数应使用绝对路径</span><br><span class="line">//const live2d_path = &quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/&quot;;</span><br><span class="line">const live2d_path = &quot;/live2d-widget/&quot;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。"><a href="#3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。" class="headerlink" title="3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。"></a>3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-在theme-next-config-yml中-新增如下内容："><a href="#4-在theme-next-config-yml中-新增如下内容：" class="headerlink" title="4.在theme/next/_config.yml中,新增如下内容："></a>4.在theme/next/_config.yml中,新增如下内容：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-至此配置基本完成"><a href="#5-至此配置基本完成" class="headerlink" title="5.至此配置基本完成"></a>5.至此配置基本完成</h3><p>实际使用发现手机版展示不了，在theme/next/_config.yml中,加入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mobile:</span><br><span class="line">  show: true ##移动端是否显示</span><br></pre></td></tr></table></figure>
+
+<p>也没有，不过这个不是很重要的功能，暂时就这样，以后有时间再弄</p>
+<p>贴个网址吧：<a href="https://www.i4k.xyz/article/cungudafa/104282643">https://www.i4k.xyz/article/cungudafa/104282643</a></p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>看板娘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>自建图床</title>
     <url>/2021/12/30/%E8%87%AA%E5%BB%BA%E5%9B%BE%E5%BA%8A/</url>
     <content><![CDATA[<h2 id="使用chevereto-PicGo-云服务器搭建自己的图床！"><a href="#使用chevereto-PicGo-云服务器搭建自己的图床！" class="headerlink" title="使用chevereto+PicGo+云服务器搭建自己的图床！"></a>使用chevereto+PicGo+云服务器搭建自己的图床！</h2><p><img src="http://pic.cutexin.cn/images/2021/12/30/202112301106952.png" alt="image-20211230110612031"></p>
@@ -560,48 +740,6 @@
       <tags>
         <tag>教程</tag>
         <tag>图床</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>看板娘设置</title>
-    <url>/2021/11/29/%E7%9C%8B%E6%9D%BF%E5%A8%98%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="制作好玩好看的二次元人物到博客！"><a href="#制作好玩好看的二次元人物到博客！" class="headerlink" title="制作好玩好看的二次元人物到博客！"></a><center>制作好玩好看的二次元人物到博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwwc6wltwjj30b808qwhg.jpg"></p>
-<span id="more"></span>
-
-<h3 id="1-下载代码。解压到next-source-下"><a href="#1-下载代码。解压到next-source-下" class="headerlink" title="1.下载代码。解压到next\source\下"></a>1.下载<a href="https://github.com/stevenjoezhang/live2d-widget">代码</a>。解压到next\source\下</h3><h3 id="2-修改配置文件：更改live2d-widget下的autoload-js文件"><a href="#2-修改配置文件：更改live2d-widget下的autoload-js文件" class="headerlink" title="2.修改配置文件：更改live2d-widget下的autoload.js文件"></a>2.修改配置文件：更改live2d-widget下的autoload.js文件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 注意：live2d_path 参数应使用绝对路径</span><br><span class="line">//const live2d_path = &quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/&quot;;</span><br><span class="line">const live2d_path = &quot;/live2d-widget/&quot;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。"><a href="#3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。" class="headerlink" title="3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。"></a>3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="4-在theme-next-config-yml中-新增如下内容："><a href="#4-在theme-next-config-yml中-新增如下内容：" class="headerlink" title="4.在theme/next/_config.yml中,新增如下内容："></a>4.在theme/next/_config.yml中,新增如下内容：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
-
-<h3 id="5-至此配置基本完成"><a href="#5-至此配置基本完成" class="headerlink" title="5.至此配置基本完成"></a>5.至此配置基本完成</h3><p>实际使用发现手机版展示不了，在theme/next/_config.yml中,加入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mobile:</span><br><span class="line">  show: true ##移动端是否显示</span><br></pre></td></tr></table></figure>
-
-<p>也没有，不过这个不是很重要的功能，暂时就这样，以后有时间再弄</p>
-<p>贴个网址吧：<a href="https://www.i4k.xyz/article/cungudafa/104282643">https://www.i4k.xyz/article/cungudafa/104282643</a></p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>看板娘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>论文</title>
-    <url>/2021/12/06/%E8%AE%BA%E6%96%87/</url>
-    <content><![CDATA[<h3 id="a-fast-and-accurate-one-stage-approach-to-visual-grounding"><a href="#a-fast-and-accurate-one-stage-approach-to-visual-grounding" class="headerlink" title="a fast and accurate one-stage approach to visual grounding"></a><center>a fast and accurate one-stage approach to visual grounding</center></h3><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a7qtd3dj34kg220kjm.jpg"></p>
-<span id="more"></span>
-
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4a8wxvrij34kg220hdu.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gx4aa0u0ysj34kg220kjm.jpg"></p>
-<h3 id="头脑风暴："><a href="#头脑风暴：" class="headerlink" title="头脑风暴："></a>头脑风暴：</h3><p>1、加入色彩模块，是否可以增加识别的准确度？</p>
-<p>2、含糊不清楚的识别，是否可以通过设置阈值将多目标一起框选？</p>
-<p><a href="grounding.pptx">点击下载</a> 汇报ppt</p>
-]]></content>
-      <tags>
-        <tag>论文学习</tag>
       </tags>
   </entry>
 </search>
