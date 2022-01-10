@@ -22,17 +22,23 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="妄图用代码改变世界和挽回心爱之人">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Don&#39;t be depressed">
-<meta property="og:url" content="http://example.com/tags/%E5%89%8D%E7%AB%AF/index.html">
+  <meta name="description" content="在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法本文介绍在Ubuntu和基于Ubuntu的Linux发行版上安装MongoDB的两种方法，包括配置和卸载MongoDB的方法。第一种是使用Ubuntu的存储库安装MongoDB，简单但不是最新版本的MongoDB。第二种是使用其官方存储库安装MongoDB，稍微复杂，但你得到的是最新版本的M">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux卸载mongodb">
+<meta property="og:url" content="http://example.com/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/index.html">
 <meta property="og:site_name" content="Don&#39;t be depressed">
-<meta property="og:description" content="妄图用代码改变世界和挽回心爱之人">
+<meta property="og:description" content="在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法本文介绍在Ubuntu和基于Ubuntu的Linux发行版上安装MongoDB的两种方法，包括配置和卸载MongoDB的方法。第一种是使用Ubuntu的存储库安装MongoDB，简单但不是最新版本的MongoDB。第二种是使用其官方存储库安装MongoDB，稍微复杂，但你得到的是最新版本的M">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://pic.cutexin.cn/images/2022/01/10/202201102136456.png">
+<meta property="og:image" content="http://pic.cutexin.cn/images/2022/01/10/202201102137696.png">
+<meta property="article:published_time" content="2022-01-10T13:13:14.000Z">
+<meta property="article:modified_time" content="2022-01-10T13:38:11.592Z">
 <meta property="article:author" content="cutexin">
+<meta property="article:tag" content="mongodb">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://pic.cutexin.cn/images/2022/01/10/202201102136456.png">
 
-<link rel="canonical" href="http://example.com/tags/%E5%89%8D%E7%AB%AF/">
+<link rel="canonical" href="http://example.com/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/">
 
 
 <script id="page-configurations">
@@ -40,7 +46,7 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
@@ -58,7 +64,7 @@
   padding: 1px 4px;
 }
 </style>
-  <title>标签: 前端 | Don't be depressed</title>
+  <title>linux卸载mongodb | Don't be depressed</title>
   
 
 
@@ -199,57 +205,207 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
+      <meta itemprop="name" content="cutexin">
+      <meta itemprop="description" content="妄图用代码改变世界和挽回心爱之人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Don't be depressed">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          linux卸载mongodb
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-10 21:13:14 / 修改时间：21:38:11" itemprop="dateCreated datePublished" datetime="2022-01-10T21:13:14+08:00">2022-01-10</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">前端
-          <small>标签</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <h1 id="在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"><a href="#在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法" class="headerlink" title="在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"></a>在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法</h1><p>本文介绍在Ubuntu和基于Ubuntu的Linux发行版上安装MongoDB的两种方法，包括配置和卸载MongoDB的方法。第一种是使用Ubuntu的存储库安装MongoDB，简单但不是最新版本的MongoDB。第二种是使用其官方存储库安装MongoDB，稍微复杂，但你得到的是最新版本的MongoDB。第一种安装方法更容易，但如果你计划在官方支持下使用最新版本，我建议使用第二种方法。</p>
+<p>方法一、从Ubuntu Repository安装MongoDB</p>
+<p>这是在系统上安装MongoDB的简便方法，你只需输入一个简单的命令即可。</p>
+<p>1、安装MongoDB</p>
+<p>首先，确保你的包是最新的，打开终端并输入：</p>
+<p>sudo apt update &amp;&amp; sudo apt upgrade -y</p>
+<p>继续安装MongoDB：</p>
+<p>sudo apt install mongodb</p>
+<p>MongoDB现已安装在你的计算机上了。</p>
+<p>MongoDB服务应该在安装时自动启动，但要检查状态类型：</p>
+<p>sudo systemctl status mongodb</p>
+<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102136456.png" alt="image-20220110213650344"></p>
+<p>你可以看到该服务处于活动状态。</p>
+<p>2、运行MongoDB</p>
+<p>MongoDB目前是一个systemd服务，所以我们将使用systemctl来检查和修改它的状态，使用以下命令：</p>
+<p>sudo systemctl status mongodb</p>
+<p>sudo systemctl stop mongodb</p>
+<p>sudo systemctl start mongodb</p>
+<p>sudo systemctl restart mongodb</p>
+<p>如果MongoDB在系统启动时自动启动，你也可以更改(默认值：启用)：</p>
+<p>sudo systemctl disable mongodb</p>
+<p>sudo systemctl enable mongodb</p>
+<p>要开始使用(创建和编辑)数据库，请输入：</p>
+<p>mongo</p>
+<p>这将启动mongo shell。</p>
+<p>注意：根据你计划使用MongoDB的方式，你可能需要调整防火墙。</p>
+<p>3、卸载MongoDB</p>
+<p>如果你从Ubuntu Repository安装MongoDB并想要卸载它(可能使用官方支持的方式安装)，请输入：</p>
+<p>sudo systemctl stop mongodb</p>
+<p>sudo apt purge mongodb</p>
+<p>sudo apt autoremove</p>
+<p>确保备份你可能想要保留的任何集合或文档，因为它们将被清除。</p>
+<p>方法二、在Ubuntu上安装MongoDB Community Edition</p>
+<p>这是使用包管理器安装MongoDB的推荐方法。</p>
+<p>1、安装MongoDB</p>
+<p>由MongoDB Inc维护的包称为mongodb-org，而不是mongodb(这是Ubuntu存储库中包的名称)，在应用此步骤之前，请确保系统上未安装mongodb。</p>
+<p>首先，我们必须导入公钥：</p>
+<p>sudo apt-key adv –keyserver hkp://keyserver.ubuntu.com:80 –recv 9DA31620334BD75D9DCB49F368818C72E52529D4</p>
+<p>现在，你需要在源列表中添加一个新的存储库，以便你可以安装MongoDB Community Edition并获得自动更新：</p>
+<p>echo “deb [ arch=amd64 ] <a target="_blank" rel="noopener" href="https://repo.mongodb.org/apt/ubuntu">https://repo.mongodb.org/apt/ubuntu</a> $(lsb_release -cs)/mongodb-org/4.0 multiverse” | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list</p>
+<p>为了能够安装mongodb-org，我们必须更新我们的包数据库，以便你的系统知道可用的新包：</p>
+<p>sudo apt update</p>
+<p>现在可以安装最新的稳定版MongoDB：</p>
+<p>sudo apt install -y mongodb-org</p>
+<p>或特定版本(等号后更改版本号)：</p>
+<p>sudo apt install -y mongodb-org=4.0.6 mongodb-org-server=4.0.6 mongodb-org-shell=4.0.6 mongodb-org-mongos=4.0.6 mongodb-org-tools=4.0.6</p>
+<p>如果你选择安装特定版本，请确保在任何位置更改版本号，如果你只在mongodb-org=4.0.6部分更改它，将安装最新版本。</p>
+<p>默认情况下，使用包管理器(apt-get)进行更新时，MongoDB将更新为最新的更新版本，要阻止这种情况发生(并冻结到已安装的版本)，请使用：</p>
+<p>echo “mongodb-org hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-server hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-shell hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-mongos hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-tools hold” | sudo dpkg –set-selections</p>
+<p>现在已经成功安装了MongoDB。</p>
+<p>2、配置MongoDB</p>
+<p>默认情况下，包管理器将创建/var/lib/mongodb和/var/log/mongodb，MongoDB将使用mongodb用户帐户运行。</p>
+<p>我不会更改这些默认设置。</p>
+<p>启动/重新启动mongodb服务实例时，将应用/etc/mongod.conf中的设置。</p>
+<p>3、运行MongoDB</p>
+<p>要启动mongodb daemonmongod，请输入：</p>
+<p>sudo service mongod start</p>
+<p>现在应该验证mongod进程是否已成功启动，此信息(默认情况下)存储在/var/log/mongodb/mongod.log中，我们来看看那个文件的内容：</p>
+<p>sudo cat /var/log/mongodb/mongod.log</p>
+<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102137696.png" alt="image-20220110213751552"></p>
+<p>上图在检查MongoDB日志以查看进程是否正常运行。</p>
+<p>只要你得到这个：[initandlisten]等待端口27017上的某个地方的连接，进程正常运行。</p>
+<p>注意：27017是mongod的默认端口。</p>
+<p>要停止/重启mongod，请输入：</p>
+<p>sudo service mongod stop</p>
+<p>sudo service mongod restart</p>
+<p>现在，你可以通过打开mongo shell来使用MongoDB：</p>
+<p>mongo</p>
+<p>4、卸载MongoDB</p>
+<p>运行以下命令：</p>
+<p>sudo service mongod stop</p>
+<p>sudo apt purge mongodb-org*</p>
+<p>删除数据库和日志文件(确保备份你要保留的内容)：</p>
+<p>sudo rm -r /var/log/mongodb</p>
+<p>sudo rm -r /var/lib/mongodb</p>
+<p>至此，安装及配置MongoDB的内容讲完了。</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-11-28T10:28:12+08:00"
-              content="2021-11-28">
-          11-28
-        </time>
+    
+    
+    <div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
       </div>
+    </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/11/28/My-first-blog/" itemprop="url">
-            <span itemprop="name">My-first-blog</span>
-          </a>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/mongodb/" rel="tag"># mongodb</a>
+          </div>
 
-    </header>
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/01/10/%E4%BA%91%E7%AC%94%E8%AE%B0leanote%E6%90%AD%E5%BB%BA/" rel="prev" title="云笔记leanote搭建">
+      <i class="fa fa-chevron-left"></i> 云笔记leanote搭建
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
   </article>
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -296,6 +452,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8linux%E5%A6%82%E4%BD%95%E5%8D%B8%E8%BD%BDmongdb-%E5%9C%A8Ubuntu%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%AE%89%E8%A3%85MongoDB%E5%8F%8A%E9%85%8D%E7%BD%AE%E5%92%8C%E5%8D%B8%E8%BD%BDMongoDB%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

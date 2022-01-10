@@ -205,6 +205,266 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
+      <meta itemprop="name" content="cutexin">
+      <meta itemprop="description" content="妄图用代码改变世界和挽回心爱之人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Don't be depressed">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/" class="post-title-link" itemprop="url">linux卸载mongodb</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-10 21:13:14 / 修改时间：21:38:11" itemprop="dateCreated datePublished" datetime="2022-01-10T21:13:14+08:00">2022-01-10</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"><a href="#在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法" class="headerlink" title="在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"></a>在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法</h1><p>本文介绍在Ubuntu和基于Ubuntu的Linux发行版上安装MongoDB的两种方法，包括配置和卸载MongoDB的方法。第一种是使用Ubuntu的存储库安装MongoDB，简单但不是最新版本的MongoDB。第二种是使用其官方存储库安装MongoDB，稍微复杂，但你得到的是最新版本的MongoDB。第一种安装方法更容易，但如果你计划在官方支持下使用最新版本，我建议使用第二种方法。</p>
+<p>方法一、从Ubuntu Repository安装MongoDB</p>
+<p>这是在系统上安装MongoDB的简便方法，你只需输入一个简单的命令即可。</p>
+<p>1、安装MongoDB</p>
+<p>首先，确保你的包是最新的，打开终端并输入：</p>
+<p>sudo apt update &amp;&amp; sudo apt upgrade -y</p>
+<p>继续安装MongoDB：</p>
+<p>sudo apt install mongodb</p>
+<p>MongoDB现已安装在你的计算机上了。</p>
+<p>MongoDB服务应该在安装时自动启动，但要检查状态类型：</p>
+<p>sudo systemctl status mongodb</p>
+<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102136456.png" alt="image-20220110213650344"></p>
+<p>你可以看到该服务处于活动状态。</p>
+<p>2、运行MongoDB</p>
+<p>MongoDB目前是一个systemd服务，所以我们将使用systemctl来检查和修改它的状态，使用以下命令：</p>
+<p>sudo systemctl status mongodb</p>
+<p>sudo systemctl stop mongodb</p>
+<p>sudo systemctl start mongodb</p>
+<p>sudo systemctl restart mongodb</p>
+<p>如果MongoDB在系统启动时自动启动，你也可以更改(默认值：启用)：</p>
+<p>sudo systemctl disable mongodb</p>
+<p>sudo systemctl enable mongodb</p>
+<p>要开始使用(创建和编辑)数据库，请输入：</p>
+<p>mongo</p>
+<p>这将启动mongo shell。</p>
+<p>注意：根据你计划使用MongoDB的方式，你可能需要调整防火墙。</p>
+<p>3、卸载MongoDB</p>
+<p>如果你从Ubuntu Repository安装MongoDB并想要卸载它(可能使用官方支持的方式安装)，请输入：</p>
+<p>sudo systemctl stop mongodb</p>
+<p>sudo apt purge mongodb</p>
+<p>sudo apt autoremove</p>
+<p>确保备份你可能想要保留的任何集合或文档，因为它们将被清除。</p>
+<p>方法二、在Ubuntu上安装MongoDB Community Edition</p>
+<p>这是使用包管理器安装MongoDB的推荐方法。</p>
+<p>1、安装MongoDB</p>
+<p>由MongoDB Inc维护的包称为mongodb-org，而不是mongodb(这是Ubuntu存储库中包的名称)，在应用此步骤之前，请确保系统上未安装mongodb。</p>
+<p>首先，我们必须导入公钥：</p>
+<p>sudo apt-key adv –keyserver hkp://keyserver.ubuntu.com:80 –recv 9DA31620334BD75D9DCB49F368818C72E52529D4</p>
+<p>现在，你需要在源列表中添加一个新的存储库，以便你可以安装MongoDB Community Edition并获得自动更新：</p>
+<p>echo “deb [ arch=amd64 ] <a target="_blank" rel="noopener" href="https://repo.mongodb.org/apt/ubuntu">https://repo.mongodb.org/apt/ubuntu</a> $(lsb_release -cs)/mongodb-org/4.0 multiverse” | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list</p>
+<p>为了能够安装mongodb-org，我们必须更新我们的包数据库，以便你的系统知道可用的新包：</p>
+<p>sudo apt update</p>
+<p>现在可以安装最新的稳定版MongoDB：</p>
+<p>sudo apt install -y mongodb-org</p>
+<p>或特定版本(等号后更改版本号)：</p>
+<p>sudo apt install -y mongodb-org=4.0.6 mongodb-org-server=4.0.6 mongodb-org-shell=4.0.6 mongodb-org-mongos=4.0.6 mongodb-org-tools=4.0.6</p>
+<p>如果你选择安装特定版本，请确保在任何位置更改版本号，如果你只在mongodb-org=4.0.6部分更改它，将安装最新版本。</p>
+<p>默认情况下，使用包管理器(apt-get)进行更新时，MongoDB将更新为最新的更新版本，要阻止这种情况发生(并冻结到已安装的版本)，请使用：</p>
+<p>echo “mongodb-org hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-server hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-shell hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-mongos hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-tools hold” | sudo dpkg –set-selections</p>
+<p>现在已经成功安装了MongoDB。</p>
+<p>2、配置MongoDB</p>
+<p>默认情况下，包管理器将创建/var/lib/mongodb和/var/log/mongodb，MongoDB将使用mongodb用户帐户运行。</p>
+<p>我不会更改这些默认设置。</p>
+<p>启动/重新启动mongodb服务实例时，将应用/etc/mongod.conf中的设置。</p>
+<p>3、运行MongoDB</p>
+<p>要启动mongodb daemonmongod，请输入：</p>
+<p>sudo service mongod start</p>
+<p>现在应该验证mongod进程是否已成功启动，此信息(默认情况下)存储在/var/log/mongodb/mongod.log中，我们来看看那个文件的内容：</p>
+<p>sudo cat /var/log/mongodb/mongod.log</p>
+<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102137696.png" alt="image-20220110213751552"></p>
+<p>上图在检查MongoDB日志以查看进程是否正常运行。</p>
+<p>只要你得到这个：[initandlisten]等待端口27017上的某个地方的连接，进程正常运行。</p>
+<p>注意：27017是mongod的默认端口。</p>
+<p>要停止/重启mongod，请输入：</p>
+<p>sudo service mongod stop</p>
+<p>sudo service mongod restart</p>
+<p>现在，你可以通过打开mongo shell来使用MongoDB：</p>
+<p>mongo</p>
+<p>4、卸载MongoDB</p>
+<p>运行以下命令：</p>
+<p>sudo service mongod stop</p>
+<p>sudo apt purge mongodb-org*</p>
+<p>删除数据库和日志文件(确保备份你要保留的内容)：</p>
+<p>sudo rm -r /var/log/mongodb</p>
+<p>sudo rm -r /var/lib/mongodb</p>
+<p>至此，安装及配置MongoDB的内容讲完了。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/10/%E4%BA%91%E7%AC%94%E8%AE%B0leanote%E6%90%AD%E5%BB%BA/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
+      <meta itemprop="name" content="cutexin">
+      <meta itemprop="description" content="妄图用代码改变世界和挽回心爱之人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Don't be depressed">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/01/10/%E4%BA%91%E7%AC%94%E8%AE%B0leanote%E6%90%AD%E5%BB%BA/" class="post-title-link" itemprop="url">云笔记leanote搭建</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-01-10 20:41:32 / 修改时间：21:38:28" itemprop="dateCreated datePublished" datetime="2022-01-10T20:41:32+08:00">2022-01-10</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2022/01/10/%E4%BA%91%E7%AC%94%E8%AE%B0leanote%E6%90%AD%E5%BB%BA/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2022/01/10/%E4%BA%91%E7%AC%94%E8%AE%B0leanote%E6%90%AD%E5%BB%BA/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>32</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="leanote个人云笔记搭建"><a href="#leanote个人云笔记搭建" class="headerlink" title="leanote个人云笔记搭建"></a>leanote个人云笔记搭建</h1><p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102054651.png" alt="image-20220110205445493">
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/01/10/%E4%BA%91%E7%AC%94%E8%AE%B0leanote%E6%90%AD%E5%BB%BA/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/31/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%E6%90%AD%E5%BB%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -430,7 +690,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-01-01 13:04:26" itemprop="dateModified" datetime="2022-01-01T13:04:26+08:00">2022-01-01</time>
+                <time title="修改时间：2022-01-04 13:47:53" itemprop="dateModified" datetime="2022-01-04T13:47:53+08:00">2022-01-04</time>
               </span>
 
           
@@ -993,206 +1253,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
-      <meta itemprop="name" content="cutexin">
-      <meta itemprop="description" content="妄图用代码改变世界和挽回心爱之人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Don't be depressed">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="post-title-link" itemprop="url">使用树莓派3B+搭建局域网文件服务器</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-12-15 14:27:49" itemprop="dateCreated datePublished" datetime="2021-12-15T14:27:49+08:00">2021-12-15</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-30 10:51:38" itemprop="dateModified" datetime="2021-12-30T10:51:38+08:00">2021-12-30</time>
-              </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>498</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="使用树莓派3B-搭建局域网文件服务器！"><a href="#使用树莓派3B-搭建局域网文件服务器！" class="headerlink" title="使用树莓派3B+搭建局域网文件服务器！"></a><center>使用树莓派3B+搭建局域网文件服务器！</center></h1><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeiaikemhj30zn0pc7bw.jpg" alt="屏幕截图 2021-12-15 122129.png"></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
-      <meta itemprop="name" content="cutexin">
-      <meta itemprop="description" content="妄图用代码改变世界和挽回心爱之人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Don't be depressed">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" class="post-title-link" itemprop="url">c环境配置</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-12-08 15:42:05 / 修改时间：15:56:39" itemprop="dateCreated datePublished" datetime="2021-12-08T15:42:05+08:00">2021-12-08</time>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>591</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="vscode下编写c程序"><a href="#vscode下编写c程序" class="headerlink" title="vscode下编写c程序"></a><center>vscode下编写c程序</center></h1><h3 id="下载gcc编译器"><a href="#下载gcc编译器" class="headerlink" title="下载gcc编译器"></a>下载gcc编译器</h3><p>使用的是直接解压使用版本的，放在u盘里面了。添加bin目录到path环境变量下（用户变量下即可）</p>
-<p>在cmd里面输入gcc -v能看到版本号就表示安装成功了</p>
-<h3 id="安装扩展插件"><a href="#安装扩展插件" class="headerlink" title="安装扩展插件"></a>安装扩展插件</h3><p>在vscode里面装两个插件:c/c++和Code Runner</p>
-<h3 id="配置选项"><a href="#配置选项" class="headerlink" title="配置选项"></a>配置选项</h3><p>在文件-首选项-扩展里将“Run Code Configuration”中的“Run In Terminal”、”Save File Before Run”前面的复选框选中</p>
-<h3 id="运行调试的设置"><a href="#运行调试的设置" class="headerlink" title="运行调试的设置"></a>运行调试的设置</h3><p>首先，在”Terminal“菜单下点击”Configure Tasks…”子菜单。</p>
-<p>在随后出现的弹出框中选择“C/C++:gcc.exe生成活动文件”</p>
-<p><strong>提示</strong>：没有这个选项框关闭vscode后重启</p>
-<p>随后，在“CEXAMPLES”文件夹中会自动生成一个“.vscode”的子文件夹，在这个子文件夹下自动创建一个”tasks.json“的文件。不用做任何改动。</p>
-<p>最后，回到“hello.c”文件，单击鼠标右键选择“Run Code”即可运行代码。</p>
-<p>运行结果会在下面出现的“Terminal”中显示</p>
-<p>如果想要调试代码的话呢？点击“Run”菜单下的“Start Debugging”子菜单</p>
-<p>在随后出现的弹出框中选择“C++(GDB/LLDB)”，再选择”gcc.exe“。</p>
-<p><strong>提示</strong>：shift f5关闭调试功能</p>
-<p>至此，c环境的安装就结束了，终于摆脱上古c环境vc6.0这种了！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1264,7 +1324,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1277,7 +1337,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-count">18</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -1334,12 +1394,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">22k</span>
+    <span title="站点总字数">25k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">20 分钟</span>
+    <span title="站点阅读时长">22 分钟</span>
 </div>
   <div class="addthis_inline_share_toolbox">
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61a434230ffe63e1" async="async"></script>
