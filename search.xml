@@ -22,38 +22,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ios翻墙</title>
-    <url>/2021/12/31/ios%E7%BF%BB%E5%A2%99/</url>
-    <content><![CDATA[<p><strong>一、无需国外ID，利用TestFlight安装Fair Plus 2（免费）</strong></p>
-<p>先在苹果机上点击并安装<a href="https://apps.apple.com/us/app/testflight/id899247664">TestFlight</a>软件，TestFlight下载地址：<a href="https://apps.apple.com/us/app/testflight/id899247664">https</a> ://apps.apple.com/us/app/testflight/id899247664</p>
-<p>然后安装<a href="https://testflight.apple.com/join/sdBZzV82">Fair Plus 2</a>，Fair Plus 2 下载地址：<a href="https://testflight.apple.com/join/sdBZzV82%EF%BC%88%E5%BC%80%E5%8F%91%E8%80%85%E6%9A%82%E5%81%9C%E4%BA%86%E6%96%B0%E7%94%A8%E6%88%B7%E5%8A%A0%E5%85%A5%EF%BC%8C%E8%BF%87%E6%AE%B5%E6%97%B6%E9%97%B4%E7%9C%8B%E7%9C%8B%E6%83%85%E5%86%B5%E5%86%8D%E6%89%93%E5%BC%80%EF%BC%89">https://testflight.apple.com/join/sdBZzV82（开发者暂停了新用户加入，过段时间看看情况再打开）</a></p>
-<p>安装 TestFlight 之后，用 saf 浏览器打开开启 VPN 下载地址，在弹出的页面中点击加入此 Beta 版本的“开始测试”。</p>
-<p>注：Fair Plus 2 的前身为 Fair VPN。TestFlight 孔雀三个月，我们会发布新版，请及时更新。下载过 VPN 软件的用户，到时候可以在 TestFlight 软件里面进行 VPN 更新。</p>
-<p>软件分两部分，部分是浏览器（可看新闻网站，手指长按屏幕往下可切换网站），另一部分是VPN设置。VPN设置。从上往下点击是VPN按钮、4种添加VPN节点方法。我们以最后一个获取免费VPN为例。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310933420.png" alt="image-20211231093328299"></p>
-<p>点击之后，会出现3个免费获取节点地址，以第1个为演示。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934891.png" alt="image-20211231093401808"></p>
-<p>导入节点启动后，某个节点，第一次使用会弹出是否允许VPN提醒，点击。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934253.png" alt="image-20211231093449158"></p>
-<p>如果免费账号不能正常使用，还有半年是账号失效了，可以删除后重新获取。</p>
-<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310935047.png" alt="image-20211231093532976"></p>
-]]></content>
-      <tags>
-        <tag>教程</tag>
-        <tag>ios翻墙</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux命令学习</title>
-    <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>查看linux版本命令: uname -a</p>
-<p>DHCP（Dynamic Host Configuration Protocal）:动态主机配置协议。是一个简化主机IP地址分配的TCP/IP协议。保证ip地址不重复分配，也能及时回收ip地址以提高IP地址的利用率。采用DHCP的方法配置计算机IP地址的方案称为动态IP地址。DHCP采用的是客户/服务器模式（Client/Server）。</p>
-]]></content>
-      <tags>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>c环境配置</title>
     <url>/2021/12/08/c%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h1 id="vscode下编写c程序"><a href="#vscode下编写c程序" class="headerlink" title="vscode下编写c程序"></a><center>vscode下编写c程序</center></h1><h3 id="下载gcc编译器"><a href="#下载gcc编译器" class="headerlink" title="下载gcc编译器"></a>下载gcc编译器</h3><p>使用的是直接解压使用版本的，放在u盘里面了。添加bin目录到path环境变量下（用户变量下即可）</p>
@@ -76,83 +44,123 @@
       </tags>
   </entry>
   <entry>
-    <title>ubuntu快照</title>
-    <url>/2021/12/18/ubuntu%E5%BF%AB%E7%85%A7/</url>
-    <content><![CDATA[<h1 id="增加快照预防系统损坏能及时恢复"><a href="#增加快照预防系统损坏能及时恢复" class="headerlink" title="增加快照预防系统损坏能及时恢复"></a><center>增加快照预防系统损坏能及时恢复</center></h1><p>TimeShift是一个免费工具，类似于Windows中的”系统还原”功能，它允许你最初拍摄系统的快照，然后定期拍摄增量快照， 你可以使用</p>
-<p>首先，按ctrl+alt+t打开终端窗口，如果尚未安装Aptik，请在提示符下分别键入以下两个命令，在每个命令后按Enter，以添加PPA并进行更新，sudo apt-add-repository -y ppa:teejee2008/ppa</p>
-<p>sudo apt-get update</p>
-<p>如果已安装Aptik，则可以安装TimeShift，而无需输入以前的命令，在提示符下键入以下文本并按Enter键。</p>
-<p>sudo apt-get install timeshift</p>
-<p>出现提示时键入密码并按Enter 。</p>
-<p>安装完成后，通过在提示符下键入”exit”并按Enter或单击窗口左上角的” X”按钮来关闭”终端”窗口。</p>
-<p>要打开TimeShift，请单击Unity Launcher栏顶部的”搜索”按钮。</p>
-<p>在搜索框中输入” timeshift “，键入时显示搜索结果，当显示TimeShift图标时，单击它打开应用程序。</p>
-<p>出现询问密码的对话框。 在编辑框中输入密码，然后单击”确定”” ，</p>
-<p>此时将显示主TimeShift窗口，并估计系统大小，如果有多个驱动器或分区，则可以使用”Backup Device”下拉列表选择要备份的其他驱动器或分区。<span id="more"></span></p>
-<p>快照所需的空间量列在底部状态栏上，快照保存在所选设备上，因此请确保有足够的空间来存储快照，要备份所选的”Backup Device”，请在工具栏上单击”Backup”。</p>
-<p>创建快照时，底部状态栏中会显示”正在同步文件… “消息。</p>
-<p>快照完成后，会列出系统的日期和时间以及名称和版本，状态栏说明在拍摄快照后，系统有多少空间可用，并说明上次快照的时间。</p>
-<p>将鼠标移到”Backup Device”下拉列表上，将向你显示快照保存在所选设备上的路径。</p>
-<p>“ TimeShift “目录包含使用TimeShift拍摄的各种快照，包括计划的快照。</p>
-<p>“快照”文件夹包含手动拍摄的快照，建议你将快照的文件夹复制到U盘，网络驱动器上。</p>
-<p>通过单击”Browse”按钮查看快照中的内容。</p>
-<p>将在”文件管理器”窗口中打开快照目录，并列出系统中的目录和文件(无用户文件)。</p>
-<p>可以自定义各种设置，例如，设置自动备份和选择何时自动删除旧快照，要访问设置，请单击工具栏上的”设置”。</p>
-<p>通过”计划”选项卡，你可以指定执行快照的时间，单击或滑动”开/关”滑块按钮以打开”预定快照”，选中”启用”列中的复选框，以指定快照的时间间隔。</p>
-<p>通过”自动删除”标签，你可以自动删除较旧的快照，从而不会耗尽硬盘驱动器上的空间，每种快照都有一个”规则”，为每种类型输入一个”限制”，以告诉TimeShift删除早于指定限制的快照，包括对可用空间小于特定量的限制。</p>
-<p>“高级”选项卡允许你从快照中排除特定文件，目录和目录内容，并在快照中包括特定文件和目录。</p>
-<p>自定义完设置后，单击”保存””</p>
-<p>当你要恢复快照时，打开TimeShift，选择一个快照并单击”Restore “，</p>
-<p>注：根据系统状态，你可能必须再次安装TimeShift 。</p>
-<p>通过”Restore “对话框上的”Target”选项卡，你可以指定要将所选快照还原到的设备，将鼠标移到列表中的设备上可以显示有关用于恢复快照的设备的详细信息，选择”用于还原快照的设备”和”用于Bootloader安装的设备”。</p>
-<p>使用”排除”标签选择要保留其当前设置而不恢复其先前设置的应用程序。</p>
-<p>“高级”选项卡允许你从还原的系统中排除特定的文件，目录和目录内容，并在其中包含特定的文件和目录。</p>
-<p>要关闭TimeShift，请点击主窗口左上角的” X”按钮。</p>
-<p>就像Windows中的”系统还原”一样，你可以简单地将系统还原到以前的工作状态，而无需重新安装系统。</p>
-<h3 id="还原"><a href="#还原" class="headerlink" title="还原"></a>还原</h3><h4 id="如果能够进入系统"><a href="#如果能够进入系统" class="headerlink" title="如果能够进入系统"></a>如果能够进入系统</h4><ol>
-<li>如果此时还能够进入系统，直接打开 <strong>Timeshift</strong>软件进行还原</li>
-<li>在弹出的窗口内点击下一步开始进行还原到选中的节点</li>
-<li>还原完成后重启电脑即可。</li>
-</ol>
-<h4 id="如果只能进入登录界面"><a href="#如果只能进入登录界面" class="headerlink" title="如果只能进入登录界面"></a>如果只能进入登录界面</h4><p>一般系统崩溃后不能进入桌面，但是能够进入登录界面，现象就是在登录界面输入密码后不会进入桌面，那么就要通过命令行的方式进行还原。</p>
-<ol>
-<li><p>通过<code>Ctrl+Alt+F1</code>（一般是F1-F6都可）进入tty终端：</p>
-</li>
-<li><p>输入用户和密码登录</p>
-</li>
-<li><p>执行下面命令获取系统当前可以还原的节点：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --list</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<p>输出内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Device : /dev/sdb4</span><br><span class="line">UUID   : 197c4161-abc6-4069-8544-d86594211f04</span><br><span class="line">Path   : /home</span><br><span class="line">Mode   : RSYNC</span><br><span class="line">Device is OK</span><br><span class="line">12 snapshots, 92.5 GB free</span><br><span class="line"></span><br><span class="line">Num     Name                 Tags  Description  </span><br><span class="line">------------------------------------------------------------------------------</span><br><span class="line">0    &gt;  2018-08-08_11-49-26  O D                </span><br><span class="line">1    &gt;  2018-08-13_23-02-06  O                  </span><br><span class="line">2    &gt;  2018-08-15_22-53-24  O                  </span><br><span class="line">3    &gt;  2018-08-21_09-37-29  O                  </span><br><span class="line">4    &gt;  2018-11-19_17-43-59  O                  </span><br><span class="line">5    &gt;  2019-01-20_19-36-34  O                  </span><br><span class="line">6    &gt;  2019-03-01_11-18-09  O                  </span><br><span class="line">7    &gt;  2019-03-01_14-54-37  O                  </span><br><span class="line">8    &gt;  2019-03-04_14-48-57  O                  </span><br><span class="line">9    &gt;  2019-03-10_20-50-00  O                  </span><br><span class="line">10   &gt;  2019-03-14_11-51-54  O                  </span><br><span class="line">11   &gt;  2019-07-16_16-35-42  O</span><br><span class="line">123456789101112131415161718192021</span><br></pre></td></tr></table></figure></li>
-<li><p>选择一个节点进行还原</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>–skip-grub 选项为跳过grub安装，一般来说grub不需要重新安装，除非bios启动无法找到正确的grub启动项，才需要安装。</p>
-</blockquote>
-<p>在输出的内容中依次输入【Enter】键和【y】键。</p>
-<p>当然也可以直接输入下面的命令，忽略交互式的安装界面：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub --scripted</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h4 id="无法进入系统，通过U盘启动系统"><a href="#无法进入系统，通过U盘启动系统" class="headerlink" title="无法进入系统，通过U盘启动系统"></a>无法进入系统，通过U盘启动系统</h4><p>当登录界面和桌面环境都无法进入时，一般系统已经彻底崩溃，此时只能通过Linux live CD进行还原。</p>
-<ol>
-<li><p>制作Linux Mint 启动盘，制作过程略。</p>
-</li>
-<li><p>进入Live系统后打开 <strong>Timeshift</strong> 软件，点击设置按钮，设置快照的存储位置</p>
-<p>快照的存储位置是<strong>Timeshift</strong>在做备份的时候就已经设置好的。</p>
-</li>
-<li><p>后续步骤和[如果能够进入系统]内的还原方式一样。</p>
-</li>
-</ol>
-<p>其实此时还可以通过命令行的方式进行还原，但是首先需要设置快照存储的位置：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --snapshot-device /dev/sdb4</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<p>后续步骤和[如果只能进入登录界面]内的还原方式一样。</p>
-<p>参考：<a href="https://blog.csdn.net/wf19930209/article/details/104236358">https://blog.csdn.net/wf19930209/article/details/104236358</a></p>
+    <title>ios翻墙</title>
+    <url>/2021/12/31/ios%E7%BF%BB%E5%A2%99/</url>
+    <content><![CDATA[<p><strong>一、无需国外ID，利用TestFlight安装Fair Plus 2（免费）</strong></p>
+<p>先在苹果机上点击并安装<a href="https://apps.apple.com/us/app/testflight/id899247664">TestFlight</a>软件，TestFlight下载地址：<a href="https://apps.apple.com/us/app/testflight/id899247664">https</a> ://apps.apple.com/us/app/testflight/id899247664</p>
+<p>然后安装<a href="https://testflight.apple.com/join/sdBZzV82">Fair Plus 2</a>，Fair Plus 2 下载地址：<a href="https://testflight.apple.com/join/sdBZzV82%EF%BC%88%E5%BC%80%E5%8F%91%E8%80%85%E6%9A%82%E5%81%9C%E4%BA%86%E6%96%B0%E7%94%A8%E6%88%B7%E5%8A%A0%E5%85%A5%EF%BC%8C%E8%BF%87%E6%AE%B5%E6%97%B6%E9%97%B4%E7%9C%8B%E7%9C%8B%E6%83%85%E5%86%B5%E5%86%8D%E6%89%93%E5%BC%80%EF%BC%89">https://testflight.apple.com/join/sdBZzV82（开发者暂停了新用户加入，过段时间看看情况再打开）</a></p>
+<p>安装 TestFlight 之后，用 saf 浏览器打开开启 VPN 下载地址，在弹出的页面中点击加入此 Beta 版本的“开始测试”。</p>
+<p>注：Fair Plus 2 的前身为 Fair VPN。TestFlight 孔雀三个月，我们会发布新版，请及时更新。下载过 VPN 软件的用户，到时候可以在 TestFlight 软件里面进行 VPN 更新。</p>
+<p>软件分两部分，部分是浏览器（可看新闻网站，手指长按屏幕往下可切换网站），另一部分是VPN设置。VPN设置。从上往下点击是VPN按钮、4种添加VPN节点方法。我们以最后一个获取免费VPN为例。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310933420.png" alt="image-20211231093328299"></p>
+<p>点击之后，会出现3个免费获取节点地址，以第1个为演示。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934891.png" alt="image-20211231093401808"></p>
+<p>导入节点启动后，某个节点，第一次使用会弹出是否允许VPN提醒，点击。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310934253.png" alt="image-20211231093449158"></p>
+<p>如果免费账号不能正常使用，还有半年是账号失效了，可以删除后重新获取。</p>
+<p><img src="http://pic.cutexin.cn/images/2021/12/30/202112310935047.png" alt="image-20211231093532976"></p>
 ]]></content>
       <tags>
-        <tag>系统备份</tag>
+        <tag>教程</tag>
+        <tag>ios翻墙</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux卸载mongodb</title>
+    <url>/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/</url>
+    <content><![CDATA[<h1 id="在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"><a href="#在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法" class="headerlink" title="在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"></a>在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法</h1><p>本文介绍在Ubuntu和基于Ubuntu的Linux发行版上安装MongoDB的两种方法，包括配置和卸载MongoDB的方法。第一种是使用Ubuntu的存储库安装MongoDB，简单但不是最新版本的MongoDB。第二种是使用其官方存储库安装MongoDB，稍微复杂，但你得到的是最新版本的MongoDB。第一种安装方法更容易，但如果你计划在官方支持下使用最新版本，我建议使用第二种方法。</p>
+<p>方法一、从Ubuntu Repository安装MongoDB</p>
+<p>这是在系统上安装MongoDB的简便方法，你只需输入一个简单的命令即可。</p>
+<p>1、安装MongoDB</p>
+<p>首先，确保你的包是最新的，打开终端并输入：</p>
+<p>sudo apt update &amp;&amp; sudo apt upgrade -y</p>
+<p>继续安装MongoDB：</p>
+<p>sudo apt install mongodb</p>
+<p>MongoDB现已安装在你的计算机上了。</p>
+<p>MongoDB服务应该在安装时自动启动，但要检查状态类型：</p>
+<p>sudo systemctl status mongodb</p>
+<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102136456.png" alt="image-20220110213650344"></p>
+<p>你可以看到该服务处于活动状态。</p>
+<p>2、运行MongoDB</p>
+<p>MongoDB目前是一个systemd服务，所以我们将使用systemctl来检查和修改它的状态，使用以下命令：</p>
+<p>sudo systemctl status mongodb</p>
+<p>sudo systemctl stop mongodb</p>
+<p>sudo systemctl start mongodb</p>
+<p>sudo systemctl restart mongodb</p>
+<p>如果MongoDB在系统启动时自动启动，你也可以更改(默认值：启用)：</p>
+<p>sudo systemctl disable mongodb</p>
+<p>sudo systemctl enable mongodb</p>
+<p>要开始使用(创建和编辑)数据库，请输入：</p>
+<p>mongo</p>
+<p>这将启动mongo shell。</p>
+<p>注意：根据你计划使用MongoDB的方式，你可能需要调整防火墙。</p>
+<p>3、卸载MongoDB</p>
+<p>如果你从Ubuntu Repository安装MongoDB并想要卸载它(可能使用官方支持的方式安装)，请输入：</p>
+<p>sudo systemctl stop mongodb</p>
+<p>sudo apt purge mongodb</p>
+<p>sudo apt autoremove</p>
+<p>确保备份你可能想要保留的任何集合或文档，因为它们将被清除。</p>
+<p>方法二、在Ubuntu上安装MongoDB Community Edition</p>
+<p>这是使用包管理器安装MongoDB的推荐方法。</p>
+<p>1、安装MongoDB</p>
+<p>由MongoDB Inc维护的包称为mongodb-org，而不是mongodb(这是Ubuntu存储库中包的名称)，在应用此步骤之前，请确保系统上未安装mongodb。</p>
+<p>首先，我们必须导入公钥：</p>
+<p>sudo apt-key adv –keyserver hkp://keyserver.ubuntu.com:80 –recv 9DA31620334BD75D9DCB49F368818C72E52529D4</p>
+<p>现在，你需要在源列表中添加一个新的存储库，以便你可以安装MongoDB Community Edition并获得自动更新：</p>
+<p>echo “deb [ arch=amd64 ] <a href="https://repo.mongodb.org/apt/ubuntu">https://repo.mongodb.org/apt/ubuntu</a> $(lsb_release -cs)/mongodb-org/4.0 multiverse” | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list</p>
+<p>为了能够安装mongodb-org，我们必须更新我们的包数据库，以便你的系统知道可用的新包：</p>
+<p>sudo apt update</p>
+<p>现在可以安装最新的稳定版MongoDB：</p>
+<p>sudo apt install -y mongodb-org</p>
+<p>或特定版本(等号后更改版本号)：</p>
+<p>sudo apt install -y mongodb-org=4.0.6 mongodb-org-server=4.0.6 mongodb-org-shell=4.0.6 mongodb-org-mongos=4.0.6 mongodb-org-tools=4.0.6</p>
+<p>如果你选择安装特定版本，请确保在任何位置更改版本号，如果你只在mongodb-org=4.0.6部分更改它，将安装最新版本。</p>
+<p>默认情况下，使用包管理器(apt-get)进行更新时，MongoDB将更新为最新的更新版本，要阻止这种情况发生(并冻结到已安装的版本)，请使用：</p>
+<p>echo “mongodb-org hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-server hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-shell hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-mongos hold” | sudo dpkg –set-selections</p>
+<p>echo “mongodb-org-tools hold” | sudo dpkg –set-selections</p>
+<p>现在已经成功安装了MongoDB。</p>
+<p>2、配置MongoDB</p>
+<p>默认情况下，包管理器将创建/var/lib/mongodb和/var/log/mongodb，MongoDB将使用mongodb用户帐户运行。</p>
+<p>我不会更改这些默认设置。</p>
+<p>启动/重新启动mongodb服务实例时，将应用/etc/mongod.conf中的设置。</p>
+<p>3、运行MongoDB</p>
+<p>要启动mongodb daemonmongod，请输入：</p>
+<p>sudo service mongod start</p>
+<p>现在应该验证mongod进程是否已成功启动，此信息(默认情况下)存储在/var/log/mongodb/mongod.log中，我们来看看那个文件的内容：</p>
+<p>sudo cat /var/log/mongodb/mongod.log</p>
+<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102137696.png" alt="image-20220110213751552"></p>
+<p>上图在检查MongoDB日志以查看进程是否正常运行。</p>
+<p>只要你得到这个：[initandlisten]等待端口27017上的某个地方的连接，进程正常运行。</p>
+<p>注意：27017是mongod的默认端口。</p>
+<p>要停止/重启mongod，请输入：</p>
+<p>sudo service mongod stop</p>
+<p>sudo service mongod restart</p>
+<p>现在，你可以通过打开mongo shell来使用MongoDB：</p>
+<p>mongo</p>
+<p>4、卸载MongoDB</p>
+<p>运行以下命令：</p>
+<p>sudo service mongod stop</p>
+<p>sudo apt purge mongodb-org*</p>
+<p>删除数据库和日志文件(确保备份你要保留的内容)：</p>
+<p>sudo rm -r /var/log/mongodb</p>
+<p>sudo rm -r /var/lib/mongodb</p>
+<p>至此，安装及配置MongoDB的内容讲完了。</p>
+]]></content>
+      <tags>
+        <tag>mongodb</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux命令学习</title>
+    <url>/2021/12/15/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<p>查看linux版本命令: uname -a</p>
+<p>DHCP（Dynamic Host Configuration Protocal）:动态主机配置协议。是一个简化主机IP地址分配的TCP/IP协议。保证ip地址不重复分配，也能及时回收ip地址以提高IP地址的利用率。采用DHCP的方法配置计算机IP地址的方案称为动态IP地址。DHCP采用的是客户/服务器模式（Client/Server）。</p>
+]]></content>
+      <tags>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
@@ -254,6 +262,113 @@
 ]]></content>
   </entry>
   <entry>
+    <title>ubuntu修改conda镜像源</title>
+    <url>/2021/12/18/ubuntu%E4%BF%AE%E6%94%B9conda%E9%95%9C%E5%83%8F%E6%BA%90/</url>
+    <content><![CDATA[<h1 id="ubuntu20-04桌面版安装pytorch总因为网络出错"><a href="#ubuntu20-04桌面版安装pytorch总因为网络出错" class="headerlink" title="ubuntu20.04桌面版安装pytorch总因为网络出错"></a>ubuntu20.04桌面版安装pytorch总因为网络出错</h1><p>修改/etc/apt/sources.list更换镜像源无效</p>
+<p>后来发现conda单独修改镜像源才可以：</p>
+<h2 id="1-打开-condarc文件"><a href="#1-打开-condarc文件" class="headerlink" title="1.打开.condarc文件"></a>1.打开.condarc文件</h2><p>Ubuntu主界面打开终端，执行命令，打开.condarc文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo gedit ~/.condarc</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-修改-condarc文件内容"><a href="#2-修改-condarc文件内容" class="headerlink" title="2.修改.condarc文件内容"></a>2.修改.condarc文件内容</h2><p>将以下代码复制到.condarc文件中，然后点击保存</p>
+<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="symbol">channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - defaults</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">show_channel_urls:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">channel_alias:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">default_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/main</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/free</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/r</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/pro</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/msys</span>2</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">custom_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  conda-<span class="symbol">forge:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  msys2: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  bioconda: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  menpo: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  pytorch: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  simpleitk: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="3-删除索引缓存"><a href="#3-删除索引缓存" class="headerlink" title="3.删除索引缓存"></a>3.删除索引缓存</h2><p>终端执行命令</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">conda clean -<span class="selector-tag">i</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="4-重启"><a href="#4-重启" class="headerlink" title="4.重启"></a>4.重启</h2><p>以上步骤完成后，一定要重启！！</p>
+<p>亲测可用！</p>
+]]></content>
+      <tags>
+        <tag>conda</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ubuntu快照</title>
+    <url>/2021/12/18/ubuntu%E5%BF%AB%E7%85%A7/</url>
+    <content><![CDATA[<h1 id="增加快照预防系统损坏能及时恢复"><a href="#增加快照预防系统损坏能及时恢复" class="headerlink" title="增加快照预防系统损坏能及时恢复"></a><center>增加快照预防系统损坏能及时恢复</center></h1><p>TimeShift是一个免费工具，类似于Windows中的”系统还原”功能，它允许你最初拍摄系统的快照，然后定期拍摄增量快照， 你可以使用</p>
+<p>首先，按ctrl+alt+t打开终端窗口，如果尚未安装Aptik，请在提示符下分别键入以下两个命令，在每个命令后按Enter，以添加PPA并进行更新，sudo apt-add-repository -y ppa:teejee2008/ppa</p>
+<p>sudo apt-get update</p>
+<p>如果已安装Aptik，则可以安装TimeShift，而无需输入以前的命令，在提示符下键入以下文本并按Enter键。</p>
+<p>sudo apt-get install timeshift</p>
+<p>出现提示时键入密码并按Enter 。</p>
+<p>安装完成后，通过在提示符下键入”exit”并按Enter或单击窗口左上角的” X”按钮来关闭”终端”窗口。</p>
+<p>要打开TimeShift，请单击Unity Launcher栏顶部的”搜索”按钮。</p>
+<p>在搜索框中输入” timeshift “，键入时显示搜索结果，当显示TimeShift图标时，单击它打开应用程序。</p>
+<p>出现询问密码的对话框。 在编辑框中输入密码，然后单击”确定”” ，</p>
+<p>此时将显示主TimeShift窗口，并估计系统大小，如果有多个驱动器或分区，则可以使用”Backup Device”下拉列表选择要备份的其他驱动器或分区。<span id="more"></span></p>
+<p>快照所需的空间量列在底部状态栏上，快照保存在所选设备上，因此请确保有足够的空间来存储快照，要备份所选的”Backup Device”，请在工具栏上单击”Backup”。</p>
+<p>创建快照时，底部状态栏中会显示”正在同步文件… “消息。</p>
+<p>快照完成后，会列出系统的日期和时间以及名称和版本，状态栏说明在拍摄快照后，系统有多少空间可用，并说明上次快照的时间。</p>
+<p>将鼠标移到”Backup Device”下拉列表上，将向你显示快照保存在所选设备上的路径。</p>
+<p>“ TimeShift “目录包含使用TimeShift拍摄的各种快照，包括计划的快照。</p>
+<p>“快照”文件夹包含手动拍摄的快照，建议你将快照的文件夹复制到U盘，网络驱动器上。</p>
+<p>通过单击”Browse”按钮查看快照中的内容。</p>
+<p>将在”文件管理器”窗口中打开快照目录，并列出系统中的目录和文件(无用户文件)。</p>
+<p>可以自定义各种设置，例如，设置自动备份和选择何时自动删除旧快照，要访问设置，请单击工具栏上的”设置”。</p>
+<p>通过”计划”选项卡，你可以指定执行快照的时间，单击或滑动”开/关”滑块按钮以打开”预定快照”，选中”启用”列中的复选框，以指定快照的时间间隔。</p>
+<p>通过”自动删除”标签，你可以自动删除较旧的快照，从而不会耗尽硬盘驱动器上的空间，每种快照都有一个”规则”，为每种类型输入一个”限制”，以告诉TimeShift删除早于指定限制的快照，包括对可用空间小于特定量的限制。</p>
+<p>“高级”选项卡允许你从快照中排除特定文件，目录和目录内容，并在快照中包括特定文件和目录。</p>
+<p>自定义完设置后，单击”保存””</p>
+<p>当你要恢复快照时，打开TimeShift，选择一个快照并单击”Restore “，</p>
+<p>注：根据系统状态，你可能必须再次安装TimeShift 。</p>
+<p>通过”Restore “对话框上的”Target”选项卡，你可以指定要将所选快照还原到的设备，将鼠标移到列表中的设备上可以显示有关用于恢复快照的设备的详细信息，选择”用于还原快照的设备”和”用于Bootloader安装的设备”。</p>
+<p>使用”排除”标签选择要保留其当前设置而不恢复其先前设置的应用程序。</p>
+<p>“高级”选项卡允许你从还原的系统中排除特定的文件，目录和目录内容，并在其中包含特定的文件和目录。</p>
+<p>要关闭TimeShift，请点击主窗口左上角的” X”按钮。</p>
+<p>就像Windows中的”系统还原”一样，你可以简单地将系统还原到以前的工作状态，而无需重新安装系统。</p>
+<h3 id="还原"><a href="#还原" class="headerlink" title="还原"></a>还原</h3><h4 id="如果能够进入系统"><a href="#如果能够进入系统" class="headerlink" title="如果能够进入系统"></a>如果能够进入系统</h4><ol>
+<li>如果此时还能够进入系统，直接打开 <strong>Timeshift</strong>软件进行还原</li>
+<li>在弹出的窗口内点击下一步开始进行还原到选中的节点</li>
+<li>还原完成后重启电脑即可。</li>
+</ol>
+<h4 id="如果只能进入登录界面"><a href="#如果只能进入登录界面" class="headerlink" title="如果只能进入登录界面"></a>如果只能进入登录界面</h4><p>一般系统崩溃后不能进入桌面，但是能够进入登录界面，现象就是在登录界面输入密码后不会进入桌面，那么就要通过命令行的方式进行还原。</p>
+<ol>
+<li><p>通过<code>Ctrl+Alt+F1</code>（一般是F1-F6都可）进入tty终端：</p>
+</li>
+<li><p>输入用户和密码登录</p>
+</li>
+<li><p>执行下面命令获取系统当前可以还原的节点：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --list</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
+
+<p>输出内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Device : /dev/sdb4</span><br><span class="line">UUID   : 197c4161-abc6-4069-8544-d86594211f04</span><br><span class="line">Path   : /home</span><br><span class="line">Mode   : RSYNC</span><br><span class="line">Device is OK</span><br><span class="line">12 snapshots, 92.5 GB free</span><br><span class="line"></span><br><span class="line">Num     Name                 Tags  Description  </span><br><span class="line">------------------------------------------------------------------------------</span><br><span class="line">0    &gt;  2018-08-08_11-49-26  O D                </span><br><span class="line">1    &gt;  2018-08-13_23-02-06  O                  </span><br><span class="line">2    &gt;  2018-08-15_22-53-24  O                  </span><br><span class="line">3    &gt;  2018-08-21_09-37-29  O                  </span><br><span class="line">4    &gt;  2018-11-19_17-43-59  O                  </span><br><span class="line">5    &gt;  2019-01-20_19-36-34  O                  </span><br><span class="line">6    &gt;  2019-03-01_11-18-09  O                  </span><br><span class="line">7    &gt;  2019-03-01_14-54-37  O                  </span><br><span class="line">8    &gt;  2019-03-04_14-48-57  O                  </span><br><span class="line">9    &gt;  2019-03-10_20-50-00  O                  </span><br><span class="line">10   &gt;  2019-03-14_11-51-54  O                  </span><br><span class="line">11   &gt;  2019-07-16_16-35-42  O</span><br><span class="line">123456789101112131415161718192021</span><br></pre></td></tr></table></figure></li>
+<li><p>选择一个节点进行还原</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>–skip-grub 选项为跳过grub安装，一般来说grub不需要重新安装，除非bios启动无法找到正确的grub启动项，才需要安装。</p>
+</blockquote>
+<p>在输出的内容中依次输入【Enter】键和【y】键。</p>
+<p>当然也可以直接输入下面的命令，忽略交互式的安装界面：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --restore --snapshot &#x27;2019-07-16_16-35-42&#x27; --skip-grub --scripted</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h4 id="无法进入系统，通过U盘启动系统"><a href="#无法进入系统，通过U盘启动系统" class="headerlink" title="无法进入系统，通过U盘启动系统"></a>无法进入系统，通过U盘启动系统</h4><p>当登录界面和桌面环境都无法进入时，一般系统已经彻底崩溃，此时只能通过Linux live CD进行还原。</p>
+<ol>
+<li><p>制作Linux Mint 启动盘，制作过程略。</p>
+</li>
+<li><p>进入Live系统后打开 <strong>Timeshift</strong> 软件，点击设置按钮，设置快照的存储位置</p>
+<p>快照的存储位置是<strong>Timeshift</strong>在做备份的时候就已经设置好的。</p>
+</li>
+<li><p>后续步骤和[如果能够进入系统]内的还原方式一样。</p>
+</li>
+</ol>
+<p>其实此时还可以通过命令行的方式进行还原，但是首先需要设置快照存储的位置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo timeshift --snapshot-device /dev/sdb4</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
+
+<p>后续步骤和[如果只能进入登录界面]内的还原方式一样。</p>
+<p>参考：<a href="https://blog.csdn.net/wf19930209/article/details/104236358">https://blog.csdn.net/wf19930209/article/details/104236358</a></p>
+]]></content>
+      <tags>
+        <tag>系统备份</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>个人网盘搭建</title>
     <url>/2021/12/31/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<p><img src="http://pic.cutexin.cn/images/2021/12/31/202112311114464.png" alt="image-20211231111434378"></p>
@@ -304,61 +419,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用树莓派3B+搭建局域网文件服务器</title>
-    <url>/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="使用树莓派3B-搭建局域网文件服务器！"><a href="#使用树莓派3B-搭建局域网文件服务器！" class="headerlink" title="使用树莓派3B+搭建局域网文件服务器！"></a><center>使用树莓派3B+搭建局域网文件服务器！</center></h1><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeiaikemhj30zn0pc7bw.jpg" alt="屏幕截图 2021-12-15 122129.png"></p>
-<span id="more"></span>
-
-<p>步骤：</p>
-<p>为树莓派3B+安装raspberry pi操作系统</p>
-<p>安装samba并配置文件</p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxej8jvvg2j32700zjgvs.jpg" alt="微信图片_20211215121933.jpg"></p>
-<p>添加samba组用户</p>
-<p>新建目录chmod赋予权限777并挂载移动硬盘到此目录下：第一次插移动硬盘自动挂载，挂载失败用umount命令解除挂载重新再挂</p>
-<p>映射硬盘到自己本地</p>
-<p>手机端部署：安装es文件浏览器，效果如下</p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeilurp8pj30sq1nxmza.jpg" alt="微信图片_20211214222834.jpg"></p>
-<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeimkegfhj30u01uowj1.jpg" alt="微信图片_20211214222953.jpg"></p>
-<p>部分电脑由于组策略无法访问</p>
-<p>pi文件夹记得隐藏</p>
-<p>ip地址动态分配导致的问题在etc/dhcpcd.conf下更改配置文件，41到44行取消注释更改静态路由，广播地址即可解决</p>
-<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>树莓派负载小，配置完以后显示器也不需要连接，就可以实现各个操作系统以及平台的文件共享，效果还是不错的！</p>
-<p>文件的传输速度受到树莓派3B+没有usb3.0接口的影响，以后搭建家里用的nas可以考虑升级固态和新接口平台！</p>
-<p>至于改进的地方：风扇并不是温控的，有噪声，可以考虑改成温控的。3代树莓派通电就开机，可以尝试接入开关电源，或者加入按键按钮改写代码，网上有人已经实现了，用按钮开关连接两个引脚。</p>
-<h2 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h2><h2 id="https-blog-csdn-net-zlllg-article-details-88547648"><a href="#https-blog-csdn-net-zlllg-article-details-88547648" class="headerlink" title="https://blog.csdn.net/zlllg/article/details/88547648"></a><a href="https://blog.csdn.net/zlllg/article/details/88547648">https://blog.csdn.net/zlllg/article/details/88547648</a></h2>]]></content>
-      <tags>
-        <tag>树莓派</tag>
-        <tag>samba局域网文件服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ubuntu修改conda镜像源</title>
-    <url>/2021/12/18/ubuntu%E4%BF%AE%E6%94%B9conda%E9%95%9C%E5%83%8F%E6%BA%90/</url>
-    <content><![CDATA[<h1 id="ubuntu20-04桌面版安装pytorch总因为网络出错"><a href="#ubuntu20-04桌面版安装pytorch总因为网络出错" class="headerlink" title="ubuntu20.04桌面版安装pytorch总因为网络出错"></a>ubuntu20.04桌面版安装pytorch总因为网络出错</h1><p>修改/etc/apt/sources.list更换镜像源无效</p>
-<p>后来发现conda单独修改镜像源才可以：</p>
-<h2 id="1-打开-condarc文件"><a href="#1-打开-condarc文件" class="headerlink" title="1.打开.condarc文件"></a>1.打开.condarc文件</h2><p>Ubuntu主界面打开终端，执行命令，打开.condarc文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo gedit ~/.condarc</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="2-修改-condarc文件内容"><a href="#2-修改-condarc文件内容" class="headerlink" title="2.修改.condarc文件内容"></a>2.修改.condarc文件内容</h2><p>将以下代码复制到.condarc文件中，然后点击保存</p>
-<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="symbol">channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - defaults</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">show_channel_urls:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">channel_alias:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">default_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/main</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/free</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/r</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/pro</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  - <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/pkgs/msys</span>2</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="symbol">custom_channels:</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  conda-<span class="symbol">forge:</span> <span class="symbol">https:</span>/<span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  msys2: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  bioconda: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  menpo: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  pytorch: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">  simpleitk: https:/</span><span class="regexp">/mirrors.tuna.tsinghua.edu.cn/anaconda</span><span class="regexp">/cloud</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="3-删除索引缓存"><a href="#3-删除索引缓存" class="headerlink" title="3.删除索引缓存"></a>3.删除索引缓存</h2><p>终端执行命令</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">conda clean -<span class="selector-tag">i</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="4-重启"><a href="#4-重启" class="headerlink" title="4.重启"></a>4.重启</h2><p>以上步骤完成后，一定要重启！！</p>
-<p>亲测可用！</p>
-]]></content>
-      <tags>
-        <tag>conda</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>为博客代码块增加复制按钮！</title>
     <url>/2021/11/29/%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81%E5%9D%97%E5%A2%9E%E5%8A%A0%E5%A4%8D%E5%88%B6%E6%8C%89%E9%92%AE/</url>
     <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gww8nb5784j30uc046gm0.jpg"></p>
@@ -376,20 +436,6 @@
       <tags>
         <tag>教程</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2021/12/30/%E6%B5%8B%E8%AF%95%E4%B8%8B%E8%BD%BD/</url>
-    <content><![CDATA[<p><a href="https://www.lanzoup.com/iUdRWy5buyj">测试下载</a></p>
-<p>密码：6zsn</p>
-
-
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=632086866&bvid=BV15b4y1z73A&cid=381646443&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;"> </iframe></div>
-
-
-
-]]></content>
   </entry>
   <entry>
     <title>云笔记leanote搭建</title>
@@ -453,7 +499,7 @@
 <p>….</p>
 <p>初始数据的users表中已有2个用户:</p>
 <p>user1 username: admin, password: abc123 (管理员, 只有该用户才有权管理后台, 请及时修改密码)</p>
-<p>user2 username: <a href="mailto:&#x64;&#x65;&#109;&#111;&#x40;&#x6c;&#x65;&#x61;&#x6e;&#111;&#116;&#101;&#46;&#99;&#111;&#x6d;">&#x64;&#x65;&#109;&#111;&#x40;&#x6c;&#x65;&#x61;&#x6e;&#111;&#116;&#101;&#46;&#99;&#111;&#x6d;</a>, password: <a href="mailto:&#x64;&#x65;&#x6d;&#111;&#64;&#x6c;&#101;&#97;&#x6e;&#x6f;&#x74;&#x65;&#46;&#x63;&#x6f;&#109;">&#x64;&#x65;&#x6d;&#111;&#64;&#x6c;&#101;&#97;&#x6e;&#x6f;&#x74;&#x65;&#46;&#x63;&#x6f;&#109;</a> (仅供体验使用)账号修改</p>
+<p>user2 username: <a href="mailto:&#100;&#x65;&#x6d;&#x6f;&#64;&#x6c;&#x65;&#97;&#110;&#x6f;&#x74;&#101;&#46;&#99;&#x6f;&#x6d;">&#100;&#x65;&#x6d;&#x6f;&#64;&#x6c;&#x65;&#97;&#110;&#x6f;&#x74;&#101;&#46;&#99;&#x6f;&#x6d;</a>, password: <a href="mailto:&#100;&#x65;&#109;&#x6f;&#x40;&#x6c;&#101;&#x61;&#x6e;&#x6f;&#x74;&#101;&#46;&#x63;&#x6f;&#109;">&#100;&#x65;&#109;&#x6f;&#x40;&#x6c;&#101;&#x61;&#x6e;&#x6f;&#x74;&#101;&#46;&#x63;&#x6f;&#109;</a> (仅供体验使用)账号修改</p>
 <p>服务自启动</p>
 <p>一个简单的 leanote 服务脚本sudo vi /etc/systemd/system/leanote.service：</p>
 <p>[Unit]</p>
@@ -540,91 +586,49 @@
       </tags>
   </entry>
   <entry>
-    <title>linux卸载mongodb</title>
-    <url>/2022/01/10/linux%E5%8D%B8%E8%BD%BDmongodb/</url>
-    <content><![CDATA[<h1 id="在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"><a href="#在linux如何卸载mongdb-在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法" class="headerlink" title="在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法"></a>在linux如何卸载mongdb,在Ubuntu系统上安装MongoDB及配置和卸载MongoDB的两种方法</h1><p>本文介绍在Ubuntu和基于Ubuntu的Linux发行版上安装MongoDB的两种方法，包括配置和卸载MongoDB的方法。第一种是使用Ubuntu的存储库安装MongoDB，简单但不是最新版本的MongoDB。第二种是使用其官方存储库安装MongoDB，稍微复杂，但你得到的是最新版本的MongoDB。第一种安装方法更容易，但如果你计划在官方支持下使用最新版本，我建议使用第二种方法。</p>
-<p>方法一、从Ubuntu Repository安装MongoDB</p>
-<p>这是在系统上安装MongoDB的简便方法，你只需输入一个简单的命令即可。</p>
-<p>1、安装MongoDB</p>
-<p>首先，确保你的包是最新的，打开终端并输入：</p>
-<p>sudo apt update &amp;&amp; sudo apt upgrade -y</p>
-<p>继续安装MongoDB：</p>
-<p>sudo apt install mongodb</p>
-<p>MongoDB现已安装在你的计算机上了。</p>
-<p>MongoDB服务应该在安装时自动启动，但要检查状态类型：</p>
-<p>sudo systemctl status mongodb</p>
-<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102136456.png" alt="image-20220110213650344"></p>
-<p>你可以看到该服务处于活动状态。</p>
-<p>2、运行MongoDB</p>
-<p>MongoDB目前是一个systemd服务，所以我们将使用systemctl来检查和修改它的状态，使用以下命令：</p>
-<p>sudo systemctl status mongodb</p>
-<p>sudo systemctl stop mongodb</p>
-<p>sudo systemctl start mongodb</p>
-<p>sudo systemctl restart mongodb</p>
-<p>如果MongoDB在系统启动时自动启动，你也可以更改(默认值：启用)：</p>
-<p>sudo systemctl disable mongodb</p>
-<p>sudo systemctl enable mongodb</p>
-<p>要开始使用(创建和编辑)数据库，请输入：</p>
-<p>mongo</p>
-<p>这将启动mongo shell。</p>
-<p>注意：根据你计划使用MongoDB的方式，你可能需要调整防火墙。</p>
-<p>3、卸载MongoDB</p>
-<p>如果你从Ubuntu Repository安装MongoDB并想要卸载它(可能使用官方支持的方式安装)，请输入：</p>
-<p>sudo systemctl stop mongodb</p>
-<p>sudo apt purge mongodb</p>
-<p>sudo apt autoremove</p>
-<p>确保备份你可能想要保留的任何集合或文档，因为它们将被清除。</p>
-<p>方法二、在Ubuntu上安装MongoDB Community Edition</p>
-<p>这是使用包管理器安装MongoDB的推荐方法。</p>
-<p>1、安装MongoDB</p>
-<p>由MongoDB Inc维护的包称为mongodb-org，而不是mongodb(这是Ubuntu存储库中包的名称)，在应用此步骤之前，请确保系统上未安装mongodb。</p>
-<p>首先，我们必须导入公钥：</p>
-<p>sudo apt-key adv –keyserver hkp://keyserver.ubuntu.com:80 –recv 9DA31620334BD75D9DCB49F368818C72E52529D4</p>
-<p>现在，你需要在源列表中添加一个新的存储库，以便你可以安装MongoDB Community Edition并获得自动更新：</p>
-<p>echo “deb [ arch=amd64 ] <a href="https://repo.mongodb.org/apt/ubuntu">https://repo.mongodb.org/apt/ubuntu</a> $(lsb_release -cs)/mongodb-org/4.0 multiverse” | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list</p>
-<p>为了能够安装mongodb-org，我们必须更新我们的包数据库，以便你的系统知道可用的新包：</p>
-<p>sudo apt update</p>
-<p>现在可以安装最新的稳定版MongoDB：</p>
-<p>sudo apt install -y mongodb-org</p>
-<p>或特定版本(等号后更改版本号)：</p>
-<p>sudo apt install -y mongodb-org=4.0.6 mongodb-org-server=4.0.6 mongodb-org-shell=4.0.6 mongodb-org-mongos=4.0.6 mongodb-org-tools=4.0.6</p>
-<p>如果你选择安装特定版本，请确保在任何位置更改版本号，如果你只在mongodb-org=4.0.6部分更改它，将安装最新版本。</p>
-<p>默认情况下，使用包管理器(apt-get)进行更新时，MongoDB将更新为最新的更新版本，要阻止这种情况发生(并冻结到已安装的版本)，请使用：</p>
-<p>echo “mongodb-org hold” | sudo dpkg –set-selections</p>
-<p>echo “mongodb-org-server hold” | sudo dpkg –set-selections</p>
-<p>echo “mongodb-org-shell hold” | sudo dpkg –set-selections</p>
-<p>echo “mongodb-org-mongos hold” | sudo dpkg –set-selections</p>
-<p>echo “mongodb-org-tools hold” | sudo dpkg –set-selections</p>
-<p>现在已经成功安装了MongoDB。</p>
-<p>2、配置MongoDB</p>
-<p>默认情况下，包管理器将创建/var/lib/mongodb和/var/log/mongodb，MongoDB将使用mongodb用户帐户运行。</p>
-<p>我不会更改这些默认设置。</p>
-<p>启动/重新启动mongodb服务实例时，将应用/etc/mongod.conf中的设置。</p>
-<p>3、运行MongoDB</p>
-<p>要启动mongodb daemonmongod，请输入：</p>
-<p>sudo service mongod start</p>
-<p>现在应该验证mongod进程是否已成功启动，此信息(默认情况下)存储在/var/log/mongodb/mongod.log中，我们来看看那个文件的内容：</p>
-<p>sudo cat /var/log/mongodb/mongod.log</p>
-<p><img src="http://pic.cutexin.cn/images/2022/01/10/202201102137696.png" alt="image-20220110213751552"></p>
-<p>上图在检查MongoDB日志以查看进程是否正常运行。</p>
-<p>只要你得到这个：[initandlisten]等待端口27017上的某个地方的连接，进程正常运行。</p>
-<p>注意：27017是mongod的默认端口。</p>
-<p>要停止/重启mongod，请输入：</p>
-<p>sudo service mongod stop</p>
-<p>sudo service mongod restart</p>
-<p>现在，你可以通过打开mongo shell来使用MongoDB：</p>
-<p>mongo</p>
-<p>4、卸载MongoDB</p>
-<p>运行以下命令：</p>
-<p>sudo service mongod stop</p>
-<p>sudo apt purge mongodb-org*</p>
-<p>删除数据库和日志文件(确保备份你要保留的内容)：</p>
-<p>sudo rm -r /var/log/mongodb</p>
-<p>sudo rm -r /var/lib/mongodb</p>
-<p>至此，安装及配置MongoDB的内容讲完了。</p>
+    <title>使用树莓派3B+搭建局域网文件服务器</title>
+    <url>/2021/12/15/%E4%BD%BF%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE3B+%E6%90%AD%E5%BB%BA%E5%B1%80%E5%9F%9F%E7%BD%91%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="使用树莓派3B-搭建局域网文件服务器！"><a href="#使用树莓派3B-搭建局域网文件服务器！" class="headerlink" title="使用树莓派3B+搭建局域网文件服务器！"></a><center>使用树莓派3B+搭建局域网文件服务器！</center></h1><p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeiaikemhj30zn0pc7bw.jpg" alt="屏幕截图 2021-12-15 122129.png"></p>
+<span id="more"></span>
+
+<p>步骤：</p>
+<p>为树莓派3B+安装raspberry pi操作系统</p>
+<p>安装samba并配置文件</p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxej8jvvg2j32700zjgvs.jpg" alt="微信图片_20211215121933.jpg"></p>
+<p>添加samba组用户</p>
+<p>新建目录chmod赋予权限777并挂载移动硬盘到此目录下：第一次插移动硬盘自动挂载，挂载失败用umount命令解除挂载重新再挂</p>
+<p>映射硬盘到自己本地</p>
+<p>手机端部署：安装es文件浏览器，效果如下</p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeilurp8pj30sq1nxmza.jpg" alt="微信图片_20211214222834.jpg"></p>
+<p><img src="https://tva1.sinaimg.cn/mw690/0081YlEMly1gxeimkegfhj30u01uowj1.jpg" alt="微信图片_20211214222953.jpg"></p>
+<p>部分电脑由于组策略无法访问</p>
+<p>pi文件夹记得隐藏</p>
+<p>ip地址动态分配导致的问题在etc/dhcpcd.conf下更改配置文件，41到44行取消注释更改静态路由，广播地址即可解决</p>
+<h2 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h2><p>树莓派负载小，配置完以后显示器也不需要连接，就可以实现各个操作系统以及平台的文件共享，效果还是不错的！</p>
+<p>文件的传输速度受到树莓派3B+没有usb3.0接口的影响，以后搭建家里用的nas可以考虑升级固态和新接口平台！</p>
+<p>至于改进的地方：风扇并不是温控的，有噪声，可以考虑改成温控的。3代树莓派通电就开机，可以尝试接入开关电源，或者加入按键按钮改写代码，网上有人已经实现了，用按钮开关连接两个引脚。</p>
+<h2 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h2><h2 id="https-blog-csdn-net-zlllg-article-details-88547648"><a href="#https-blog-csdn-net-zlllg-article-details-88547648" class="headerlink" title="https://blog.csdn.net/zlllg/article/details/88547648"></a><a href="https://blog.csdn.net/zlllg/article/details/88547648">https://blog.csdn.net/zlllg/article/details/88547648</a></h2>]]></content>
+      <tags>
+        <tag>树莓派</tag>
+        <tag>samba局域网文件服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文章加密</title>
+    <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
+    <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+<p>之后，在你想要加密的文章的头文件里添加上<code>password: xxxxxx </code>即可。</p>
+<h3 id="二-也是我自己采用的加密方法：装插件"><a href="#二-也是我自己采用的加密方法：装插件" class="headerlink" title="二.也是我自己采用的加密方法：装插件"></a>二.也是我自己采用的加密方法：装插件</h3><h4 id="1-npm-install-–save-hexo-blog-encrypt"><a href="#1-npm-install-–save-hexo-blog-encrypt" class="headerlink" title="1.npm install –save hexo-blog-encrypt"></a>1.npm install –save hexo-blog-encrypt</h4><h4 id="2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可："><a href="#2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可：" class="headerlink" title="2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 password 字段即可："></a>2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 <code>password</code> 字段即可：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2021-04-13 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h4 id="3-在Hexo主配置文件-config-yml-中添加如下配置："><a href="#3-在Hexo主配置文件-config-yml-中添加如下配置：" class="headerlink" title="3.在Hexo主配置文件 _config.yml 中添加如下配置："></a>3.在Hexo主配置文件 <code>_config.yml</code> 中添加如下配置：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br><span class="line">  abstract: 这是一篇加密文章，需要密码才能继续阅读。</span><br><span class="line">  message: 当前文章暂不对外可见，请输入密码后查看！</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: private, password: hello&#125;</span><br><span class="line">  wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。</span><br><span class="line">  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。</span><br></pre></td></tr></table></figure>
+
+<p>就可以按照标签类加密</p>
+<p>进阶教程：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></p>
 ]]></content>
       <tags>
-        <tag>mongodb</tag>
+        <tag>教程</tag>
+        <tag>加密</tag>
       </tags>
   </entry>
   <entry>
@@ -647,22 +651,44 @@
       </tags>
   </entry>
   <entry>
-    <title>文章加密</title>
-    <url>/2021/11/29/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</url>
-    <content><![CDATA[<h3 id="一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码"><a href="#一-编辑-themes-next-layout-partials-head-swig在如下位置添加代码" class="headerlink" title="一.编辑/themes/next/layout/_partials/head.swig在如下位置添加代码"></a>一.编辑<code>/themes/next/layout/_partials/head.swig</code>在如下位置添加代码</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    (function()&#123;</span><br><span class="line">        if(&#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">            if (prompt(&#x27;请输入密码&#x27;) !== &#x27;&#123;&#123; page.password &#125;&#125;&#x27;)&#123;</span><br><span class="line">                alert(&#x27;密码错误&#x27;);</span><br><span class="line">                history.back();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+    <title>看板娘设置</title>
+    <url>/2021/11/29/%E7%9C%8B%E6%9D%BF%E5%A8%98%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="制作好玩好看的二次元人物到博客！"><a href="#制作好玩好看的二次元人物到博客！" class="headerlink" title="制作好玩好看的二次元人物到博客！"></a><center>制作好玩好看的二次元人物到博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwwc6wltwjj30b808qwhg.jpg"></p>
+<span id="more"></span>
 
-<p>之后，在你想要加密的文章的头文件里添加上<code>password: xxxxxx </code>即可。</p>
-<h3 id="二-也是我自己采用的加密方法：装插件"><a href="#二-也是我自己采用的加密方法：装插件" class="headerlink" title="二.也是我自己采用的加密方法：装插件"></a>二.也是我自己采用的加密方法：装插件</h3><h4 id="1-npm-install-–save-hexo-blog-encrypt"><a href="#1-npm-install-–save-hexo-blog-encrypt" class="headerlink" title="1.npm install –save hexo-blog-encrypt"></a>1.npm install –save hexo-blog-encrypt</h4><h4 id="2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可："><a href="#2-要为一篇文章添加密码查看功能，只需要在文章信息头部添加-password-字段即可：" class="headerlink" title="2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 password 字段即可："></a>2.要为一篇文章添加密码查看功能，只需要在文章信息头部添加 <code>password</code> 字段即可：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2021-04-13 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="1-下载代码。解压到next-source-下"><a href="#1-下载代码。解压到next-source-下" class="headerlink" title="1.下载代码。解压到next\source\下"></a>1.下载<a href="https://github.com/stevenjoezhang/live2d-widget">代码</a>。解压到next\source\下</h3><h3 id="2-修改配置文件：更改live2d-widget下的autoload-js文件"><a href="#2-修改配置文件：更改live2d-widget下的autoload-js文件" class="headerlink" title="2.修改配置文件：更改live2d-widget下的autoload.js文件"></a>2.修改配置文件：更改live2d-widget下的autoload.js文件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 注意：live2d_path 参数应使用绝对路径</span><br><span class="line">//const live2d_path = &quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/&quot;;</span><br><span class="line">const live2d_path = &quot;/live2d-widget/&quot;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h4 id="3-在Hexo主配置文件-config-yml-中添加如下配置："><a href="#3-在Hexo主配置文件-config-yml-中添加如下配置：" class="headerlink" title="3.在Hexo主配置文件 _config.yml 中添加如下配置："></a>3.在Hexo主配置文件 <code>_config.yml</code> 中添加如下配置：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br><span class="line">  abstract: 这是一篇加密文章，需要密码才能继续阅读。</span><br><span class="line">  message: 当前文章暂不对外可见，请输入密码后查看！</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: private, password: hello&#125;</span><br><span class="line">  wrong_pass_message: 抱歉，您输入的密码错误，请检查后重新输入。</span><br><span class="line">  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。</span><br></pre></td></tr></table></figure>
+<h3 id="3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。"><a href="#3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。" class="headerlink" title="3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。"></a>3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>就可以按照标签类加密</p>
-<p>进阶教程：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></p>
+<h3 id="4-在theme-next-config-yml中-新增如下内容："><a href="#4-在theme-next-config-yml中-新增如下内容：" class="headerlink" title="4.在theme/next/_config.yml中,新增如下内容："></a>4.在theme/next/_config.yml中,新增如下内容：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-至此配置基本完成"><a href="#5-至此配置基本完成" class="headerlink" title="5.至此配置基本完成"></a>5.至此配置基本完成</h3><p>实际使用发现手机版展示不了，在theme/next/_config.yml中,加入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mobile:</span><br><span class="line">  show: true ##移动端是否显示</span><br></pre></td></tr></table></figure>
+
+<p>也没有，不过这个不是很重要的功能，暂时就这样，以后有时间再弄</p>
+<p>贴个网址吧：<a href="https://www.i4k.xyz/article/cungudafa/104282643">https://www.i4k.xyz/article/cungudafa/104282643</a></p>
 ]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
       <tags>
         <tag>教程</tag>
-        <tag>加密</tag>
+        <tag>看板娘</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2021/12/30/%E6%B5%8B%E8%AF%95%E4%B8%8B%E8%BD%BD/</url>
+    <content><![CDATA[<p><a href="https://www.lanzoup.com/iUdRWy5buyj">测试下载</a></p>
+<p>密码：6zsn</p>
+
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=632086866&bvid=BV15b4y1z73A&cid=381646443&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"style="position: absolute; width: 100%; height: 100%; Left: 0; top: 0;"> </iframe></div>
+
+
+
+]]></content>
   </entry>
   <entry>
     <title>自建图床</title>
@@ -698,32 +724,6 @@
       <tags>
         <tag>教程</tag>
         <tag>图床</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>看板娘设置</title>
-    <url>/2021/11/29/%E7%9C%8B%E6%9D%BF%E5%A8%98%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="制作好玩好看的二次元人物到博客！"><a href="#制作好玩好看的二次元人物到博客！" class="headerlink" title="制作好玩好看的二次元人物到博客！"></a><center>制作好玩好看的二次元人物到博客！</center></h1><p><img src="https://tva1.sinaimg.cn/large/0081YlEMly1gwwc6wltwjj30b808qwhg.jpg"></p>
-<span id="more"></span>
-
-<h3 id="1-下载代码。解压到next-source-下"><a href="#1-下载代码。解压到next-source-下" class="headerlink" title="1.下载代码。解压到next\source\下"></a>1.下载<a href="https://github.com/stevenjoezhang/live2d-widget">代码</a>。解压到next\source\下</h3><h3 id="2-修改配置文件：更改live2d-widget下的autoload-js文件"><a href="#2-修改配置文件：更改live2d-widget下的autoload-js文件" class="headerlink" title="2.修改配置文件：更改live2d-widget下的autoload.js文件"></a>2.修改配置文件：更改live2d-widget下的autoload.js文件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">// 注意：live2d_path 参数应使用绝对路径</span><br><span class="line">//const live2d_path = &quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/&quot;;</span><br><span class="line">const live2d_path = &quot;/live2d-widget/&quot;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。"><a href="#3-修改-themes-next-layout-下的-layout-swing或者-layout-swig文件，在head标签中添加一行代码。" class="headerlink" title="3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。"></a>3.修改/themes/next/layout/下的_layout.swing或者_layout.swig文件，在head标签中添加一行代码。</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="4-在theme-next-config-yml中-新增如下内容："><a href="#4-在theme-next-config-yml中-新增如下内容：" class="headerlink" title="4.在theme/next/_config.yml中,新增如下内容："></a>4.在theme/next/_config.yml中,新增如下内容：</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
-
-<h3 id="5-至此配置基本完成"><a href="#5-至此配置基本完成" class="headerlink" title="5.至此配置基本完成"></a>5.至此配置基本完成</h3><p>实际使用发现手机版展示不了，在theme/next/_config.yml中,加入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mobile:</span><br><span class="line">  show: true ##移动端是否显示</span><br></pre></td></tr></table></figure>
-
-<p>也没有，不过这个不是很重要的功能，暂时就这样，以后有时间再弄</p>
-<p>贴个网址吧：<a href="https://www.i4k.xyz/article/cungudafa/104282643">https://www.i4k.xyz/article/cungudafa/104282643</a></p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>看板娘</tag>
       </tags>
   </entry>
   <entry>
