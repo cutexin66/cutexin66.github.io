@@ -205,119 +205,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/08/leetcode1641/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
-      <meta itemprop="name" content="cutexin">
-      <meta itemprop="description" content="妄图用代码改变世界之人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Don't be depressed">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/05/08/leetcode1641/" class="post-title-link" itemprop="url">未命名</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-05-08 23:46:01" itemprop="dateCreated datePublished" datetime="2023-05-08T23:46:01+08:00">2023-05-08</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-03-29 23:26:23" itemprop="dateModified" datetime="2023-03-29T23:26:23+08:00">2023-03-29</time>
-              </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2023/05/08/leetcode1641/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2023/05/08/leetcode1641/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>1k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>#leetcode1641.统计字典序元音字符串的数目<br>题目描述：<br>给你一个整数 n，请返回长度为 n 、仅由元音 (a, e, i, o, u) 组成且按 字典序排列 的字符串数量。<br>字符串 s 按 字典序排列 需要满足：对于所有有效的 i，s[i] 在字母表中的位置总是与 s[i+1] 相同或在 s[i+1] 之前。<br><img src="img/1641.png" alt="示例"></p>
-<hr>
-<p>#<strong>数学解法</strong>：可以把问题转换成将 n 个小球放到 5 个盒子里，盒子可以为空。</p>
-<p>我们可以想象成把 n 个字符分配给五个元音所代表的盒子中。一旦每个盒子中的字符个数定了，那么这个字符串也固定下来了。因为题目要求必须是字典序，所以一定 a 字符在最前；其次是 e 字符；其次是 i 字符；其次是 o 字符；其次是 u 字符。</p>
-<p>下面问题的关键就是，n 个小球放到 5 个盒子里，盒子可以为空，一共有多少种方法？</p>
-<p>这是经典的中学数学问题。更一般的，我们来探讨，将 n 个小球放到 m 个盒子里，有多少种方法？</p>
-<p>首先，我们考虑问题的简单版本，即盒子不能为空的情况。</p>
-<p>此时，我们只需要在 n 个小球排成一排，中间放 m - 1 个隔板，放好以后，相当于把 n 个小球分成了 m 份。每一份对应一个盒子里的小球数量。</p>
-<p>因为盒子不能为空，所以两个小球之间不可能放多个隔板，左右两端也不可能放隔板。因此，放隔板的位置有 n - 1 个，我们要放 m - 1 个隔板。答案为 C(n - 1, m - 1)。</p>
-<p>有了这个结论，再来讨论问题的复杂版本，就简单了，即盒子可以为空的情况。</p>
-<p>此时，我们只需要先拿 m 个新的小球，在 m 个盒子里，每个盒子中扔进去一个小球。之后，再分配原来的这 n 个小球，得到的分配结果，肯定 m 个盒子里都不为空。但此时，我们使用了 n + m 个小球。</p>
-<p>换句话说，把 n 个小球放到 m 个盒子里，盒子可以为空，等价于：把 n + m 个小球放到 m 个盒子里，盒子不能为空。</p>
-<p>大家也可以想成是：我们先把 n + m 个小球放到 m 个盒子里，盒子不能为空，然后再在每个盒子里拿走 1 个小球，总共拿走了 m 个小球，得到的结果，就是把 n 个小球放到 m 个盒子里，盒子可以为空的解。</p>
-<p>把 n + m 个小球放到 m 个盒子里，盒子不能为空的分法，带入上面的公式，就是 C(n + m - 1, m - 1)</p>
-<p>所以，把 n 个小球放到 m 个盒子里，盒子可以为空，答案为 C(n + m - 1, m - 1)。</p>
-<p>总结：</p>
-<p>将 n 个小球放到 m 个盒子里，盒子不为空：C(n - 1, m - 1)；</p>
-<p>将 n 个小球放到 m 个盒子里，盒子可以空：C(n + m - 1, m - 1)；</p>
-<p>对于这个问题，m = 5，盒子可以为空，所以答案是 C(n + 5 - 1, 5 - 1) = C(n + 4, 4)</p>
-<hr>
-<p>##也可以<strong>动态规划</strong>求解<br><img src="img/1641_1.png"><br>字母表示结尾<br>#还可以从头开始动态规划，但是会重复计算</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/08/test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1276,6 +1163,106 @@
   
   
 
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://tva1.sinaimg.cn/large/0081YlEMly1gwv42f6sobj31ww2pg431.jpg">
+      <meta itemprop="name" content="cutexin">
+      <meta itemprop="description" content="妄图用代码改变世界之人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Don't be depressed">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/" class="post-title-link" itemprop="url">p5000环境安装</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-12-15 18:14:17" itemprop="dateCreated datePublished" datetime="2021-12-15T18:14:17+08:00">2021-12-15</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-17 13:21:55" itemprop="dateModified" datetime="2021-12-17T13:21:55+08:00">2021-12-17</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.8k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="配置深度学习p5000服务器"><a href="#配置深度学习p5000服务器" class="headerlink" title="配置深度学习p5000服务器"></a><center>配置深度学习p5000服务器</center></h1><h3 id="1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc"><a href="#1、安装Ubuntu20-04桌面版：https-baijiahao-baidu-com-s-id-1665555157367951576-amp-wfr-spider-amp-for-pc" class="headerlink" title="1、安装Ubuntu20.04桌面版：https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc"></a>1、安装Ubuntu20.04桌面版：<a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1665555157367951576&amp;wfr=spider&amp;for=pc</a></h3><h3 id="2、终端输入python3，发现系统自带了python3-8-10"><a href="#2、终端输入python3，发现系统自带了python3-8-10" class="headerlink" title="2、终端输入python3，发现系统自带了python3.8.10"></a>2、终端输入python3，发现系统自带了python3.8.10</h3><h3 id="3、配置清华园-测试无效，这里提供思路可以借鉴"><a href="#3、配置清华园-测试无效，这里提供思路可以借鉴" class="headerlink" title="3、配置清华园(测试无效，这里提供思路可以借鉴)"></a>3、配置清华园(测试无效，这里提供思路可以借鉴)</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#备份文件</span><br><span class="line">sudo cp /etc/apt/sources.list /home/sources.list.bk</span><br><span class="line">#删除</span><br><span class="line">sudo rm -rf /etc/apt/sources.list</span><br><span class="line">#写入</span><br><span class="line">sudo nano /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/12/15/p5000%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
 
   
   <nav class="pagination">
@@ -1360,7 +1347,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-count">19</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
